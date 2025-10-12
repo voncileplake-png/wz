@@ -39,13 +39,22 @@ export default function CategoryPage({ params }: { params: { slug: string } }) {
                     {article.title}
                   </Link>
                 </h2>
-                <p className="text-muted-foreground mb-4 leading-relaxed">{article.content}</p>
-                <Link
-                  href={`/article/${article.id}`}
-                  className="text-orange-600 hover:text-orange-700 font-medium inline-flex items-center gap-1"
-                >
-                  Read More →
-                </Link>
+                <p className="text-muted-foreground mb-4 leading-relaxed">{article.excerpt}</p>
+                <div className="flex items-center justify-between">
+                  <Link
+                    href={`/article/${article.id}`}
+                    className="text-orange-600 hover:text-orange-700 font-medium inline-flex items-center gap-1"
+                  >
+                    Read More →
+                  </Link>
+                  <div className="text-xs text-muted-foreground">
+                    {article.publishedAt.toLocaleDateString("en-US", {
+                      year: "numeric",
+                      month: "short",
+                      day: "numeric",
+                    })}
+                  </div>
+                </div>
               </article>
             ))}
 
