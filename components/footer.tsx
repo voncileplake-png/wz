@@ -11,7 +11,6 @@ export function Footer() {
 
   const bookmarks = ["Hot Coupons Flights", "Hotel BRG Tools", "Hotel Coupons and Promotion Codes"]
 
-  const pages = ["Advertising Policy", "Privacy Policy"]
 
   const footerLinks = [
     "Hilton - HHonors",
@@ -23,8 +22,6 @@ export function Footer() {
     "Accor Hotels - Le Club",
     "Carlson Hotels - Club Carlson",
     "Best Western Rewards",
-    "Advertising Policy",
-    "Privacy Policy",
   ]
 
   return (
@@ -57,19 +54,7 @@ export function Footer() {
             </ul>
           </div>
 
-          {/* Pages */}
-          <div>
-            <h3 className="font-semibold mb-3">Pages</h3>
-            <ul className="space-y-1">
-              {pages.map((page, index) => (
-                <li key={index}>
-                  <a href="#" className="text-sm text-muted-foreground hover:underline">
-                    {page}
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </div>
+          {/* Pages removed per request */}
         </div>
 
         {/* Bottom Links */}

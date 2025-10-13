@@ -1,18 +1,8 @@
 "use client"
 
 import { useMemo } from "react"
-
-const recentPosts = [
-  { title: "Wyndham Corporate Rate Code List", date: "2024-01-15" },
-  { title: "What are AccorHotels corporate rates?", date: "2024-01-12" },
-  { title: "Budget car rental corporate codes", date: "2024-01-10" },
-  { title: "Enterprise car rental corporate codes", date: "2024-01-08" },
-  { title: "National Rental Car rental corporate rates", date: "2024-01-05" },
-  { title: "Marriott Hotel Corporate Rates", date: "2024-01-03" },
-  { title: "Hyatt Hotels Corporate Codes", date: "2023-12-28" },
-  { title: "Hotel Corp Code", date: "2023-12-25" },
-  { title: "Marriott Hotels Corporate and Discount Codes Full List", date: "2023-12-20" },
-]
+import Link from "next/link"
+import { articles } from "@/lib/articles-data"
 
 const recentComments = [
   { author: "Freddy", text: "on Some of Hilton corporate discount code list" },
@@ -27,9 +17,9 @@ const recentComments = [
 
 export function Sidebar() {
   const sortedPosts = useMemo(() => {
-    return [...recentPosts].sort((a, b) => {
-      return new Date(b.date).getTime() - new Date(a.date).getTime()
-    })
+    return [...articles]
+      .sort((a, b) => b.publishedAt.getTime() - a.publishedAt.getTime())
+      .slice(0, 10)
   }, [])
 
   return (
@@ -40,11 +30,11 @@ export function Sidebar() {
         <ul className="space-y-2">
           {sortedPosts.map((post, index) => (
             <li key={index} className="space-y-1">
-              <a href="#" className="text-sm text-foreground hover:text-teal-600 hover:underline block">
+              <Link href={`/article/${post.id}`} className="text-sm text-foreground hover:text-teal-600 hover:underline block">
                 {post.title}
-              </a>
+              </Link>
               <time className="text-xs text-muted-foreground">
-                {new Date(post.date).toLocaleDateString("en-US", {
+                {post.publishedAt.toLocaleDateString("en-US", {
                   year: "numeric",
                   month: "long",
                   day: "numeric",

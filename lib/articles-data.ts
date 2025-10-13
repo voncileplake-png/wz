@@ -110,57 +110,7 @@ Bookmark this guide and check for new offers before every booking. Subscribe to 
     author: "Travel Deals Hub",
     keywords: ["Marriott corporate codes", "Marriott discount codes", "Marriott promo code 2025", "Marriott business rate", "Marriott employee rate", "Marriott corporate discount"]
   },
-  {
-    id: "marriott-full-list",
-    title: "Marriott Hotels Corporate and Discount Codes Full List",
-    excerpt:
-      "Comprehensive guide to all Marriott corporate rates and discount codes available for business travelers and corporate bookings.",
-    content:
-      "Corporate rates are usually stated as strictly only for corporate use by employees, so they are to be used at your own risk, especially as you may need relevant ID when checking in. Always check the details of the corporate rate during your booking with Marriott Hotels. Corporate travelers can often benefit from cheaper stays with corporate codes.",
-    category: "Marriott Hotels",
-    categorySlug: "marriott-hotels",
-    publishedAt: new Date("2024-01-15"),
-  },
-  {
-    id: "marriott-hyatt-intercontinental",
-    title: "Consolidated list for the Hyatt, InterContinental and Marriott",
-    excerpt: "A comprehensive comparison of corporate codes across three major hotel chains.",
-    content:
-      "This consolidated list provides an overview of corporate rate codes available across Hyatt, InterContinental, and Marriott hotel chains, making it easier for corporate travelers to compare and choose the best options.",
-    category: "Marriott Hotels",
-    categorySlug: "marriott-hotels",
-    publishedAt: new Date("2024-01-10"),
-  },
-  {
-    id: "marriott-corporate-rates",
-    title: "Marriott Hotels Corporate Rate Codes",
-    excerpt: "Essential corporate rate codes for Marriott properties worldwide.",
-    content:
-      "Discover the most useful corporate rate codes for Marriott Hotels that can help you save on your business travels.",
-    category: "Marriott Hotels",
-    categorySlug: "marriott-hotels",
-    publishedAt: new Date("2024-01-05"),
-  },
-  {
-    id: "marriott-aaa-discount",
-    title: "Marriott Hotels Discount Codes for AAA Members",
-    excerpt: "Special discount codes available for AAA members at Marriott properties.",
-    content:
-      "AAA members can access exclusive discount codes at Marriott Hotels, providing additional savings on top of standard rates.",
-    category: "Marriott Hotels",
-    categorySlug: "marriott-hotels",
-    publishedAt: new Date("2023-12-20"),
-  },
-  {
-    id: "marriott-shanghai",
-    title: "Shanghai Marriott Hotels Corporate Rate 500 RMB Discount",
-    excerpt: "Exclusive corporate rate for Shanghai Marriott properties with breakfast included.",
-    content:
-      "Get 500 RMB discount on Shanghai Marriott Hotels with Stay+ benefits and breakfast included. Perfect for business travelers visiting Shanghai.",
-    category: "Marriott Hotels",
-    categorySlug: "marriott-hotels",
-    publishedAt: new Date("2023-12-15"),
-  },
+  // pruned older Marriott articles per request
 
   // Best Western Hotels
   {
@@ -255,74 +205,277 @@ Call the hotel or Best Western central reservations. Ask whether they can manual
 
   // Hyatt Gold Passport
   {
-    id: "hyatt-hilton",
-    title: "Hyatt Hotels Corporate Codes - Hilton Hotels",
-    excerpt: "Corporate codes for Hyatt and Hilton properties.",
-    content: "Comprehensive guide to corporate codes available at Hyatt and Hilton Hotels for business travelers.",
+    id: "hyatt-corporate-codes-2025",
+    title: "Hyatt Corporate / Group Codes & Agreement Rates — 2025 Guide",
+    excerpt:
+      "Full list and guide to Hyatt Hotels corporate and group rate codes. Learn how to use Hyatt corporate codes, view example company codes, and understand booking and verification rules for 2025.",
+    content: `Hyatt Corporate & Group Codes — 2025 Agreement Rate Guide
+
+Hyatt Hotels Corporation (凯悦酒店集团) provides corporate and group rate codes for companies and organizations.  
+These codes allow employees or authorized clients to access discounted room rates across Hyatt brands, including Hyatt Regency, Grand Hyatt, Andaz, Park Hyatt, Hyatt Place, and Hyatt Centric.
+
+## 🏨 What Are Hyatt Corporate / Agreement Rates?
+
+Corporate (agreement) rates are special discounted prices that Hyatt negotiates with major corporations and organizations to support business travel.  
+Compared with the standard BAR (Best Available Rate), these prices can be 20%–50% lower, and often include flexible cancellation or complimentary breakfast.
+
+While many companies share these codes internally, some codes have become publicly known.  
+Hotels may still require verification of employment or affiliation during check-in — such as a company ID, corporate email, or business card.
+
+## 💡 How to Use a Hyatt Corporate or Group Code
+
+1. Go to Hyatt’s official website: www.hyatt.com.
+2. Enter your destination, check-in, and check-out dates.
+3. Click “Special Rates” and select “Corporate or Group Code.”
+4. Enter one of the codes listed below (e.g. 13717, 51800, etc.).
+5. Proceed with your search to see available discounted corporate rates.
+
+If the code is valid for your chosen hotel and date, the system will show a special discounted “Corporate Rate.”  
+Hotels may verify your eligibility at check-in, so it’s best to bring company identification or use your corporate email when booking.
+
+## 🗂️ Hyatt Corporate & Group Codes (2025 Reference List)
+
+The following are well-known Hyatt corporate / agreement rate codes shared by travelers and frequent guests.  
+They may vary by country or brand, and not all will work everywhere.
+
+**IBM** — 13717  
+**Siemens** — 13717  
+**Accenture** — 13000  
+**Deloitte** — 17888  
+**Cisco Systems** — 19972  
+**General Electric (GE)** — 13300  
+**Microsoft** — 51840  
+**Oracle** — 52730  
+**PricewaterhouseCoopers (PwC)** — 59140  
+**Google** — 51800  
+**Hewlett-Packard (HP)** — 57600  
+**Intel** — 16000  
+**American Express** — 80000  
+**Boeing** — 11000  
+**Ernst & Young (EY)** — 108508
+
+Enter any of these codes in the “Corporate or Group Code” field when booking through Hyatt’s official site.  
+If the code is active for your chosen hotel, you will see a “Corporate Rate” label on eligible rooms.
+
+## ⚠️ Important Notes
+
+• Some corporate codes are global; others only apply to certain Hyatt brands or countries.  
+• Hotels may request company verification (email, badge, or document) at check-in.  
+• Using a code you are not authorized to use can result in a rate adjustment or refusal at check-in.  
+• Corporate rates may not always be cheaper than public promotions — compare before booking.  
+• Rates and eligibility change frequently; test codes regularly for updated availability.
+
+## 💬 Frequently Asked Questions (FAQ)
+
+**Are these Hyatt corporate codes still valid in 2025?**  
+Some codes continue to function globally, while others have expired or been restricted by region.  
+Always test them on Hyatt’s website before booking.
+
+**Do I need proof of employment when using a Hyatt corporate rate?**  
+Yes. Most hotels will ask for an employee badge, company email, or business ID during check-in to verify eligibility.
+
+**What if a corporate code doesn’t work online?**  
+Try another code, or call the hotel directly. Some properties must manually apply corporate rates to eligible bookings.
+
+## 🧭 Pro Tips for Travelers
+
+• Join World of Hyatt to earn points even on corporate rate stays.  
+• Use your company email when booking for automatic eligibility checks.  
+• Compare “Member Rate” and “Corporate Rate” — sometimes loyalty rates can be lower.  
+• Check with your HR or travel department to confirm official internal codes.
+
+## 📘 Conclusion
+
+Hyatt’s corporate and group codes can significantly reduce hotel costs for business travelers and partner organizations.  
+While proof of employment is often required, using the correct code can unlock major savings, additional perks, and more flexible booking options.
+
+Keep this guide handy when planning Hyatt stays — and test updated 2025 codes regularly for best results.
+
+**Disclaimer:** This article is a localized summary of a Chinese-language post originally published on xieyidaima.com.  
+The corporate codes listed are for reference only and may not reflect current availability. Always verify with Hyatt before confirming your reservation.`,
     category: "Hyatt Gold Passport",
     categorySlug: "hyatt-gold-passport",
-    publishedAt: new Date("2024-01-08"),
-  },
-  {
-    id: "hyatt-wuhan",
-    title: "Hyatt Hotels Corporate Codes - Wuhan",
-    excerpt: "Special corporate rates for Hyatt properties in Wuhan.",
-    content: "Discover exclusive corporate rates for Hyatt Hotels in Wuhan, including breakfast and lounge access.",
-    category: "Hyatt Gold Passport",
-    categorySlug: "hyatt-gold-passport",
-    publishedAt: new Date("2024-01-03"),
-  },
-  {
-    id: "hyatt-shanghai",
-    title: "Hyatt Hotels Corporate Codes - Shanghai",
-    excerpt: "Corporate rate codes for Hyatt Hotels in Shanghai.",
-    content: "Access special corporate rates at Hyatt Hotels in Shanghai with additional benefits.",
-    category: "Hyatt Gold Passport",
-    categorySlug: "hyatt-gold-passport",
-    publishedAt: new Date("2023-12-28"),
-  },
-  {
-    id: "wuhan-hilton-corporate",
-    title: "Corporate Rate Entry for Wuhan Hilton Hotels 700 RMB/Night",
-    excerpt: "Exclusive corporate rate for Wuhan Hilton with breakfast and lounge access.",
-    content:
-      "Book Wuhan Hilton Hotels at 700 RMB per night with corporate rate, including breakfast and executive lounge access.",
-    category: "Hyatt Gold Passport",
-    categorySlug: "hyatt-gold-passport",
-    publishedAt: new Date("2023-12-25"),
+    publishedAt: new Date("2025-10-13"),
+    author: "Travel Deals Hub",
+    keywords: [
+      "Hyatt corporate code",
+      "Hyatt agreement rate",
+      "Hyatt group rate code",
+      "Hyatt discount code",
+      "Hyatt business travel discount",
+      "Hyatt corporate discounts 2025",
+    ],
   },
 
   // Carlson Hotels
   {
-    id: "carlson-corporate",
-    title: "Carlson Hotels Corporate Codes",
-    excerpt: "Main corporate rate codes for Carlson Hotels Group.",
-    content:
-      "Carlson Hotels Group offers various corporate rate codes for business travelers. Learn how to access these special rates.",
+    id: "radisson-corporate-codes-2025",
+    title: "Radisson / Carlson Hotels Corporate Codes & Agreement Rates — 2025 Guide",
+    excerpt: "Complete summary of Radisson (Carlson) corporate and agreement codes for 2025. Learn how to use corporate rates correctly, save on bookings, and understand which company codes are active globally.",
+    content: `Radisson / Carlson Hotels Corporate Codes & Agreement Rates — 2025 Guide
+
+Radisson Hotel Group (formerly Carlson Hotels) offers a variety of corporate and agreement rate codes for companies and organizations worldwide. These codes allow business travelers and employees to book discounted rooms at Radisson Blu, Park Inn, Radisson RED, Country Inn & Suites, and other affiliated brands.
+
+## 🏨 What Are Corporate / Agreement Codes?
+
+Corporate or "agreement" rates are negotiated between Radisson and companies, universities, or organizations to help reduce travel expenses. These rates can be 10%–40% lower than standard prices and may include perks such as free breakfast, flexible cancellation, or complimentary Wi-Fi.
+
+To ensure fair use, hotels may verify employment or company affiliation during check-in (ID badge, company email, or travel letter).
+
+## 💡 How to Use a Radisson Corporate Code
+
+1. Go to the official Radisson Hotels booking website.
+2. Enter your travel destination and dates.
+3. Click on "Special Rates" and select "Corporate Account ID" (or "Company / Enterprise Code").
+4. Type in one of the corporate codes listed below (e.g. WP1229, WC8578, 85030).
+5. Proceed with your booking and confirm the discounted rate.
+
+**Tip:** Always compare with public promotions or member prices — sometimes Radisson Rewards rates may be even better.
+
+## 🗂️ Example: Popular Radisson / Carlson Corporate & Agreement Codes
+
+Below are selected corporate codes sourced from historical agreement lists. These are provided for reference only — not all may remain active in 2025.
+
+**3M (Midwest Region)** - Code: WP1229 - Global Use: Yes - Notes: Transient, PCR 5
+**Accenture (East Coast)** - Code: 14410 - Global Use: Yes - Notes: Transient, PCR 4
+**ABB (Asea Brown Boveri)** - Code: 41289 - Global Use: Yes - Notes: Transient, PCR 5
+**Abbott Laboratories** - Code: 10478 - Global Use: Yes - Notes: Transient, PCR 5
+**Apple** - Code: WC8578 - Global Use: Yes - Notes: Transient, PCR 5
+**Bank of America** - Code: WP1081 - Global Use: Yes - Notes: Transient, PCR 4
+**BMW** - Code: 90134 - Global Use: Yes - Notes: Transient, PCR 5
+**General Electric (GE)** - Code: WP1078 - Global Use: Yes - Notes: Transient, PCR 1 — High Priority
+**Google** - Code: 85030 - Global Use: Yes - Notes: Transient, PCR 5
+**American Airlines** - Code: 41766 - Global Use: Yes - Notes: Airline Rate, PCR 5
+**Air Canada** - Code: 47273 - Global Use: Yes - Notes: Airline Rate, PCR 5
+
+Each company negotiates its own PCR (Preferred Client Rate) level. A lower PCR number usually means higher priority or deeper discounts within the Radisson system.
+
+## ⚠️ Important Notes & Limitations
+
+• Availability varies by country, brand, and date — some codes work globally, others are regional.
+• Hotels can require proof of eligibility. Always carry your company ID or business card.
+• Unauthorized use of private codes can result in rate adjustment or booking cancellation.
+• Not all codes provide the best rate; compare with member, weekend, or seasonal deals.
+• Radisson may update or deactivate codes without notice.
+
+## 🧭 Tips for Business & Frequent Travelers
+
+• Join Radisson Rewards — earn points even on corporate rate bookings.
+• Use official booking channels to ensure rate eligibility and bonus credit.
+• Check with your HR or Travel Department for your company's valid code list.
+• For extended stays, ask the hotel for "long-stay business rates" — they may beat published corporate prices.
+
+## 💬 Frequently Asked Questions (FAQ)
+
+**Are these Radisson corporate codes still valid in 2025?**
+Some may still work, but many codes were originally shared by travelers and may have expired. Always test directly on Radisson's booking site.
+
+**Do I need to show ID when using a corporate rate?**
+Yes, in most cases. Hotels may request a company badge, corporate email, or proof of employment to validate eligibility.
+
+**What if the code doesn't work online?**
+You can contact the hotel directly or the Radisson Reservations Center. Some codes are property-specific and may only be applied manually.
+
+## 📘 Conclusion
+
+Radisson's corporate and agreement codes are valuable tools for frequent travelers, offering significant savings and flexibility. Used correctly — and with proper eligibility — these codes can help both companies and individuals cut travel costs while maintaining quality accommodations.
+
+Bookmark this guide and check for updated 2025 corporate lists for Hilton, Marriott, and IHG to maximize your travel savings.
+
+**Disclaimer:** This summary is translated and adapted from a publicly available Chinese article originally published in 2019. The corporate codes listed are for educational and reference purposes only. Always confirm with Radisson or your employer before use.`,
     category: "Carlson Hotels",
     categorySlug: "carlson-hotels",
-    publishedAt: new Date("2024-01-06"),
+    publishedAt: new Date("2025-10-13"),
+    author: "Travel Deals Hub",
+    keywords: ["Radisson corporate codes", "Carlson hotel corporate rate", "Radisson discount codes", "Radisson business travel rate", "corporate hotel codes 2025"]
   },
 
   // Wyndham Hotels
   {
-    id: "wyndham-main-codes",
-    title: "Wyndham Hotels Group's Main Corporate Rate Codes",
-    excerpt: "Essential corporate codes for Wyndham Hotels properties.",
-    content: "Comprehensive guide to Wyndham Hotels Group's main corporate rate codes available nationwide.",
+    id: "wyndham-corporate-codes-summary",
+    title: "Wyndham Hotels Group Corporate Codes & Agreement Rates — Summary",
+    excerpt:
+      "Comprehensive summary of Wyndham (and La Quinta) corporate / agreement codes. Learn how to use Wyndham company rates, see example corporate codes in use, and get booking tips for 2025.",
+    content: `Wyndham Hotels Group — Corporate / Agreement Codes Summary
+
+Wyndham Hotels & Resorts (including brands like Wyndham, La Quinta, etc.) provides corporate and agreement rate programs for companies, organizations, and qualified travelers.  
+By applying these corporate codes during booking, eligible guests can receive discounted rates compared to regular pricing.
+
+## 🏨 What Are Wyndham Corporate / Agreement Codes?
+
+Agreement codes are negotiated rate identifiers assigned to organizations or partners.  
+They allow employees or authorized users to access special pricing — often offering 10%–20% off, sometimes more (e.g. 40%) depending on the hotel, season, and code used.  
+These codes are typically restricted and may require validation at check-in.
+
+## 💡 How to Use a Wyndham Corporate / Agreement Code
+
+1. Visit Wyndham’s official booking site, e.g. wyndhamhotels.com.
+2. Enter your travel dates and destination.
+3. Click on “Special Rates” and then “Corporate ID / Enterprise ID / Corporate Code”.
+4. Enter the code (such as 1000013864) or other corporate codes.
+5. Search and view available discounted options labeled as corporate or agreement rates.
+
+In trials, many codes delivered roughly 20% discount (80% of standard price). Some codes gave more.  
+Always cross-check with standard rates before booking.
+
+## 🗂️ Example Wyndham Corporate / Agreement Codes List
+
+The following is a curated list of corporate codes from the source. Use them as references. Their effectiveness varies by hotel, country, and date.
+
+**ABN** — 8000000066  
+**Civil Air Patrol** — 1000008946  
+**MTA (Transit Authority)** — 1000007604  
+**EC Purchasing** — 1000000265  
+**AIChE** — 1000007598  
+**NYSUT** — 1000007844  
+**ASCP** — 1000010014  
+**Business Advantage Plus** — 1000008537  
+**Employee Network** — 1000009871  
+**University at Buffalo** — 100232108  
+**21st Century Systems** — 00803277  
+**SmithBucklin** — 55067752  
+**Travel Expert (global)** — Corporate ID: 1000013864
+
+## ⚠️ Important Notes & Tips
+
+• Code effectiveness depends on hotel, location, and date — some codes may not apply everywhere.  
+• Hotels may require proof of corporate affiliation (employee badge, company email, ID) at check-in.  
+• Unauthorized use of codes can result in order cancellation or being re-priced at standard rates.  
+• If a code doesn’t work online, try calling the hotel or Wyndham reservations to manually apply it.  
+• Always compare the corporate rate with public promotions and member prices — sometimes those are better.
+
+## 💬 FAQ (Structured Data)
+
+**Are these Wyndham corporate codes still valid?**  
+Some of them may still work, though many are user-shared codes and may have expired or been restricted. Always test the code directly in the booking tool.
+
+**Do I need to show proof to use a corporate rate?**  
+In most cases, yes. Hotels may ask for employee ID, business card, or corporate email to confirm eligibility.
+
+**What if the code doesn’t work online?**  
+Contact the hotel or Wyndham central reservations, requesting the corporate / agreement rate be applied manually. Be polite and provide the company name and code.
+
+## 📘 Conclusion
+
+Wyndham Hotels Group’s corporate and agreement codes offer a practical method for saving on hotel stays for eligible travelers and organizations.  
+When used legitimately, and with the correct code, these rates can yield significant discounting compared to standard pricing.
+
+Bookmark this guide and use it when booking Wyndham or La Quinta stays.  
+Where possible, test multiple codes before settling on a reservation.
+
+**Disclaimer:** This article is a translation and summary of a Chinese-language post published on xieyidaima.com (May 2021).  
+The codes here are user-shared and may not reflect current availability. Use as reference and always confirm with Wyndham before booking.`,
     category: "Wyndham Hotels",
     categorySlug: "wyndham-hotels",
-    publishedAt: new Date("2024-01-11"),
-  },
-  {
-    id: "wyndham-corporate-rates",
-    title: "Wyndham Hotels Corporate Rate Codes",
-    excerpt: "Corporate rate codes for Wyndham Hotels nationwide.",
-    content:
-      "Access corporate rate codes for Wyndham Hotels across the country with special benefits for business travelers.",
-    category: "Wyndham Hotels",
-    categorySlug: "wyndham-hotels",
-    publishedAt: new Date("2024-01-04"),
+    publishedAt: new Date("2025-10-13"),
+    author: "Travel Deals Hub",
+    keywords: [
+      "Wyndham corporate codes",
+      "Wyndham agreement rate",
+      "Wyndham hotel corporate discount",
+      "Wyndham special rates code",
+      "La Quinta corporate code",
+    ],
   },
 
   // Third-Party Booking Platforms
