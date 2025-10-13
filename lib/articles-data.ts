@@ -164,6 +164,85 @@ Bookmark this guide and check for new offers before every booking. Subscribe to 
 
   // Best Western Hotels
   {
+    id: "bestwestern-corporate-codes-summary",
+    title: "Best Western Corporate Codes & Agreement Rates — Summary (2025)",
+    excerpt: "Summary of commonly shared Best Western corporate / agreement codes. Learn how to use corporate rates, example codes (Ford, GE, university codes, social media promo codes) and practical tips for booking.",
+    content: `Best Western — Corporate / Agreement Codes Summary (Translated & Localised)
+
+This article summarises a public list of commonly shared Best Western corporate/agreement rate codes (from a Chinese source). Corporate rates (also called agreement rates) are negotiated discounts between a company and the hotel group. They are typically intended for employees or authorised guests and often require verification at check-in (employee badge, company email, booking reference, etc.).
+
+## What is an agreement (corporate) rate?
+
+Agreement rates are special prices negotiated for organisations to reduce travel costs. Advantages usually include lower nightly rates (often substantially cheaper than BAR), more flexible cancellation, and occasionally extra perks (breakfast, Wi-Fi). Hotels may limit use to employees or registered clients of the contracting organisation.
+
+## How to use a Best Western corporate code
+
+1. Visit the Best Western booking site for your country (e.g. bestwestern.com).
+2. Search the hotel and check the "Corporate/Company" field (or the special rates area).
+3. Enter the corporate/agreement code into that field and search.
+4. Confirm booking terms and whether ID or proof of affiliation is required at check-in.
+
+## Key points from the source
+
+• Agreement codes are widely shared online but validity is not guaranteed — availability varies by hotel, country and dates.
+• Many codes require identity verification at check-in (employee ID, company email). Misuse is unethical and may lead to refusal or rate adjustment.
+• Some codes are public promotions (social media codes, regional discounts) while others are company-specific.
+• Phone reservations are often possible; the source specifically notes Best Western phone booking via 1-800-WESTERN (937.8376) for US-based assistance.
+
+## Selected agreement / corporate codes reported on the page
+
+Below are the main codes and labels mentioned on the original page. These were publicly listed and may be region-limited.
+
+**00322510** - General Electric (GE) - Displays as "Secondary Preferred"; ~10% off
+**01399660** - Touchstone Energy - Displays as "BBW Preferred"; ~10% off
+**01402610** - Joe's House - Displays as "BBW Preferred"; ~10% off
+**01353080** - Linked Courier / Logistics (local label) - Displays as "BBW Preferred"; ~10% off
+**00101841** - Ford - Reported ~20% off + free Wi-Fi & breakfast; global Best Western usage
+**01388930** - California Institute of Technology (Caltech) - "BBW Preferred" price
+**01476170** - Best Business Worldwide (catch-all suggestion) - Recommended try-if-other-codes-fail
+**01418260** - Nursing Association - Reported 20–25% off with this code
+**01494790** - Italy-use code (unspecified) - Reported to work in Italy
+**TWITTER1 / TWEET1** - Twitter promotional codes - Social-media promo codes
+**FB100** - Facebook corporate code - Social-media / corporate Facebook promo
+**IC4NF** - Canadian residents discount - Regional discount code
+**334930** - University of Missouri - University agreement code
+**01119970** - University of Pittsburgh - University agreement code
+**01260440** - GHMCC (unclear organisation label) - Listed in page
+
+## Ford example (from the page)
+
+The source highlights Best Western's working relationship with Ford: the 00101841 code reportedly offers ~20% off worldwide Best Western hotels, with free internet access and breakfast. Phone booking via Best Western's US number is also suggested. Always confirm the exact perks on the booking screen before confirming.
+
+## Practical tips & verification checklist
+
+• Before booking, check if the rate requires company verification (corporate email, booking via corporate travel portal, or onsite ID).
+• If a code does not work online, call the hotel or Best Western central reservations and ask whether they can apply the corporate rate manually.
+• Compare the corporate rate with Best Western member rates and public promotions; sometimes membership or advance-purchase prices are better.
+• Don't use company-only rates unless you are authorised — misuse may cause legal/ethical issues and result in penalties.
+
+## Further reading (from the original site)
+
+The original Chinese page also links to a follow-up article about methods to use corporate rates without being easily checked; note that such guidance may cross ethical/legal boundaries — we do not recommend or condone misuse. Always follow hotel policies and corporate travel rules.
+
+## FAQ (structured data)
+
+**Are these Best Western corporate codes guaranteed to work?**
+No. These codes are publicly shared and may be region-, date- or hotel-specific. Always verify availability on Best Western's official booking page or contact reservations.
+
+**Can I use a corporate code if I'm not an employee?**
+Some public/promotional codes require no ID, but company-specific agreement codes typically require proof of affiliation. Misuse is not recommended.
+
+**What should I do if a code doesn't apply online?**
+Call the hotel or Best Western central reservations. Ask whether they can manually apply the corporate rate or advise the correct booking channel.
+
+**Note on sources:** This summary is based on a publicly available page (Chinese) that aggregated Best Western corporate codes. The original was published in 2019 and contains user-shared codes. We translated and localised the content for English readers in 2025 — please treat codes as indicative and always verify before booking.`,
+    category: "Best Western Hotels",
+    categorySlug: "best-western-hotels",
+    publishedAt: new Date("2025-10-13"),
+    author: "Travel Deals Hub",
+    keywords: ["Best Western corporate codes", "Best Western agreement rates", "Best Western discount codes", "corporate rate Best Western"]
+  },
+  {
     id: "best-western-corporate",
     title: "Best Western Hotels Corporate Codes",
     excerpt: "Corporate rate codes for Best Western Hotels worldwide.",
