@@ -480,44 +480,365 @@ The codes here are user-shared and may not reflect current availability. Use as 
 
   // Third-Party Booking Platforms
   {
-    id: "expedia-rewards",
-    title: "Expedia Travel Rewards Program Helps You Save on Hotel Bookings",
-    excerpt: "Learn how Expedia's rewards program can help you save money on hotel bookings.",
-    content:
-      "Expedia Travel Rewards Program offers various benefits and discounts for frequent travelers. Discover how to maximize your savings.",
+    id: "expedia-promo-codes-2025",
+    title: "Expedia / Expedia HK & TW Promo Codes & Coupons — Latest Offers",
+    excerpt: "Update on Expedia promo codes in Hong Kong, Taiwan, and beyond. Learn how to use promotion codes on Expedia HK / TW versions, rules, and examples (e.g. CTHK08, CTTWH07, credit card offers).",
+    content: `Expedia, including its regional versions (Hong Kong "智游网", Taiwan, etc.), often publishes promo codes and coupons that significantly reduce hotel or package costs. Below is a guide to using those codes, regional versions, their rules, and real-world examples.
+
+## 🌍 Version Differences & Why It Matters
+
+Expedia operates regionally. The Chinese simplified version often lacks usable promo codes, while the Hong Kong and Taiwan versions frequently offer them. You must switch to the correct regional site (HK / TW) to activate and use the corresponding promo codes.
+
+## 🧾 Sample Promo Codes & Credit Card Offers (Expedia HK / TW)
+
+Below are some commonly available promo codes organized by region:
+
+### Hong Kong Version
+• CTHK08 - 9.2× rate (i.e. 92% of original)
+
+### Taiwan Version
+• CTTWH07 - 9.3× rate
+
+### Credit Card Offers - Hong Kong
+• MASTERHK12H - 8.8× rate, requires min stay 2 nights, max HK$300 deduction
+• AMEXPLATHK09 - 9.1× rate, spend ≥ HK$2,000 gets HK$100 rebate
+• CITIHK09, CITIHK15 - Citibank offers, various discount rates & caps
+• HSBCHK09 - HSBC discount
+• DBSHK09 - DBS discount
+• BEAHK09 - Bank of East Asia discount
+• HASEHK09 - Hang Seng discount
+• DAHSINGHK09 - Dah Sing Bank discount
+
+### Credit Card Offers - Taiwan
+• MASTERTW12H - 8.8× rate, max deduction NT$1,200
+• AMEXTW08 - 9.2× rate
+• JCBTW15H - 8.5× rate, limited quantity
+• HSBCTW08 - HSBC Taiwan discount (~9.2×)
+• CTBCTW08 - CTBC Bank discount
+• CITITW08 - Citibank Taiwan discount
+• ESUNTW08 - E.SUN Bank discount
+• SINOPACTW08 - Sinopac Bank discount
+• TAISHINTW08 - Taishin Bank discount
+• CUBTW08 - China United Bank discount
+
+## ⚙️ How to Use Promo Codes on Expedia
+
+1. Switch to the correct regional site (HK, TW) via the flag or version selector.
+2. Search for hotel or package. When you get to booking, choose a room with "Pay Now / Prepay / Book Now" option.
+3. In the booking form, find "Enter coupon code / promotion code" and input the promo code.
+4. Only the first room in multi-room bookings typically qualifies for the discount.
+5. Some branded / chain hotels may reject promo code usage — always check terms.
+
+## ⚠️ Rules & Limitations to Know
+
+• Only "Pay Now / Prepay" room types support promo codes — "Pay at Hotel" usually does not.
+• Multi-room bookings often limit discount to the first room.
+• Promo codes may be disallowed for certain hotel brands or global chain hotels.
+• Codes have expiration dates and limited uses — test them before finalizing bookings.
+• Some codes require minimum spending thresholds.
+
+## 💬 Frequently Asked Questions
+
+**Do promo codes work on Expedia China version?**
+Typically not. Most functional promo codes reside on the Hong Kong or Taiwan versions — you must switch region.
+
+**Can I use promo codes for "Pay at Hotel" bookings?**
+No — only "Pay Now / Prepay" bookings support promo codes in many cases.
+
+**If I book multiple rooms, do all rooms get the discount?**
+Usually only the first room qualifies for the promo discount; the other rooms are charged at regular rates.
+
+**Can I combine multiple promo codes in one booking?**
+No. Expedia typically allows only one promo code per booking.
+
+**What if my promo code doesn't work?**
+Check that you're on the correct regional site, using the right payment method (prepay), and that the code hasn't expired. Some hotels may not accept promo codes.
+
+## 🎯 Conclusion
+
+Expedia's regional promo codes can bring notable savings, especially on the HK / TW versions. However, they come with strict usage rules (prepay rooms, single room limits, brand exclusions). Always confirm discount applicability, compare with competing offers, and check final pricing before confirming your booking.
+
+Keep this guide bookmarked, test codes before booking international stays, and watch for updated offers — they change frequently.`,
     category: "Third-Party Booking Platforms",
     categorySlug: "third-party-platforms",
-    publishedAt: new Date("2024-01-14"),
+    publishedAt: new Date("2025-10-14"),
+    author: "Travel Deals Hub",
+    keywords: ["Expedia promo code", "Expedia HK discount", "Expedia TW coupon", "Expedia voucher", "Expedia hotel promo", "Expedia flight + hotel deals"]
   },
   {
-    id: "agoda-discount",
-    title: "Agoda.com Discount Codes Help You Save on Hotel Bookings",
-    excerpt: "Exclusive discount codes for Agoda.com hotel bookings.",
-    content:
-      "Agoda.com offers various discount codes that can help you save significantly on hotel bookings worldwide.",
-    category: "Third-Party Booking Platforms",
-    categorySlug: "third-party-platforms",
-    publishedAt: new Date("2024-01-09"),
+    id: "safe-use-of-corporate-rate-codes",
+    title: "How to Use Corporate / Agreement Codes without Getting Checked at Hotels",
+    excerpt: "Tips and caveats on using corporate hotel rate codes from other companies while minimizing the chance of being audited at check-in. Understand risks and safe practices.",
+    content: `This article shares experienced tips on how some travelers attempt to use another company's corporate or agreement rate at hotels while reducing the likelihood of verification or rejection. These methods are not foolproof—they carry risk and ethical implications—so proceed with caution and understand hotel policies.
+
+## 🛎️ Tactics to Increase Success Rate
+
+• Book via company booking channels or travel agents instead of directly entering the code — this can mask the fact you're using a corporate rate.
+• Choose hotels familiar with the company (employees often stay there), making front desk less likely to scrutinize your reservation.
+• Dress appropriately — wearing nice clothes (shirt, shoes) can help you look legitimate.
+• Avoid high-occupancy hotels — in busy hotels, front desks are more likely to check your credentials.
+• Book under a colleague or partner's name, claiming your companion is arriving later — gives you some buffer if questioned.
+
+## ⚠️ Behaviors to Avoid
+
+• Do not use fake IDs, badges, or forged documents — risk is extremely high and easily discovered.
+• Avoid argumentative confrontations with front desk — if discovered, comply and accept the outcome rather than risking further issues.
+
+## 🌍 Differences by Country & Hotel Environment
+
+In regions where enforcement is lax (some parts of Asia, Southeast Asia, developing countries), scrutiny may be weak, making code use easier. But in developed nations (USA, Europe, Japan), hotel staff are more trained and regulations stricter — misuse is riskier and more likely to be caught.
+
+## 🎯 Membership Level & Account History Effects
+
+• Being a high-tier member does not guarantee immunity from checks.
+• New or inactive accounts may draw more suspicion.
+• Positive reviews or compliments toward staff may increase goodwill and reduce scrutiny.
+
+## 💬 Frequently Asked Questions
+
+**Is there a 100% safe way to use someone else's corporate rate?**
+No. All attempts carry risk. These tips only aim to improve chances, not guarantee success.
+
+**Can using fake credentials backfire badly?**
+Yes. Hotels have many verification methods. Using forgeries may lead to refusal, account bans, or worse legal issues, especially in stricter jurisdictions.
+
+**Does being a hotel loyalty member help avoid checks?**
+Not necessarily. Loyalty status might give some goodwill, but misuse of codes is essentially unrelated to status, and staff may still check.
+
+## 🎯 Conclusion: Risky Territory — Use with Discretion
+
+While some travelers believe these techniques can reduce inspection when using another company's corporate rate, the uncertainty and ethical implications remain significant. Always evaluate the risk, and never rely on these methods as your primary strategy. Legitimate discount methods and corporate agreements you're eligible for are safer and more sustainable.`,
+    category: "Hotel Booking Tips & Guides",
+    categorySlug: "tips",
+    publishedAt: new Date("2025-10-14"),
+    author: "Travel Deals Hub",
+    keywords: ["hotel corporate rate tricks", "avoid inspection hotel rate code", "use corporate rate safely", "agreement code hotel tips"]
   },
   {
-    id: "hotels-com-subscription",
-    title: "Good Subscription Hotels.Com Discount Codes: Stay 10 Nights Get 1 Free",
-    excerpt: "Hotels.com loyalty program offers stay 10 nights and get 1 free, plus 10% savings.",
-    content:
-      "Hotels.com offers an excellent loyalty program where you can stay 10 nights and get 1 free, plus save 10% on individual bookings.",
-    category: "Third-Party Booking Platforms",
-    categorySlug: "third-party-platforms",
-    publishedAt: new Date("2024-01-02"),
+    id: "corporate-agreement-rates-guide",
+    title: "Corporate Agreement Rates: The Ultimate Low-Price Strategy for Hotel Booking",
+    excerpt: "Explore how corporate agreement rates work as a discounted hotel booking method. Learn pros & cons, tricks used by self-bookers, and alternative low-price strategies for 2025.",
+    content: `Many travelers and corporate guests regard the corporate agreement rate (aka "company rate" or "协议价") as one of the most effective ways to book hotels at lower costs. However, along with attractive discounts come risks, verification requirements, and ethical considerations. This guide explores how agreement rates work, tactics used by some travelers, their advantages and drawbacks, and safer alternative strategies.
+
+## What Is a Corporate / Agreement Rate?
+
+A corporate or agreement rate is a negotiated discount between a company (or institution) and a hotel. Authorized employees, guests, or clients of that company may book at this discounted rate. At check-in, the hotel typically verifies identity using staff ID, business card, or company email. Some companies require pre-authorization, internal booking systems, or signing off by hotel sales teams to prevent abuse.
+
+## Player Tactics & Tricks
+
+Some users attempt to "game the system" by:
+
+• Photoshopping employee ID cards or staff badges.
+• Sending quick emails to front desk to simulate corporate correspondence.
+• Purchasing "invalid credential kits" (fake work cards, business cards) on resale platforms.
+
+While these tactics may occasionally succeed online, they carry a high risk of being caught at check-in or later audit.
+
+## Reliable or Risky?
+
+### ✅ Advantages
+
+• Substantially lower rates compared with standard pricing.
+• Potentially better cancellation or flexibility terms.
+• Access to additional perks or company-level benefits.
+
+### ❌ Disadvantages & Risks
+
+• Verification at check-in may disqualify misuse — you might be re-priced or denied.
+• Frequent code changes or mixing codes may trigger audits or account suspension.
+• Higher end / luxury hotels may limit the benefit of agreement rates.
+• Reliance on these methods may lead to stress or unexpected costs if caught.
+
+## Alternative Low-Price Strategies
+
+If agreement rates are too risky or inapplicable, here are safer options:
+
+• Official Hotel Channels & Promotions — Booking via hotel website or app, joining flash sales, seasonal discounts.
+• Employee Rate — If you or your relatives are hotel group employees, use internal employee discounts.
+• Best Rate Guarantee (BRG) — Book official site then find lower price elsewhere and claim match.
+• Hotel Vouchers & Coupons — Hotels often distribute guest vouchers, restaurant certificates, etc.
+• Promotional Vouchers — Special deals via travel platforms, festival/holiday rates.
+• Loyalty / Membership & Credit Card Offers — Use hotel loyalty status, partner discounts, co-brand cards.
+• Negotiating with Hotel Sales — If you plan to stay many nights locally, contact hotel sales for bespoke agreement rates.
+
+## 💬 Frequently Asked Questions
+
+**Is using a corporate agreement rate always safe?**
+No — misuse or invalid credentials may be rejected at check-in, or result in account suspension or re-pricing to standard rates.
+
+**Can I falsify credentials to use someone else's agreement rate?**
+Some users try, but it is risky. Hotels may inspect or audit, and such behavior is considered unethical and may violate hotel policy.
+
+**Which alternative strategy is the safest for lower hotel prices?**
+The safest options are booking via official channels, using loyalty / membership programs, Best Rate Guarantee, and negotiating directly with hotel sales for long or bulk stays.
+
+## 🎯 Conclusion: Use with Caution, Diversify Your Strategy
+
+Corporate agreement rates can indeed be a powerful tool for lowering hotel costs, especially for frequent travelers or company employees. But they carry verification risks, policy uncertainties, and potential ethical issues. Thus, it's wise to treat agreement rates as one tool in your booking toolkit — not the single silver bullet.
+
+Always compare agreement rates with loyalty / promotional offers, and proceed with care. A balanced approach combining verified discounts and official deals is the more sustainable way to travel smart in 2025 and beyond.`,
+    category: "Hotel Booking Tips & Guides",
+    categorySlug: "tips",
+    publishedAt: new Date("2025-10-14"),
+    author: "Travel Deals Hub",
+    keywords: ["hotel corporate rate", "agreement price hotel", "corporate hotel discount", "hotel rate hack", "best rate guarantee", "hotel booking tips"]
   },
   {
-    id: "hotels-com-discount",
-    title: "Hotels.com Discount Codes Help You Save on Hotel Bookings",
-    excerpt: "Various discount codes available on Hotels.com for hotel bookings.",
-    content:
-      "Discover the best discount codes on Hotels.com that can help you save money on your hotel bookings worldwide.",
+    id: "hotelscom-stay-10-get-1-free",
+    title: "Hotels.com Rewards Program: Stay 10 Nights, Get 1 Free — Full Guide",
+    excerpt: "Learn how Hotels.com's Stay-10-Get-1 Free program works. Discover eligibility, rules, restrictions, and tips to maximize your savings using this loyalty benefit.",
+    content: `Hotels.com has a distinctive loyalty benefit called "Stay 10 Nights, Get 1 Free" (commonly known in Chinese as "满 10 送 1"). This allows frequent users to earn one free night after accumulating 10 nights of paid stays at eligible hotels.
+
+## 📅 How the "Stay 10, Get 1" Program Works
+
+1. Register as a member: Membership is free and required — once joined, you're automatically enrolled in the 10-night program.
+2. Log in when booking: Always sign in to your Hotels.com account before booking, so your nights count.
+3. Book eligible hotels: Not all hotels participate — look for the indication that the hotel qualifies for the 10-night program.
+4. Accumulate nights: After your stay, nights are added to your account within ~72 hours.
+5. Redeem free night: Once you hit 10 nights, you get one free night. Book using "Prepay / Pay Now" option, select your free night, and apply it to your stay.
+6. Pay taxes / fees: The free night covers room rate only; taxes or additional surcharges need to be paid by you.
+
+## ✅ Rules & Restrictions You Must Know
+
+• Bookings using promo codes, discounts or vouchers are not eligible for 10-night accumulation.
+• If you forget to log in when booking, you can "retrieve your booking / claim" before check-in.
+• Nights earned only count for your own stays; counting for other people's bookings does not apply.
+• If there is a gap of over 1 year between stays, your accumulated nights may reset to zero.
+• The free night redemption must use the "Pay Now / Prepay" payment method — not "Pay at Hotel" option.
+
+## 🎯 Strategy & Value Insight
+
+For frequent hotel users, the "Stay 10, Get 1 Free" program is effectively a 10% discount (i.e. pay for 9 nights, get 1 free) when always booking through Hotels.com. If you ever find a promo code offering better than 10% off, use it — but if not, relying on the 10-night benefit is a solid baseline savings strategy.
+
+## 💬 Frequently Asked Questions
+
+**Do all hotels participate in the 10-night program?**
+No. Only "eligible hotels" (over 275,000 properties) are part of the program — check the hotel page for eligibility before booking.
+
+**Can I use promo codes and still earn nights?**
+No. Bookings made using promo codes, vouchers, or discounts do not count toward the 10-night accumulation.
+
+**Is the free night rate always full price or limited?**
+Your free night is redeemed by applying your earned night to a booking. If room rate ≤ your 10-night average, you pay nothing (except taxes). If the room is more expensive, you pay the difference.
+
+**What happens if I don't use my Hotels.com account for a long time?**
+If there is a gap of over 1 year between stays, your accumulated nights may reset to zero, so be sure to stay active.
+
+**Can I combine the free night with other discounts?**
+The free night reward itself cannot be combined with promo codes or other discount vouchers for the same booking.
+
+## 🧭 Final Thoughts
+
+The "Stay 10 Nights, Get 1 Free" program is one of Hotels.com's defining loyalty benefits. For regular hotel bookers, it's a simple, reliable way to achieve about 10% savings over time — provided you always book through Hotels.com and stay mostly in eligible hotels.
+
+To maximize your value: compare promo codes when they're available; if no better deal, count on the 10-night benefit as a guaranteed baseline. Bookmark this guide and always check hotel eligibility before booking.`,
     category: "Third-Party Booking Platforms",
     categorySlug: "third-party-platforms",
-    publishedAt: new Date("2023-12-30"),
+    publishedAt: new Date("2025-10-14"),
+    author: "Travel Deals Hub",
+    keywords: ["Hotels.com rewards", "stay 10 get 1 free", "Hotels.com loyalty program", "Hotels.com free night", "hotel loyalty nights", "Hotels.com discount"]
+  },
+  {
+    id: "hotelscom-promo-codes-latest",
+    title: "Hotels.com Promo Codes & Discounts — Latest Global Vouchers",
+    excerpt: "Explore the latest Hotels.com promo codes and discount vouchers across global versions (US, UK, China, Australia, Singapore, etc.). Learn how to apply codes and avoid pitfalls.",
+    content: `Hotels.com is one of the booking platforms with a wide array of promo codes and discount vouchers. Using valid codes can help you save significantly on hotel bookings — but you must match the code to your region and version of Hotels.com.
+
+## 🌐 Multinational Versions & Regional Codes
+
+Hotels.com operates differently in each country or region (China, UK, US, Australia, Singapore, etc.). You should switch to the correct country site (via the flag icon or version selector) before applying codes.
+
+## 🧾 Sample Codes by Region
+
+Below are some of the most commonly used promo codes organized by region:
+
+### Global / All Versions
+• 62UNIONPAY - 80% rate (requires UnionPay card and special link)
+
+### China (CN)
+• CN5OFF - 95% of price
+• CN299OFF - 299 RMB off when spending ≥ 2999 RMB
+
+### Hong Kong (HK)
+• HK5OFF - 95% rate
+• HK299OFF - 299 HKD off when spending ≥ 299 HKD
+
+### Taiwan (TW)
+• TW5OFF - 95% rate
+• TW499OFF - 499 TWD off when spending ≥ 4999 TWD
+
+### United States (US)
+• 5OFF50US - 5 USD off when spending ≥ 50 USD
+
+### Japan (JP)
+• JP1000OFF - 1,000 JPY off
+• JP5OFF - 95% rate
+
+### United Kingdom (UK)
+• 5OFF50UK - 5 GBP off when spending ≥ 50 GBP
+
+### Australia (AU)
+• AUWORLD - ~88% rate with min spend 360 AUD
+
+### Canada (CA)
+• 5OFF50CA - 5 CAD off when spending ≥ 50 CAD
+• 10OFFCAD - 10 CAD off when spending ≥ 100 CAD
+
+### Singapore (SG)
+• SGWORLD - ~88% rate with min spend 250 SGD
+
+## 💳 Credit Card & Bank-Specific Offers
+
+Certain credit card promotions require you to access Hotels.com via a designated promotional link. These offers often exclude the "Hotels 10-night gets 1 free" accumulation benefit and require prepayment online.
+
+Examples include:
+• American Express offers (e.g. AMEXYRO) — ~92% rate
+• Mastercard offers (e.g. USEMASTERCARD) — ~88% rate
+• Citibank, China CITIC, HSBC, SCB, E.SUN credit cards in HK / TW / CN regions — various ~91%–92% rates
+
+## ⚠️ Usage Rules & Limitations
+
+When using Hotels.com promo codes, be aware of the following restrictions:
+
+• International chain hotels (e.g. Marriott, Hyatt) often don't accept these platform-specific promo codes.
+• Bookings using promo codes usually are not eligible for the "10 nights, get 1 free" scheme.
+• When booking multiple rooms, only the first room usually receives the discount.
+• Each promo code can be used up to 5 times per account.
+• Always compare discounted price with other booking platforms—using the code doesn't guarantee lowest price.
+• For bookings that allow cancellation, you must use "online payment" option to apply the code. "Pay at hotel" bookings usually disallow discount codes.
+
+## 💬 Frequently Asked Questions
+
+**Can Hotels.com promo codes be used for all hotels?**
+No. International chain hotels may exclude promo-code bookings. Always check terms before booking.
+
+**Does using a promo code disqualify "10 nights, get 1 free"?**
+Yes. Many promotional codes are excluded from the 10-night free night accumulation benefit.
+
+**How many times can I use a promo code per account?**
+Typically up to 5 times per account.
+
+**Do I need to use a specific payment method?**
+Some codes require specific payment methods (e.g. UnionPay for certain global codes). Credit card-specific codes require the corresponding card at checkout.
+
+## 🎯 Pro Tips for Maximum Savings
+
+• Always check which version of Hotels.com you're on (US, UK, CN, etc.) — codes are region-specific.
+• Compare the promo code price with standard rates and loyalty member rates.
+• Test multiple codes if you're eligible — some codes may offer better deals than others.
+• Read the fine print carefully regarding cancellation policies and payment requirements.
+• Combine promo codes with cashback platforms or credit card rewards programs for extra savings.
+
+## 📘 Conclusion
+
+Promo codes are a powerful tool for saving on Hotels.com bookings, but they come with restrictions and regional limitations. Always verify whether your selected hotel accepts promo codes, compare alternate booking options, and confirm the final price before checkout.
+
+Bookmark this guide and update the list of working promo codes frequently — particularly before booking stays abroad. Remember that code availability and effectiveness can change over time, so always test codes directly on the Hotels.com booking platform before finalizing your reservation.`,
+    category: "Third-Party Booking Platforms",
+    categorySlug: "third-party-platforms",
+    publishedAt: new Date("2025-10-14"),
+    author: "Travel Deals Hub",
+    keywords: ["Hotels.com promo code", "Hotels discount codes", "Hotels voucher", "Hotels coupon 2025", "Hotels.com special rates"]
   },
 ]
 
@@ -556,6 +877,10 @@ export function getCategoryInfo(categorySlug: string) {
     "third-party-platforms": {
       title: "Third-Party Booking Platforms",
       description: "Expedia Travel Rewards Program Helps You Save on Hotel Bookings",
+    },
+    "tips": {
+      title: "Hotel Booking Tips & Guides",
+      description: "Essential tips, guides and knowledge for smart hotel bookings",
     },
   }
   return categoryMap[categorySlug] || { title: "Category", description: "" }

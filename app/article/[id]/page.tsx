@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation"
 import { getArticleById, getCategoryInfo } from "@/lib/articles-data"
 import { Sidebar } from "@/components/sidebar"
+import { CommentSection } from "@/components/comment-section"
 import Link from "next/link"
 import { Calendar, User, Tag } from "lucide-react"
 
@@ -147,6 +148,9 @@ export default function ArticlePage({ params }: ArticlePageProps) {
                 </div>
               </div>
             )}
+
+            {/* Comment Section */}
+            <CommentSection articleId={article.id} />
           </article>
 
           {/* Sidebar */}

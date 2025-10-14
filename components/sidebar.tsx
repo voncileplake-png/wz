@@ -1,25 +1,60 @@
 "use client"
 
-import { useMemo } from "react"
+import { useMemo, useState, useEffect } from "react"
 import Link from "next/link"
-import { articles } from "@/lib/articles-data"
+import { articles, getArticleById } from "@/lib/articles-data"
 
-const recentComments = [
-  { author: "Freddy", text: "on Some of Hilton corporate discount code list" },
-  { author: "Jay", text: "on What is a Hotel Corporate Rate?" },
-  { author: "Lori", text: "on Wyndham Corporate Rate Code List" },
-  { author: "Lori", text: "on Wyndham Corporate Rate Code List" },
-  { author: "Lori", text: "on Wyndham Corporate Rate Code List" },
-  { author: "TEXAS MARCHE", text: "on IHG Hotels Corporate Codes" },
-  { author: "Lori", text: "on Wyndham Corporate Rate Code List" },
-  { author: "Johnson", text: "on National Rental Car rental corporate codes" },
-]
+interface Comment {
+  id: string
+  articleId: string
+  name: string
+  email: string
+  website?: string
+  content: string
+  date: string
+}
 
 export function Sidebar() {
+  const [recentComments, setRecentComments] = useState<Comment[]>([])
+
   const sortedPosts = useMemo(() => {
     return [...articles]
       .sort((a, b) => b.publishedAt.getTime() - a.publishedAt.getTime())
       .slice(0, 10)
+  }, [])
+
+  // Load recent comments from localStorage
+  useEffect(() => {
+    const storedComments = localStorage.getItem("comments")
+    if (storedComments) {
+      const allComments: Comment[] = JSON.parse(storedComments)
+      // Sort by date (newest first) and take the latest 8
+      const sorted = allComments
+        .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
+        .slice(0, 8)
+      setRecentComments(sorted)
+    }
+
+    // Listen for storage changes to update comments in real-time
+    const handleStorageChange = () => {
+      const storedComments = localStorage.getItem("comments")
+      if (storedComments) {
+        const allComments: Comment[] = JSON.parse(storedComments)
+        const sorted = allComments
+          .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
+          .slice(0, 8)
+        setRecentComments(sorted)
+      }
+    }
+
+    window.addEventListener("storage", handleStorageChange)
+    // Also listen for custom event when comments are added on same page
+    window.addEventListener("commentsUpdated", handleStorageChange)
+
+    return () => {
+      window.removeEventListener("storage", handleStorageChange)
+      window.removeEventListener("commentsUpdated", handleStorageChange)
+    }
   }, [])
 
   return (
@@ -48,16 +83,33 @@ export function Sidebar() {
       {/* Recent Comments */}
       <div>
         <h2 className="text-xl font-semibold mb-4">Recent Comments</h2>
-        <ul className="space-y-2">
-          {recentComments.map((comment, index) => (
-            <li key={index} className="text-sm text-muted-foreground">
-              <span className="font-medium text-foreground">{comment.author}</span>{" "}
-              <a href="#" className="hover:underline">
-                {comment.text}
-              </a>
-            </li>
-          ))}
-        </ul>
+        {recentComments.length > 0 ? (
+          <ul className="space-y-2">
+            {recentComments.map((comment) => {
+              const article = getArticleById(comment.articleId)
+              return (
+                <li key={comment.id} className="text-sm text-muted-foreground">
+                  <span className="font-medium text-foreground">{comment.name}</span>{" "}
+                  {article ? (
+                    <>
+                      <span>on </span>
+                      <Link 
+                        href={`/article/${comment.articleId}`}
+                        className="hover:underline hover:text-teal-600"
+                      >
+                        {article.title}
+                      </Link>
+                    </>
+                  ) : (
+                    <span>on a post</span>
+                  )}
+                </li>
+              )
+            })}
+          </ul>
+        ) : (
+          <p className="text-sm text-muted-foreground">No comments yet.</p>
+        )}
       </div>
     </div>
   )
