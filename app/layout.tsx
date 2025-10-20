@@ -22,6 +22,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <head>
         <meta name='impact-site-verification' value='8592d191-0da4-4f19-b859-ac9faadb655b' />
+        <meta name="partnerboostverifycode" content="32dc01246faccb7f5b3cad5016dd5033" />
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4502547559187668" crossOrigin="anonymous"></script>
       </head>
       <body className={`font-sans ${GeistSans.variable} ${GeistMono.variable}`} suppressHydrationWarning>
