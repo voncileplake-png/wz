@@ -1,12 +1,63 @@
+import React from "react"
 import { notFound } from "next/navigation"
 import { getArticleById, getCategoryInfo } from "@/lib/articles-data"
 import { Sidebar } from "@/components/sidebar"
 import { CommentSection } from "@/components/comment-section"
 import Link from "next/link"
 import { Calendar, User, Tag } from "lucide-react"
+import type { Metadata } from "next"
 
 interface ArticlePageProps {
   params: { id: string }
+}
+
+// Generate metadata for SEO
+export async function generateMetadata({ params }: ArticlePageProps): Promise<Metadata> {
+  const article = getArticleById(params.id)
+  
+  if (!article) {
+    return {
+      title: "Article Not Found",
+    }
+  }
+
+  const categoryInfo = getCategoryInfo(article.categorySlug)
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://hotelcorporatecodes.com"
+  const articleUrl = `${siteUrl}/article/${article.id}`
+  
+  // Create a description with keywords
+  const description = article.excerpt || `${article.title} - ${categoryInfo.title}. ${article.keywords?.slice(0, 3).join(", ")}`
+  
+  return {
+    title: `${article.title} | Hotel Corporate Codes`,
+    description: description,
+    keywords: article.keywords?.join(", ") || "",
+    authors: article.author ? [{ name: article.author }] : undefined,
+    openGraph: {
+      title: article.title,
+      description: description,
+      url: articleUrl,
+      siteName: "Hotel Corporate Codes",
+      locale: "en_US",
+      type: "article",
+      publishedTime: article.publishedAt.toISOString(),
+      authors: article.author ? [article.author] : undefined,
+      section: categoryInfo.title,
+      tags: article.keywords || [],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: article.title,
+      description: description,
+    },
+    alternates: {
+      canonical: articleUrl,
+    },
+    other: {
+      "article:published_time": article.publishedAt.toISOString(),
+      "article:section": categoryInfo.title,
+    },
+  }
 }
 
 export default function ArticlePage({ params }: ArticlePageProps) {
@@ -17,6 +68,132 @@ export default function ArticlePage({ params }: ArticlePageProps) {
   }
 
   const categoryInfo = getCategoryInfo(article.categorySlug)
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://hotelcorporatecodes.com"
+  const articleUrl = `${siteUrl}/article/${article.id}`
+
+  // Generate structured data for SEO
+  const articleStructuredData = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": article.title,
+    "description": article.excerpt,
+    "image": `${siteUrl}/og-image.jpg`, // You can add actual images later
+    "datePublished": article.publishedAt.toISOString(),
+    "dateModified": article.publishedAt.toISOString(),
+    "author": article.author ? {
+      "@type": "Person",
+      "name": article.author
+    } : {
+      "@type": "Organization",
+      "name": "Hotel Corporate Codes"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Hotel Corporate Codes",
+      "logo": {
+        "@type": "ImageObject",
+        "url": `${siteUrl}/logo.png`
+      }
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": articleUrl
+    },
+    "articleSection": categoryInfo.title,
+    "keywords": article.keywords?.join(", ") || ""
+  }
+
+  const breadcrumbStructuredData = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": siteUrl
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": categoryInfo.title,
+        "item": `${siteUrl}/category/${article.categorySlug}`
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": article.title,
+        "item": articleUrl
+      }
+    ]
+  }
+
+  // Extract FAQ from content if present
+  const faqMatches = article.content.match(/## Frequently Asked Questions|## FAQ/g)
+  let faqStructuredData: {
+    "@context": string
+    "@type": string
+    "mainEntity": Array<{
+      "@type": string
+      "name": string
+      "acceptedAnswer": {
+        "@type": string
+        "text": string
+      }
+    }>
+  } | null = null
+  
+  if (faqMatches) {
+    const faqItems: Array<{
+      "@type": string
+      "name": string
+      "acceptedAnswer": {
+        "@type": string
+        "text": string
+      }
+    }> = []
+    
+    // Extract FAQ questions and answers
+    const questions = article.content.match(/### \*\*\d+\. ([^*]+)\*\*/g)
+    if (questions && questions.length > 0) {
+      const contentAfterFAQ = article.content.split(/## Frequently Asked Questions|## FAQ/)[1]
+      if (contentAfterFAQ) {
+        questions.forEach((questionMatch) => {
+          const cleanQuestion = questionMatch.replace(/### \*\*\d+\. /g, "").replace(/\*\*/g, "").trim()
+          // Find the answer after the question
+          const answerMatch = contentAfterFAQ.split(questionMatch)[1]
+          if (answerMatch) {
+            // Extract answer until next question or end
+            const answerText = answerMatch
+              .split(/### \*\*\d+\.|---/)[0]
+              .trim()
+              .replace(/\*\*/g, "")
+              .replace(/^\n+/g, "")
+              .substring(0, 500)
+            
+            if (cleanQuestion && answerText && answerText.length > 10) {
+              faqItems.push({
+                "@type": "Question",
+                "name": cleanQuestion,
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": answerText
+                }
+              })
+            }
+          }
+        })
+      }
+    }
+
+    if (faqItems.length > 0) {
+      faqStructuredData = {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": faqItems
+      }
+    }
+  }
 
   // Convert markdown-like content to JSX
   const renderContent = (content: string) => {
@@ -73,62 +250,90 @@ export default function ArticlePage({ params }: ArticlePageProps) {
   }
 
   return (
-    <div className="min-h-screen bg-gray-50">
-      <div className="container mx-auto px-4 py-8">
-        {/* Breadcrumb */}
-        <nav className="text-sm text-muted-foreground mb-6">
-          <Link href="/" className="hover:text-foreground">
-            Home
-          </Link>
-          <span className="mx-2">/</span>
-          <Link href={`/category/${article.categorySlug}`} className="hover:text-foreground">
-            {categoryInfo.title}
-          </Link>
-          <span className="mx-2">/</span>
-          <span className="text-foreground">{article.title}</span>
-        </nav>
+    <>
+      {/* Structured Data for SEO */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleStructuredData) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbStructuredData) }}
+      />
+      {faqStructuredData && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqStructuredData) }}
+        />
+      )}
+      
+      <div className="min-h-screen bg-gray-50">
+        <div className="container mx-auto px-4 py-8">
+          {/* Breadcrumb */}
+          <nav aria-label="Breadcrumb" className="text-sm text-muted-foreground mb-6">
+            <ol className="flex items-center gap-2" itemScope itemType="https://schema.org/BreadcrumbList">
+              <li itemProp="itemListElement" itemScope itemType="https://schema.org/ListItem">
+                <Link href="/" className="hover:text-foreground" itemProp="item">
+                  <span itemProp="name">Home</span>
+                </Link>
+                <meta itemProp="position" content="1" />
+              </li>
+              <span className="mx-2">/</span>
+              <li itemProp="itemListElement" itemScope itemType="https://schema.org/ListItem">
+                <Link href={`/category/${article.categorySlug}`} className="hover:text-foreground" itemProp="item">
+                  <span itemProp="name">{categoryInfo.title}</span>
+                </Link>
+                <meta itemProp="position" content="2" />
+              </li>
+              <span className="mx-2">/</span>
+              <li itemProp="itemListElement" itemScope itemType="https://schema.org/ListItem">
+                <span className="text-foreground" itemProp="name">{article.title}</span>
+                <meta itemProp="position" content="3" />
+              </li>
+            </ol>
+          </nav>
 
-        {/* Article Header */}
-        <header className="mb-8">
-          <h1 className="text-4xl font-bold mb-4 text-gray-900 leading-tight">
-            {article.title}
-          </h1>
-          
-          {/* Article Meta */}
-          <div className="flex flex-wrap items-center gap-6 text-sm text-muted-foreground mb-6">
-            <div className="flex items-center gap-2">
-              <Calendar className="w-4 h-4" />
-              <time>
-                {article.publishedAt.toLocaleDateString("en-US", {
-                  year: "numeric",
-                  month: "long",
-                  day: "numeric",
-                })}
-              </time>
-            </div>
-            {article.author && (
+          {/* Article Header */}
+          <header className="mb-8">
+            <h1 className="text-4xl font-bold mb-4 text-gray-900 leading-tight">
+              {article.title}
+            </h1>
+            
+            {/* Article Meta */}
+            <div className="flex flex-wrap items-center gap-6 text-sm text-muted-foreground mb-6">
               <div className="flex items-center gap-2">
-                <User className="w-4 h-4" />
-                <span>{article.author}</span>
+                <Calendar className="w-4 h-4" aria-hidden="true" />
+                <time dateTime={article.publishedAt.toISOString()} itemProp="datePublished">
+                  {article.publishedAt.toLocaleDateString("en-US", {
+                    year: "numeric",
+                    month: "long",
+                    day: "numeric",
+                  })}
+                </time>
               </div>
-            )}
-            <div className="flex items-center gap-2">
-              <Tag className="w-4 h-4" />
-              <span>{categoryInfo.title}</span>
+              {article.author && (
+                <div className="flex items-center gap-2" itemProp="author" itemScope itemType="https://schema.org/Person">
+                  <User className="w-4 h-4" aria-hidden="true" />
+                  <span itemProp="name">{article.author}</span>
+                </div>
+              )}
+              <div className="flex items-center gap-2">
+                <Tag className="w-4 h-4" aria-hidden="true" />
+                <span itemProp="articleSection">{categoryInfo.title}</span>
+              </div>
             </div>
-          </div>
 
-          {/* Article Excerpt */}
-          <div className="bg-blue-50 border-l-4 border-blue-400 p-4 mb-8">
-            <p className="text-gray-700 italic">{article.excerpt}</p>
-          </div>
-        </header>
+            {/* Article Excerpt */}
+            <div className="bg-blue-50 border-l-4 border-blue-400 p-4 mb-8">
+              <p className="text-gray-700 italic" itemProp="description">{article.excerpt}</p>
+            </div>
+          </header>
 
         {/* Main Content Grid */}
         <div className="grid grid-cols-1 lg:grid-cols-[1fr_350px] gap-8">
           {/* Article Content */}
-          <article className="bg-white rounded-lg p-8 shadow-sm">
-            <div className="prose prose-lg max-w-none">
+          <article className="bg-white rounded-lg p-8 shadow-sm" itemScope itemType="https://schema.org/Article">
+            <div className="prose prose-lg max-w-none" itemProp="articleBody">
               {renderContent(article.content)}
             </div>
             
@@ -158,5 +363,6 @@ export default function ArticlePage({ params }: ArticlePageProps) {
         </div>
       </div>
     </div>
+    </>
   )
 }

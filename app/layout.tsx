@@ -8,9 +8,44 @@ import { Suspense } from "react"
 import "./globals.css"
 
 export const metadata: Metadata = {
-  title: "Hotel Corporate Codes",
-  description: "Find corporate codes and discount rates for hotels",
-  generator: "v0.app",
+  title: {
+    default: "Hotel Corporate Codes",
+    template: "%s | Hotel Corporate Codes",
+  },
+  description: "Find corporate codes, discount rates, and promotional codes for major hotel chains including Marriott, Hilton, Hyatt, Best Western, and more. Complete guide to saving on hotel bookings.",
+  keywords: ["hotel corporate codes", "hotel discount codes", "corporate rate hotels", "hotel promo codes", "hotel booking discounts"],
+  authors: [{ name: "Travel Deals Hub" }],
+  creator: "Hotel Corporate Codes",
+  publisher: "Hotel Corporate Codes",
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://hotelcorporatecodes.com"),
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    siteName: "Hotel Corporate Codes",
+    title: "Hotel Corporate Codes | Discount Rates & Promo Codes Guide",
+    description: "Find corporate codes, discount rates, and promotional codes for major hotel chains. Complete guide to saving on hotel bookings.",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Hotel Corporate Codes | Discount Rates & Promo Codes Guide",
+    description: "Find corporate codes, discount rates, and promotional codes for major hotel chains. Complete guide to saving on hotel bookings.",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
 }
 
 export default function RootLayout({
