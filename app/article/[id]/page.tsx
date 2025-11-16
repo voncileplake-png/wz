@@ -60,6 +60,9 @@ export async function generateMetadata({ params }: ArticlePageProps): Promise<Me
   }
 }
 
+// 启用静态生成和缓存，每1小时重新验证一次
+export const revalidate = 3600 // 1 hour
+
 export default function ArticlePage({ params }: ArticlePageProps) {
   const article = getArticleById(params.id)
   

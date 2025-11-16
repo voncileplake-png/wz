@@ -27,6 +27,9 @@ export const metadata: Metadata = {
   },
 }
 
+// 启用静态生成和缓存，每1小时重新验证一次
+export const revalidate = 3600 // 1 hour
+
 export default function HomePage() {
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://hotelcorporatecodes.com"
   

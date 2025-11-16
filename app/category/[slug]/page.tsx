@@ -37,6 +37,9 @@ export async function generateMetadata({ params }: CategoryPageProps): Promise<M
   }
 }
 
+// 启用静态生成和缓存，每1小时重新验证一次
+export const revalidate = 3600 // 1 hour
+
 export default function CategoryPage({ params }: CategoryPageProps) {
   const articles = getArticlesByCategory(params.slug)
   const categoryInfo = getCategoryInfo(params.slug)

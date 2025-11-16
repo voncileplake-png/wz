@@ -123,3 +123,17 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* 字体加载优化 - 使用 swap 策略，避免字体加载时出现空白 */
+@layer utilities {
+  :root {
+    --font-display: swap;
+  }
+  
+  /* 优化字体渲染性能 */
+  * {
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}

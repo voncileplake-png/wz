@@ -7,8 +7,16 @@ const nextConfig = {
     ignoreBuildErrors: true,
   },
   images: {
-    unoptimized: true,
+    // 启用 Next.js 图片优化，大幅提升 LCP 性能
+    unoptimized: false,
+    formats: ['image/avif', 'image/webp'],
+    deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
+    imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
   },
+  // 启用压缩
+  compress: true,
+  // 优化字体加载
+  optimizeFonts: true,
 }
 
 export default nextConfig
