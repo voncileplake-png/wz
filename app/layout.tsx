@@ -60,6 +60,14 @@ export default function RootLayout({
         <meta name='impact-site-verification' value='8592d191-0da4-4f19-b859-ac9faadb655b' />
         <meta name="partnerboostverifycode" content="32dc01246faccb7f5b3cad5016dd5033" />
         <meta name="verify-yeahpromos" content="5d511b4a2ac6" />
+        <script
+          data-noptimize="1"
+          data-cfasync="false"
+          data-wpfc-render="false"
+          dangerouslySetInnerHTML={{
+            __html: `(function(){var script=document.createElement("script");script.async=1;script.src='https://emrld.cc/NDc4MjM2.js?t=478236';document.head.appendChild(script);})();`,
+          }}
+        />
       </head>
       <body className={`font-sans ${GeistSans.variable} ${GeistMono.variable}`} suppressHydrationWarning>
         <Suspense fallback={null}>{children}</Suspense>
