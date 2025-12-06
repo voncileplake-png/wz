@@ -1102,6 +1102,134 @@ Bookmark this guide and update the list of working promo codes frequently — pa
     author: "Travel Deals Hub",
     keywords: ["Hotels.com promo code", "Hotels discount codes", "Hotels voucher", "Hotels coupon 2025", "Hotels.com special rates"]
   },
+  // Travel Attractions
+  {
+    id: "kai-okuhida-winter-sanctuary-2024",
+    title: "Japan's Newest Winter Sanctuary: Snow Walls, Wagyu, and Private Onsens at KAI Okuhida",
+    excerpt: "Discover KAI Okuhida, Hoshino Resorts' newest luxury property in Gifu Prefecture. Experience snow walls, private onsens, Hida beef, and traditional Hida woodworking in Japan's most prolific hot spring region.",
+    content: `Forget the crowded streets of Kyoto. Skip the Tokyo rush hour. If you are looking for the absolute "ceiling" of Japanese luxury travel right now, you need to look towards the Japan Alps—specifically, Gifu Prefecture.
+
+On September 5, 2024, Hoshino Resorts finally planted its flag here with the grand opening of "KAI Okuhida".
+
+Nestled deep in the mountains, this isn't just a hotel; it is a hideaway surrounded by Japan's most prolific hot springs. Here are 4 reasons why this spot needs to be top of your bucket list this winter.
+
+---
+
+## 1. SLEEP INSIDE A MASTERPIECE OF "HIDA" CRAFTSMANSHIP 🪵
+
+![KAI Okuhida Signature Room with Hida woodworking craftsmanship](/kai-okuhida-room.webp)
+
+Walking into KAI Okuhida feels less like checking into a hotel and more like entering a living museum. Each of the 49 rooms is a "Signature Room," dedicated to the 1,300-year-old tradition of Hida woodworking.
+
+• <strong>The Design:</strong> Run your hands along the headboard. You'll notice the signature "bentwood" (Magemono) technique—a seamless, elegant curve that showcases the wood's flexibility.
+
+• <strong>The Details:</strong> From the warm glow of Shunkei lacquerware to the intricate gradient of Hida-dyed fabrics, every corner screams understated luxury.
+
+<strong>Pro Tip</strong> 💡
+
+Don't miss the courtyard Foot Bath. Sitting there with your feet in thermal water, a drink in hand, looking up at the Japanese Alps? That is the definition of "zen."
+
+---
+
+## 2. BATHE BETWEEN WALLS OF SNOW ❄️
+
+![KAI Okuhida outdoor onsen with snow walls and natural surroundings](/kai-okuhida-onsen.webp)
+
+You come to Okuhida for the water. You stay for the "Snow Corridor."
+
+This is the property's crown jewel. The open-air bath isn't just outdoors; it is designed with a massive opening in the roof, mimicking the region's famous snow walls.
+
+• <strong>The Vibe:</strong> Imagine soaking in mineral-rich thermal water while snow flurries dance down through the open roof above you.
+
+• <strong>The Contrast:</strong> It's the ultimate "head cold, body hot" experience. At night, that open roof becomes a frame for a blanket of stars.
+
+<strong>Privacy Seekers</strong> 🛁
+
+Want the view without the audience? Most rooms come equipped with their own private open-air baths, so you can soak in the mountain views completely undisturbed.
+
+---
+
+## 3. HIDA BEEF: A MELT-IN-YOUR-MOUTH MIRACLE 🥩
+
+![KAI Okuhida Kaiseki dinner featuring Hida Wagyu beef](/kai-okuhida-kaiseki.webp)
+
+If you know Hoshino Resorts, you know their Kaiseki (multi-course) dinners are legendary. But at Okuhida, the protagonist is the Hida Beef.
+
+As one of Japan's top black-haired Wagyu breeds, this meat is famous for its intricate marbling.
+
+• <strong>The Taste:</strong> It doesn't just chew; it melts. The fat is sweet, the texture is buttery, and it vanishes on your tongue.
+
+• <strong>The Local Twist:</strong> You'll likely be served "Hobamiso-yaki." This is the local way to eat: beef and miso paste grilled over a dried magnolia leaf. The aroma of the burning leaf mixing with the savory miso is a scent you will never forget.
+
+---
+
+## 4. TOUCH 1,000 YEARS OF HISTORY 🔨
+
+KAI resorts are famous for their "local charms" (activities), and here, it's hands-on.
+
+You can join a "Hida Wood Bending Experience." Under the guidance of masters, you'll learn how to bend raw wood into elegant curves, crafting your own handle or charm. It's a rare chance to connect with the artisans who built the region's reputation—and you get the ultimate souvenir to take home.
+
+---
+
+## THE LOGISTICS: HOW TO MAKE IT HAPPEN 🗺️
+
+📍 <strong>Where:</strong> Okuhida Onsengo Hirayu, Takayama City, Gifu.
+
+🚄 <strong>Getting There:</strong>
+
+• From Nagoya: ~2.5 hours.
+
+• From Tokyo: ~4.5 hours.
+
+• Route: Take the train to JR Takayama Station, then hop on the Nohi Bus (approx. 60 mins) to Hirayu Onsen. The hotel provides a shuttle or is a short walk away.
+
+📅 <strong>Best Time to Go:</strong>
+
+• Autumn (Oct-Nov): For stunning red foliage.
+
+• Winter (Dec-Feb): Highly Recommended. This is when the snow is deepest, making the "Snow Corridor" bath truly magical.
+
+📸 <strong>While You're There:</strong>
+
+• Shirakawa-go: The UNESCO World Heritage site with fairytale farmhouses (especially during winter light-ups!).
+
+• Shinhotaka Ropeway: Japan's only double-decker gondola offering 360° alpine views.
+
+• Takayama Old Town: Known as "Little Kyoto," perfect for street food and sake tasting.
+
+---
+
+## FINAL THOUGHTS 💭
+
+Since this property just opened in late 2024, it is currently the hottest ticket in Central Japan.
+
+My advice? If you are eyeing a winter trip to see the snow walls, <a href="https://klook.tpx.lu/Nz4p8Knt" target="_blank" rel="noopener noreferrer" style="color: #0ea5e9; text-decoration: underline; font-weight: 600;">book via Klook now</a>. The secret is out, and rooms are disappearing fast.
+
+Tell me in the comments: Are you more of a "soak in the snow" person or a "eat all the Wagyu" person? 🍶🥩`,
+    category: "Travel Attractions",
+    categorySlug: "travel-attractions",
+    publishedAt: new Date("2025-01-20"),
+    author: "Travel Deals Hub",
+    keywords: [
+      "KAI Okuhida",
+      "Hoshino Resorts",
+      "Japan Alps",
+      "Gifu Prefecture",
+      "Japanese hot springs",
+      "onsen resort",
+      "Hida beef",
+      "Wagyu",
+      "winter travel Japan",
+      "snow walls Japan",
+      "luxury ryokan",
+      "Takayama",
+      "Shirakawa-go",
+      "Japan winter vacation",
+      "private onsen",
+      "Hida woodworking",
+      "Okuhida Onsengo"
+    ]
+  },
 ]
 
 export function getArticlesByCategory(categorySlug: string): Article[] {
@@ -1143,6 +1271,10 @@ export function getCategoryInfo(categorySlug: string) {
     "tips": {
       title: "Hotel Booking Tips & Guides",
       description: "Essential tips, guides and knowledge for smart hotel bookings",
+    },
+    "travel-attractions": {
+      title: "Travel Attractions",
+      description: "Discover amazing travel destinations and luxury hotel experiences around the world",
     },
   }
   return categoryMap[categorySlug] || { title: "Category", description: "" }

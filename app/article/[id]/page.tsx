@@ -219,31 +219,56 @@ export default function ArticlePage({ params }: ArticlePageProps) {
             {line.replace('### ', '')}
           </h3>
         )
-      } else if (line.startsWith('**') && line.endsWith('**')) {
-        elements.push(
-          <p key={key++} className="font-semibold text-gray-900 mb-3">
-            {line.replace(/\*\*/g, '')}
-          </p>
-        )
       } else if (line.startsWith('• ')) {
+        const content = line.replace('• ', '')
         elements.push(
           <li key={key++} className="ml-4 mb-1 text-gray-700">
-            {line.replace('• ', '')}
+            <span dangerouslySetInnerHTML={{ __html: content }} />
           </li>
         )
       } else if (line.match(/^\d+\. /)) {
+        const content = line.replace(/^\d+\. /, '')
         elements.push(
           <li key={key++} className="ml-4 mb-1 text-gray-700 list-decimal">
-            {line.replace(/^\d+\. /, '')}
+            <span dangerouslySetInnerHTML={{ __html: content }} />
           </li>
         )
+      } else if (line.startsWith('![') || line.startsWith('<img')) {
+        // Image tag - support both markdown and HTML format
+        if (line.startsWith('![')) {
+          // Markdown format: ![alt](src)
+          const match = line.match(/!\[([^\]]*)\]\(([^)]+)\)/)
+          if (match) {
+            const [, alt, src] = match
+            elements.push(
+              <div key={key++} className="my-8">
+                <img 
+                  src={src} 
+                  alt={alt || ''} 
+                  className="w-full rounded-lg shadow-lg"
+                  loading="lazy"
+                />
+              </div>
+            )
+          }
+        } else {
+          // HTML format: <img src="..." alt="..." />
+          elements.push(
+            <div key={key++} className="my-8">
+              <span dangerouslySetInnerHTML={{ __html: line }} />
+            </div>
+          )
+        }
+      } else if (line === '---') {
+        // Horizontal divider
+        elements.push(<hr key={key++} className="my-8 border-gray-300" />)
       } else if (line === '') {
         // Empty line for spacing
         elements.push(<div key={key++} className="mb-2"></div>)
       } else if (line.length > 0) {
         elements.push(
           <p key={key++} className="mb-4 text-gray-700 leading-relaxed">
-            {line}
+            <span dangerouslySetInnerHTML={{ __html: line }} />
           </p>
         )
       }
