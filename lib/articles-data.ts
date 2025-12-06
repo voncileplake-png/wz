@@ -567,7 +567,7 @@ Keep this guide bookmarked, test codes before booking international stays, and w
   },
   {
     id: "safe-use-of-corporate-rate-codes",
-    title: "How to Use Corporate / Agreement Codes without Getting Checked at Hotels",
+    title: "What Proof of Eligibility Do You Need for Corporate Codes?",
     excerpt: "Tips and caveats on using corporate hotel rate codes from other companies while minimizing the chance of being audited at check-in. Understand risks and safe practices.",
     content: `This article shares experienced tips on how some travelers attempt to use another company's corporate or agreement rate at hotels while reducing the likelihood of verification or rejection. These methods are not foolproof—they carry risk and ethical implications—so proceed with caution and understand hotel policies.
 
