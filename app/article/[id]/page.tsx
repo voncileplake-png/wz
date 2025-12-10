@@ -203,9 +203,80 @@ export default function ArticlePage({ params }: ArticlePageProps) {
     const lines = content.split('\n')
     const elements: JSX.Element[] = []
     let key = 0
+    let inBlockquote = false
+    let blockquoteLines: string[] = []
+    let inHtmlBlock = false
+    let htmlBlockLines: string[] = []
+    let divDepth = 0
+
+    const countOccurrences = (str: string, substr: string) =>
+      (str.match(new RegExp(substr, 'g')) || []).length
 
     for (let i = 0; i < lines.length; i++) {
-      const line = lines[i].trim()
+      const originalLine = lines[i]
+      const line = originalLine.trim()
+      
+      // Handle multi-line blockquote
+      if (line.includes('<blockquote')) {
+        if (line.includes('</blockquote>')) {
+          // Single-line blockquote
+          elements.push(
+            <div key={key++} className="my-4" dangerouslySetInnerHTML={{ __html: line }} />
+          )
+        } else {
+          // Start of multi-line blockquote
+          inBlockquote = true
+          blockquoteLines = [originalLine]
+        }
+        continue
+      }
+      
+      if (inBlockquote) {
+        blockquoteLines.push(originalLine)
+        if (line.includes('</blockquote>')) {
+          // End of blockquote
+          const blockquoteHTML = blockquoteLines.join('\n')
+          elements.push(
+            <div key={key++} className="my-4" dangerouslySetInnerHTML={{ __html: blockquoteHTML }} />
+          )
+          inBlockquote = false
+          blockquoteLines = []
+        }
+        continue
+      }
+
+      // Handle multi-line <div> blocks (e.g., pros/cons container)
+      const openDivs = countOccurrences(line, '<div')
+      const closeDivs = countOccurrences(line, '</div>')
+      if (inHtmlBlock) {
+        htmlBlockLines.push(originalLine)
+        divDepth += openDivs - closeDivs
+        if (divDepth <= 0) {
+          elements.push(
+            <div key={key++} className="my-4" dangerouslySetInnerHTML={{ __html: htmlBlockLines.join('\n') }} />
+          )
+          inHtmlBlock = false
+          htmlBlockLines = []
+          divDepth = 0
+        }
+        continue
+      }
+
+      if (openDivs > closeDivs && line.startsWith('<div')) {
+        inHtmlBlock = true
+        htmlBlockLines = [originalLine]
+        divDepth = openDivs - closeDivs
+        // If it opened and closed on same line we fall through in next iteration
+        if (divDepth <= 0) {
+          elements.push(
+            <div key={key++} className="my-4" dangerouslySetInnerHTML={{ __html: htmlBlockLines.join('\n') }} />
+          )
+          inHtmlBlock = false
+          htmlBlockLines = []
+          divDepth = 0
+        }
+        continue
+      }
       
       if (line.startsWith('## ')) {
         elements.push(
@@ -245,8 +316,10 @@ export default function ArticlePage({ params }: ArticlePageProps) {
                 <img 
                   src={src} 
                   alt={alt || ''} 
-                  className="w-full rounded-lg shadow-lg"
+                  className="w-full rounded-lg shadow-lg max-w-full h-auto"
                   loading="lazy"
+                  decoding="async"
+                  style={{ imageRendering: 'high-quality' }}
                 />
               </div>
             )
@@ -266,12 +339,39 @@ export default function ArticlePage({ params }: ArticlePageProps) {
         // Empty line for spacing
         elements.push(<div key={key++} className="mb-2"></div>)
       } else if (line.length > 0) {
-        elements.push(
-          <p key={key++} className="mb-4 text-gray-700 leading-relaxed">
-            <span dangerouslySetInnerHTML={{ __html: line }} />
-          </p>
-        )
+        // Check if line contains block-level HTML elements (blockquote, div, etc.)
+        // These should not be wrapped in <p> tags
+        const isBlockLevelHTML = line.includes('<blockquote') || 
+                                 line.includes('</blockquote>') ||
+                                 (line.includes('<div') && !line.includes('</div>')) ||
+                                 line.includes('</div>') ||
+                                 line.includes('<ul') ||
+                                 line.includes('</ul>') ||
+                                 line.includes('<ol') ||
+                                 line.includes('</ol>')
+        
+        if (isBlockLevelHTML) {
+          // Render block-level HTML directly without wrapping in <p>
+          elements.push(
+            <div key={key++} className="my-4" dangerouslySetInnerHTML={{ __html: line }} />
+          )
+        } else {
+          // Regular paragraph content
+          elements.push(
+            <p key={key++} className="mb-4 text-gray-700 leading-relaxed">
+              <span dangerouslySetInnerHTML={{ __html: line }} />
+            </p>
+          )
+        }
       }
+    }
+
+    // Handle unclosed blockquote (shouldn't happen, but just in case)
+    if (inBlockquote && blockquoteLines.length > 0) {
+      const blockquoteHTML = blockquoteLines.join('\n')
+      elements.push(
+        <div key={key++} className="my-4" dangerouslySetInnerHTML={{ __html: blockquoteHTML }} />
+      )
     }
 
     return elements
