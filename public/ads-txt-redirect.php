@@ -7,6 +7,6 @@
  * 注意：如果使用 Next.js，通常不需要此文件，因为已使用 API 路由处理
  */
 
-header('Location: https://srv.adstxtmanager.com/19390/www.hotelcorporatecodes.com', true, 301);
+header('Location: https://srv.adstxtmanager.com/19390/hotelcodeshub.com', true, 301);
 exit;
 ?>

@@ -6,7 +6,7 @@
 ADS_TXT_FILE="public/ads.txt"
 
 # Ezoic ads.txt 服务器 URL（已替换为实际域名）
-EZOIC_URL="https://srv.adstxtmanager.com/19390/www.hotelcorporatecodes.com"
+EZOIC_URL="https://srv.adstxtmanager.com/19390/hotelcodeshub.com"
 
 # 下载并更新 ads.txt 文件
 curl -L "$EZOIC_URL" -o "$ADS_TXT_FILE"

@@ -5,7 +5,7 @@
 $AdsTxtFile = Join-Path $PSScriptRoot "..\public\ads.txt"
 
 # Ezoic ads.txt 服务器 URL（已替换为实际域名）
-$EzoicUrl = "https://srv.adstxtmanager.com/19390/www.hotelcorporatecodes.com"
+$EzoicUrl = "https://srv.adstxtmanager.com/19390/hotelcodeshub.com"
 
 try {
     # 下载并更新 ads.txt 文件

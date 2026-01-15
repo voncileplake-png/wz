@@ -2,4 +2,4 @@
 # 将 /ads.txt 重定向到 Ezoic 服务器
 # 注意：如果使用 Next.js，通常不需要此文件，因为已使用 API 路由处理
 
-Redirect 301 /ads.txt https://srv.adstxtmanager.com/19390/www.hotelcorporatecodes.com
+Redirect 301 /ads.txt https://srv.adstxtmanager.com/19390/hotelcodeshub.com

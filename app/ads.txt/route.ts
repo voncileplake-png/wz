@@ -3,7 +3,7 @@ import { NextResponse } from 'next/server'
 export async function GET() {
   try {
     // 获取 Ezoic 的 ads.txt 内容
-    const ezoicUrl = 'https://srv.adstxtmanager.com/19390/www.hotelcorporatecodes.com'
+    const ezoicUrl = 'https://srv.adstxtmanager.com/19390/hotelcodeshub.com'
     const ezoicResponse = await fetch(ezoicUrl, {
       headers: {
         'User-Agent': 'Mozilla/5.0',

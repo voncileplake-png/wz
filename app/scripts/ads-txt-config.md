@@ -7,10 +7,10 @@
 ### 配置位置
 - 文件: `app/ads.txt/route.ts`
 - Google AdSense Pub ID: `ca-pub-4502547559187668`
-- Ezoic 服务器: `https://srv.adstxtmanager.com/19390/www.hotelcorporatecodes.com`
+- Ezoic 服务器: `https://srv.adstxtmanager.com/19390/hotelcodeshub.com`
 
 ### 工作原理
-当用户访问 `https://www.hotelcorporatecodes.com/ads.txt` 时：
+当用户访问 `/ads.txt` 时：
 
 1. **自动获取 Ezoic 的 ads.txt 内容**
 2. **检查是否已包含 Google AdSense 条目**
@@ -40,13 +40,13 @@
 #### Linux/macOS (Bash)
 ```bash
 # 每日自动运行此命令
-curl -L https://srv.adstxtmanager.com/19390/www.hotelcorporatecodes.com > public/ads.txt
+curl -L https://srv.adstxtmanager.com/19390/hotelcodeshub.com > public/ads.txt
 ```
 
 #### Windows (PowerShell)
 ```powershell
 # 每日自动运行此命令
-Invoke-WebRequest -Uri "https://srv.adstxtmanager.com/19390/www.hotelcorporatecodes.com" -OutFile "public\ads.txt"
+Invoke-WebRequest -Uri "https://srv.adstxtmanager.com/19390/hotelcodeshub.com" -OutFile "public\ads.txt"
 ```
 
 #### 设置定时任务
@@ -72,14 +72,14 @@ crontab -e
 
 #### Apache (.htaccess)
 ```apache
-Redirect 301 /ads.txt https://srv.adstxtmanager.com/19390/www.hotelcorporatecodes.com
+Redirect 301 /ads.txt https://srv.adstxtmanager.com/19390/hotelcodeshub.com
 ```
 
 #### Nginx
 ```nginx
 server {
   location ~ /ads.txt {
-    return 301 https://srv.adstxtmanager.com/19390/www.hotelcorporatecodes.com;
+    return 301 https://srv.adstxtmanager.com/19390/hotelcodeshub.com;
   }
 }
 ```
@@ -87,7 +87,7 @@ server {
 #### PHP
 ```php
 <?php
-header('Location: https://srv.adstxtmanager.com/19390/www.hotelcorporatecodes.com');
+header('Location: https://srv.adstxtmanager.com/19390/hotelcodeshub.com');
 exit;
 ?>
 ```
@@ -97,7 +97,7 @@ exit;
 ## 验证配置
 
 配置完成后，访问以下 URL 验证是否正常工作：
-- `https://www.hotelcorporatecodes.com/ads.txt`
+- `https://您的域名.com/ads.txt`
 
 应该能够看到重定向到 Ezoic 服务器或直接显示 ads.txt 内容。
 
@@ -105,7 +105,7 @@ exit;
 
 ## 注意事项
 
-1. **域名替换**: 所有配置中的域名已替换为 `www.hotelcorporatecodes.com`
+1. **域名配置**: Ezoic ads.txt 管理器 URL 已配置为 `https://srv.adstxtmanager.com/19390/hotelcodeshub.com`
 2. **缓存**: 重定向方法会自动处理缓存，无需手动清理
 3. **更新频率**: 使用重定向方法时，Ezoic 服务器会自动管理更新频率
 
