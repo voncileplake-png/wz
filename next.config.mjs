@@ -17,6 +17,7 @@ const nextConfig = {
   compress: true,
   // 优化字体加载
   optimizeFonts: true,
+  // 注意：ads.txt 现在由 app/ads.txt/route.ts 处理，用于合并 Google AdSense 和 Ezoic 的内容
 }
 
 export default nextConfig

@@ -12,8 +12,7 @@ const categorySlugs = [
   "carlson-hotels",
   "wyndham-hotels",
   "third-party-platforms",
-  "tips",
-  "travel-attractions"
+  "tips"
 ]
 
 export function CategorySection() {
