@@ -3,6 +3,7 @@
 import { useMemo, useState, useEffect } from "react"
 import Link from "next/link"
 import { articles, getArticleById } from "@/lib/articles-data"
+import { EzoicAd } from "@/components/ezoic-ad"
 
 interface Comment {
   id: string
@@ -59,6 +60,9 @@ export function Sidebar() {
 
   return (
     <div className="space-y-8">
+      {/* Ezoic 广告位 - 侧边栏顶部 */}
+      <EzoicAd adId={106} />
+      
       {/* Recent Posts */}
       <div>
         <h2 className="text-xl font-semibold mb-4">Recent Posts</h2>
@@ -111,6 +115,9 @@ export function Sidebar() {
           <p className="text-sm text-muted-foreground">No comments yet.</p>
         )}
       </div>
+      
+      {/* Ezoic 广告位 - 侧边栏底部 */}
+      <EzoicAd adId={106} />
     </div>
   )
 }
