@@ -57,20 +57,6 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        {/* Ezoic 隐私脚本 - 必须最先加载以符合隐私法规 */}
-        {/* data-cfasync="false" 属性必须在 src 属性之前，防止 Cloudflare 优化这些脚本 */}
-        <script data-cfasync="false" src="https://cmp.gatekeeperconsent.com/min.js"></script>
-        <script data-cfasync="false" src="https://the.gatekeeperconsent.com/cmp.min.js"></script>
-        {/* Ezoic 头部脚本 */}
-        <script async src="//www.ezojs.com/ezoic/sa.min.js"></script>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.ezstandalone = window.ezstandalone || {};
-              ezstandalone.cmd = ezstandalone.cmd || [];
-            `,
-          }}
-        />
         <meta name='impact-site-verification' value='8592d191-0da4-4f19-b859-ac9faadb655b' />
         <meta name="partnerboostverifycode" content="32dc01246faccb7f5b3cad5016dd5033" />
         <meta name="verify-yeahpromos" content="5d511b4a2ac6" />
