@@ -1102,6 +1102,624 @@ Bookmark this guide and update the list of working promo codes frequently — pa
     author: "Travel Deals Hub",
     keywords: ["Hotels.com promo code", "Hotels discount codes", "Hotels voucher", "Hotels coupon 2025", "Hotels.com special rates"]
   },
+
+  // Essential Travel Guides
+  {
+    id: "essential-travel-packing-guide-2025",
+    title: "Essential Travel Packing Guide 2025: What You Really Need",
+    excerpt: "Master the art of packing with our comprehensive guide. Learn what to pack, what to leave behind, and essential tips for efficient travel packing in 2025.",
+    content: `Packing for a trip can be overwhelming, especially when you're trying to balance being prepared with traveling light. This guide covers everything you need to know about packing efficiently and effectively for your travels in 2025.
+
+## 📦 Packing Essentials Checklist
+
+### Clothing Essentials
+- **Underwear and Socks**: Pack one more set than days you'll be traveling
+- **T-Shirts/Shirts**: 3-5 versatile pieces that can be mixed and matched
+- **Pants/Shorts**: 2-3 pairs depending on destination and weather
+- **One Dressy Outfit**: For nicer restaurants or events
+- **Comfortable Walking Shoes**: Essential for exploring
+- **Sandals/Flip-Flops**: For beaches or hotel rooms
+- **Weather-Appropriate Outerwear**: Light jacket, raincoat, or warm coat
+
+### Travel Documents & Money
+- **Passport/ID**: Keep a digital copy stored securely
+- **Travel Insurance Documents**: Always recommended
+- **Visa Documents**: If required for your destination
+- **Flight/Hotel Confirmations**: Digital or printed copies
+- **Credit/Debit Cards**: Notify your bank of travel plans
+- **Cash**: Small amount in local currency for emergencies
+
+### Electronics
+- **Phone & Charger**: Essential for navigation and communication
+- **Power Bank**: Keep devices charged on the go
+- **Universal Travel Adapter**: Different countries use different plugs
+- **Camera**: If you prefer separate from phone
+- **Laptop/Tablet**: Only if necessary for work
+
+### Toiletries & Health
+- **Toothbrush & Toothpaste**: Travel-sized versions
+- **Shampoo & Conditioner**: Consider solid bars to save space
+- **Medications**: Prescription meds with original labels
+- **First-Aid Kit**: Basic bandages, pain relievers, antiseptic
+- **Sunscreen & Bug Repellent**: Depending on destination
+- **Hand Sanitizer**: Always useful
+
+## 💡 Packing Tips & Tricks
+
+### Roll, Don't Fold
+Rolling clothes instead of folding can save space and reduce wrinkles. This technique is especially effective for t-shirts, pants, and lightweight items.
+
+### Use Packing Cubes
+Packing cubes help organize your luggage and make it easier to find items. They also compress clothing to maximize space.
+
+### Follow the 3-1-1 Rule for Liquids
+If traveling by plane, remember the 3-1-1 rule: containers must be 3.4 ounces (100ml) or less, all in one quart-sized bag, one per passenger.
+
+### Pack Versatile Items
+Choose clothing items that can be mixed and matched to create multiple outfits. Neutral colors work best for this strategy.
+
+### Leave Room for Souvenirs
+Don't pack your bag to maximum capacity. Leave some space for items you might purchase during your trip.
+
+## 🎯 Destination-Specific Considerations
+
+### Tropical Destinations
+- Lightweight, breathable fabrics
+- Sun protection (hat, sunglasses, sunscreen)
+- Swimwear
+- Waterproof bag for beach items
+
+### Cold Weather Destinations
+- Layering is key
+- Warm, waterproof outerwear
+- Thermal underlayers
+- Warm boots with good traction
+
+### Urban Destinations
+- Comfortable walking shoes
+- Weather-appropriate clothing
+- Small daypack for exploring
+- City map or navigation app
+
+## ❌ What NOT to Pack
+
+- **Hairdryer**: Most hotels provide one
+- **Towels**: Hotels and hostels provide towels
+- **Too Many Shoes**: Limit to 2-3 pairs maximum
+- **Books**: Use e-readers or phone apps instead
+- **Expensive Jewelry**: Leave valuable items at home
+- **Full-Size Toiletries**: Use travel sizes or buy at destination
+
+## 🎒 Choosing the Right Luggage
+
+**Carry-On Backpack**: Best for short trips and budget airlines
+**Rolling Suitcase**: Easier on your back, good for longer trips
+**Duffel Bag**: Flexible and lightweight option
+**Travel Backpack**: Best for multi-destination or adventure travel
+
+## 📱 Digital Tools to Help
+
+- **Packing Apps**: Apps like PackPoint create personalized packing lists
+- **Weather Apps**: Check destination weather before packing
+- **Currency Converters**: Know exchange rates before you go
+- **Translation Apps**: Helpful for international travel
+
+## ✅ Final Checklist Before Leaving
+
+- [ ] Double-check travel documents are in order
+- [ ] Verify luggage weight limits for your airline
+- [ ] Charge all electronics
+- [ ] Take photos of important documents as backup
+- [ ] Notify bank/credit card companies of travel
+- [ ] Check destination's entry requirements
+- [ ] Pack medications in carry-on
+- [ ] Leave a copy of itinerary with someone at home
+
+Remember: The goal is to pack smart, not pack everything. Most items you forget can be purchased at your destination. Focus on essentials and items that are difficult or expensive to replace.
+
+Happy travels!`,
+    category: "Essential Travel Guides",
+    categorySlug: "travel-guides",
+    publishedAt: new Date("2025-10-15"),
+    author: "Travel Deals Hub",
+    keywords: ["travel packing guide", "packing checklist", "travel essentials", "packing tips", "travel preparation"]
+  },
+  {
+    id: "budget-travel-tips-2025",
+    title: "Budget Travel Tips 2025: Travel More, Spend Less",
+    excerpt: "Discover proven strategies to travel on a budget without sacrificing experiences. Learn money-saving tips for flights, accommodations, food, and activities.",
+    content: `Traveling doesn't have to break the bank. With the right strategies and planning, you can explore the world on any budget. This comprehensive guide shares practical tips to help you travel more while spending less in 2025.
+
+## 💰 Flight Savings Strategies
+
+### Be Flexible with Dates
+Flight prices can vary significantly based on travel dates. Mid-week flights (Tuesday-Thursday) are typically cheaper than weekends. Off-peak seasons offer better deals.
+
+### Use Flight Comparison Tools
+- **Google Flights**: Great for exploring date ranges and destinations
+- **Skyscanner**: Find the cheapest months to travel
+- **Kayak**: Compare prices across multiple airlines
+- **Hopper**: Predicts best time to book
+
+### Book at the Right Time
+- **Domestic Flights**: Book 1-3 months in advance
+- **International Flights**: Book 2-8 months in advance
+- **Last-Minute Deals**: Can work for flexible travelers
+
+### Consider Alternative Airports
+Flying into nearby airports can save hundreds of dollars. Check all airports within a reasonable distance of your destination.
+
+## 🏨 Affordable Accommodation Options
+
+### Budget-Friendly Choices
+- **Hostels**: Great for solo travelers and groups, often include kitchen access
+- **Guesthouses**: Local, affordable, and often more authentic
+- **Vacation Rentals**: Good for families or longer stays
+- **House-Sitting**: Free accommodation in exchange for property care
+- **Couchsurfing**: Connect with locals for free stays
+
+### Money-Saving Tips
+- Book accommodations with kitchen access to save on meals
+- Stay slightly outside city centers for better rates
+- Use corporate codes and promotional rates when available
+- Consider longer stays for weekly/monthly discounts
+- Join loyalty programs for points and perks
+
+## 🍽️ Eating on a Budget
+
+### Cook Your Own Meals
+Staying somewhere with a kitchen? Cooking even a few meals yourself can save significant money.
+
+### Eat Like a Local
+- Street food is often delicious and affordable
+- Local markets offer fresh, cheap ingredients
+- Avoid tourist-heavy restaurants
+- Lunch menus are typically cheaper than dinner
+- Look for daily specials and happy hours
+
+### Smart Dining Strategies
+- Fill up on free hotel breakfasts
+- Pack snacks to avoid expensive convenience stores
+- Share large portions when possible
+- Research affordable local restaurants in advance
+- Bring a reusable water bottle
+
+## 🎫 Saving on Activities & Attractions
+
+### Free Activities
+- Walking tours (many cities offer free options)
+- Parks, beaches, and public spaces
+- Museums with free admission days
+- Local festivals and events
+- Hiking and nature exploration
+
+### Discount Strategies
+- **City Passes**: Bundle attractions for savings
+- **Student/Teacher/Senior Discounts**: Always ask
+- **Group Rates**: Travel with friends for discounts
+- **Online Booking**: Often cheaper than walk-up prices
+- **Off-Peak Times**: Visit attractions during less busy times
+
+### Alternative Experiences
+Instead of expensive tours, consider:
+- Self-guided walking tours using apps
+- Public transportation for city exploration
+- Local meetups and events
+- Volunteer opportunities that include meals/accommodation
+
+## 💳 Money Management Tips
+
+### Use Travel-Friendly Credit Cards
+- No foreign transaction fees
+- Travel rewards and points
+- Travel insurance benefits
+- Emergency assistance
+
+### Currency Exchange
+- Avoid airport exchange counters (worst rates)
+- Use local ATMs for better rates
+- Notify your bank of travel plans
+- Consider multi-currency cards
+
+### Budget Tracking
+- Set a daily budget
+- Use budgeting apps while traveling
+- Track expenses in real-time
+- Leave room for unexpected costs
+
+## 🚗 Transportation Savings
+
+### Public Transportation
+- Get day/week passes for unlimited travel
+- Walking or cycling when possible
+- Research transportation apps before arriving
+- Share rides with other travelers
+
+### Car Rentals
+- Book in advance for better rates
+- Compare prices across multiple sites
+- Consider smaller, fuel-efficient vehicles
+- Check for hidden fees (insurance, GPS, etc.)
+
+## 🌍 Destination Selection
+
+### Affordable Destinations
+Some regions offer better value:
+- Southeast Asia
+- Eastern Europe
+- Central America
+- Parts of South America
+- Some areas of Africa
+
+### Currency Advantage
+Travel to countries where your currency goes further. Research exchange rates and cost of living.
+
+## ⏰ Timing Strategies
+
+### Shoulder Season Travel
+Travel during shoulder seasons (between peak and off-peak) for:
+- Better prices
+- Fewer crowds
+- Pleasant weather
+- More authentic experiences
+
+### Last-Minute vs. Advance Booking
+- **Advance Booking**: Better for popular destinations and peak seasons
+- **Last-Minute**: Can work for flexible travelers with open schedules
+
+## 🎁 Maximize Rewards & Discounts
+
+### Loyalty Programs
+Join hotel, airline, and credit card loyalty programs:
+- Earn points for future travel
+- Access to member-only rates
+- Free upgrades and perks
+- Exclusive discounts
+
+### Coupons & Promo Codes
+- Search for promo codes before booking
+- Sign up for deal alerts
+- Use corporate codes when eligible
+- Check for student discounts
+
+## ✅ Budget Travel Checklist
+
+- [ ] Set a realistic travel budget
+- [ ] Research destination costs
+- [ ] Compare multiple booking sites
+- [ ] Book flights at optimal times
+- [ ] Choose budget-friendly accommodations
+- [ ] Plan some meals you'll cook
+- [ ] Research free activities
+- [ ] Set up travel-friendly banking
+- [ ] Download money-saving apps
+- [ ] Build in a buffer for unexpected expenses
+
+## 🎯 Key Takeaways
+
+1. **Flexibility saves money**: Be open to dates, destinations, and accommodations
+2. **Plan ahead**: Research and book in advance for best deals
+3. **Spend wisely**: Prioritize experiences over material things
+4. **Use technology**: Apps and websites are your friends
+5. **Travel like a local**: Eat, shop, and explore where locals do
+6. **Balance cost and experience**: Don't sacrifice safety or key experiences to save a few dollars
+
+Remember: Budget travel isn't about being cheap—it's about being smart with your money so you can travel more frequently and for longer. With these tips, you'll be well on your way to seeing the world without breaking the bank.
+
+Happy budget travels!`,
+    category: "Essential Travel Guides",
+    categorySlug: "travel-guides",
+    publishedAt: new Date("2025-10-15"),
+    author: "Travel Deals Hub",
+    keywords: ["budget travel", "cheap travel tips", "travel on a budget", "save money traveling", "affordable travel"]
+  },
+  {
+    id: "safety-tips-for-travelers-2025",
+    title: "Essential Safety Tips for Travelers 2025",
+    excerpt: "Stay safe while traveling with these essential safety tips. Learn how to protect yourself, your belongings, and stay secure in unfamiliar destinations.",
+    content: `Traveling is an exciting adventure, but safety should always be a top priority. Whether you're a seasoned traveler or planning your first trip, these safety tips will help you stay secure and enjoy your journey with peace of mind.
+
+## 🔒 Before You Leave
+
+### Research Your Destination
+- **Safety Status**: Check travel advisories from your government
+- **Local Customs**: Understand cultural norms and appropriate behavior
+- **Common Scams**: Research scams common in your destination
+- **Emergency Numbers**: Save local emergency contacts
+- **Healthcare Information**: Know where to find medical help
+
+### Prepare Important Documents
+- **Copies**: Make digital and physical copies of important documents
+- **Storage**: Store copies in secure cloud storage
+- **Share Itinerary**: Give someone at home your travel plans
+- **Insurance**: Ensure you have adequate travel insurance
+
+### Health Preparation
+- **Vaccinations**: Get required and recommended vaccinations
+- **Medications**: Bring sufficient prescription medications
+- **First-Aid Kit**: Pack essential medical supplies
+- **Health Conditions**: Research how to manage health conditions abroad
+
+## 🛡️ Protecting Your Belongings
+
+### Money & Valuables
+- **Don't Flash Cash**: Keep money hidden and use discreetly
+- **Multiple Storage**: Divide money between different locations
+- **Use Safes**: Utilize hotel safes for valuables
+- **Travel Light**: Don't bring unnecessary expensive items
+- **Digital Payments**: Use cards and digital payments when possible
+
+### Electronics & Documents
+- **Backup Data**: Cloud backup important files and photos
+- **Lock Devices**: Use passwords and biometric locks
+- **Avoid Public Wi-Fi**: Use VPN for sensitive transactions
+- **Keep Documents Secure**: Use money belts or secure bags
+
+### Luggage Security
+- **Locks**: Use TSA-approved locks
+- **Luggage Tags**: Include contact info but not home address
+- **Carry-On Essentials**: Keep important items in carry-on
+- **Never Leave Unattended**: Always keep luggage in sight
+
+## 👥 Personal Safety
+
+### In Public Spaces
+- **Stay Aware**: Be conscious of your surroundings
+- **Avoid Risky Areas**: Research and avoid dangerous neighborhoods
+- **Travel in Groups**: There's safety in numbers
+- **Trust Your Instincts**: If something feels wrong, leave
+- **Stay Sober**: Limit alcohol, especially in unfamiliar places
+
+### Transportation Safety
+- **Official Services**: Use licensed taxis and transportation
+- **Share Rides Carefully**: Research rideshare safety in your destination
+- **Night Travel**: Be extra cautious when traveling at night
+- **Seatbelts**: Always wear seatbelts in vehicles
+- **Emergency Exits**: Know emergency exits on flights/buses
+
+### Accommodation Safety
+- **Research Hotels**: Read reviews focusing on safety
+- **Room Selection**: Request rooms on higher floors (not ground level)
+- **Lock Doors**: Always lock doors and windows
+- **Don't Open Door**: Verify identity before opening door
+- **Fire Safety**: Know fire exits and emergency procedures
+
+## 🌐 Digital Safety
+
+### Online Security
+- **Use VPN**: Protect your data on public networks
+- **Avoid Public Wi-Fi**: For banking or sensitive transactions
+- **Strong Passwords**: Use unique, strong passwords
+- **Two-Factor Authentication**: Enable on important accounts
+- **Secure Apps**: Only use trusted, official apps
+
+### Social Media Caution
+- **Don't Overshare**: Avoid posting real-time locations
+- **Private Accounts**: Set social media to private
+- **Avoid Check-Ins**: Don't check in to locations in real-time
+- **Share After**: Post about trips after you've returned home
+
+### Communication
+- **Regular Check-Ins**: Contact home regularly
+- **Emergency Contacts**: Save local emergency numbers
+- **Offline Maps**: Download maps for offline use
+- **Translation Apps**: Helpful for communication barriers
+
+## 🚨 Emergency Preparedness
+
+### Know Emergency Numbers
+- **Local Emergency**: 911, 112, or country-specific numbers
+- **Embassy Contact**: Save your country's embassy information
+- **Travel Insurance**: Keep insurance emergency number handy
+- **Local Contacts**: Have contacts for hotels, tour guides, etc.
+
+### Emergency Plan
+- **Meeting Points**: Know where to meet if separated from group
+- **Emergency Cash**: Keep some emergency cash separate
+- **Communication Plan**: How to contact home in emergency
+- **Document Locations**: Know where your important documents are
+
+### Health Emergencies
+- **Medical Facilities**: Know location of hospitals/clinics
+- **Pharmacy Locations**: Identify nearby pharmacies
+- **Language Cards**: Have medical information in local language
+- **Insurance Coverage**: Understand what your insurance covers
+
+## 🎯 Destination-Specific Tips
+
+### Urban Areas
+- **Pickpocket Awareness**: Watch for common pickpocket tactics
+- **Crowded Spaces**: Extra vigilance in crowds and markets
+- **Public Transportation**: Stay alert on buses, trains, subways
+- **Street Smarts**: Walk confidently, avoid looking lost
+
+### Rural/Adventure Travel
+- **Weather Awareness**: Monitor weather conditions
+- **Guides**: Use experienced guides for adventure activities
+- **Communication**: Have way to communicate in remote areas
+- **First Aid**: Enhanced first aid knowledge for remote areas
+
+### International Travel
+- **Cultural Sensitivity**: Respect local customs and laws
+- **Legal Awareness**: Know local laws that differ from home
+- **Embassy Registration**: Register with your embassy
+- **Language Basics**: Learn basic phrases in local language
+
+## ✅ Safety Checklist
+
+Before Your Trip:
+- [ ] Research destination safety
+- [ ] Check travel advisories
+- [ ] Get travel insurance
+- [ ] Copy important documents
+- [ ] Share itinerary with someone
+- [ ] Save emergency contacts
+- [ ] Get required vaccinations
+- [ ] Research common scams
+
+During Your Trip:
+- [ ] Stay aware of surroundings
+- [ ] Keep valuables secure
+- [ ] Use safe transportation
+- [ ] Stay in touch with home
+- [ ] Trust your instincts
+- [ ] Follow local customs
+- [ ] Keep emergency numbers handy
+- [ ] Avoid risky situations
+
+## 💡 Pro Safety Tips
+
+1. **Blend In**: Try not to look like a tourist
+2. **Learn Basics**: A few words in local language go a long way
+3. **Stay Connected**: But not overly dependent on devices
+4. **Local Knowledge**: Ask locals about safe areas
+5. **Daytime Exploration**: Explore new areas during daylight
+6. **Confidence**: Walk with confidence, even if lost
+7. **Avoid Flashy Displays**: Don't show expensive items
+8. **Group Travel**: Consider group tours for first-time destinations
+
+## 🎯 Remember
+
+Travel safety isn't about being paranoid—it's about being prepared and aware. Most places are safe for travelers, but taking precautions ensures you can fully enjoy your adventures. The key is finding the balance between being cautious and being open to experiences.
+
+By following these safety tips, you'll be better prepared to handle any situation and can focus on what really matters: enjoying your travels and creating amazing memories.
+
+Stay safe, travel smart!`,
+    category: "Essential Travel Guides",
+    categorySlug: "travel-guides",
+    publishedAt: new Date("2025-10-15"),
+    author: "Travel Deals Hub",
+    keywords: ["travel safety", "travel security", "travel safety tips", "safe travel", "traveler safety"]
+  },
+  {
+    id: "china-travel-guide-first-time-travelers",
+    title: "Planning a Trip to China: Essential Tips for First-Time Travelers",
+    excerpt: "A practical China travel guide for first-time Western travelers. Learn essential tips about VPNs, payments, transportation, culture, and planning your trip to China.",
+    content: `China is one of the most fascinating countries in the world to visit — ancient history, ultra-modern cities, unforgettable food, and dramatic landscapes. But for many Western travelers, China can also feel overwhelming.
+
+This guide is inspired by real experiences and advice shared by travelers living in or visiting China, including discussions from Reddit's *r/chinalife* community. If you're planning your first trip to China, this article will help you travel smarter and with confidence.
+
+## 1. Prepare Your Phone Before You Leave (This Is Critical)
+
+In China, your smartphone is not optional — it becomes your wallet, map, translator, and communication tool all in one.
+
+### VPN Is Not Optional
+
+Many websites and apps you use every day — Google, Gmail, WhatsApp, Instagram, Facebook, Reddit — do not work in China.
+
+Before you fly:
+
+- Install at least one reliable VPN (two is even better).
+- Test it before departure.
+- Do not assume you can download a VPN after arriving in China.
+
+Even travelers who don't use social media often still need a VPN for email access, maps, or work-related tools.
+
+### Download Essential Apps in Advance
+
+App stores inside China can be limited. Install these before arrival:
+
+- **WeChat** – messaging, payments, bookings, and more
+- **Alipay** – mobile payments and daily expenses
+- **Google Translate** (offline Chinese language pack) or Pleco
+- **Maps.me** or Apple Maps (Google Maps is unreliable in China)
+
+## 2. China Is Basically Cashless
+
+This surprises nearly every first-time visitor. In most Chinese cities, credit cards are often not accepted, and cash is increasingly impractical.
+
+Daily life runs on QR-code payments. You should set up:
+
+- WeChat Pay
+- Alipay
+
+Both platforms support many foreign bank cards, but verification is easier if completed outside China. Without mobile payments, even buying coffee or taking a taxi can become frustrating.
+
+## 3. Getting Around China Is Easier Than You Think
+
+China has one of the most advanced transportation systems in the world.
+
+### High-Speed Trains Are Often Better Than Flying
+
+High-speed rail is fast, clean, comfortable, and extremely punctual. For many routes, it's more convenient than flying.
+
+You'll need your passport to book and board trains, and tickets can be purchased through international booking platforms.
+
+### Urban Transportation
+
+Major cities have excellent metro systems. Ride-hailing apps like Didi function similarly to Uber and are easy to use.
+
+## 4. Plan Fewer Cities Than You Think
+
+China looks manageable on a map, but distances are huge. A common mistake is trying to see too much in one trip.
+
+Instead of rushing:
+
+- Focus on one region
+- Combine nearby cities
+- Schedule rest days
+
+Slower travel leads to better experiences and less stress.
+
+## 5. Expect a Language Barrier (But Don't Panic)
+
+English is not widely spoken outside hotels and tourist areas, but that doesn't mean people are unfriendly.
+
+Helpful tips:
+
+- Learn a few basic Mandarin phrases
+- Use translation apps confidently
+- Show destinations in Chinese characters
+- Be patient and polite
+
+## 6. Cultural Differences to Keep in Mind
+
+China is generally very safe, but cultural norms differ.
+
+You may notice:
+
+- Loud public spaces
+- Less personal space
+- Direct personal questions
+- Curious stares
+
+Avoid sensitive political discussions, and approach cultural differences with flexibility and respect.
+
+## 7. Internet Access and SIM Cards
+
+Travelers usually choose between international roaming, local Chinese SIM cards, or eSIM solutions.
+
+Remember:
+
+- Foreign websites remain blocked on Chinese networks
+- A VPN is still required
+- Airport SIM cards are convenient but may cost more
+
+## 8. Food, Water, and Health Tips
+
+Chinese cuisine is incredibly diverse and highly regional. What you eat in one city may be completely different in another.
+
+Important safety notes:
+
+- Do not drink tap water
+- Use bottled or boiled water
+- Carry tissues for public restrooms
+
+## Final Thoughts: Is China Worth Visiting?
+
+Absolutely — but preparation matters. China rewards travelers who plan ahead, stay flexible, and accept that things work differently.
+
+For many visitors, a first trip to China is not just another vacation, but a completely new way of seeing the world.
+
+---
+
+**Travel Tip:** When booking hotels in China, always check proximity to metro lines, payment compatibility, and whether English support is important for you.`,
+    category: "Essential Travel Guides",
+    categorySlug: "travel-guides",
+    publishedAt: new Date("2025-10-16"),
+    author: "Travel Deals Hub",
+    keywords: ["China travel guide", "first time traveling to China", "China travel tips", "planning a trip to China", "China VPN", "China payments", "China transportation"]
+  },
 ]
 
 export function getArticlesByCategory(categorySlug: string): Article[] {
@@ -1143,6 +1761,10 @@ export function getCategoryInfo(categorySlug: string) {
     "tips": {
       title: "Hotel Booking Tips & Guides",
       description: "Essential tips, guides and knowledge for smart hotel bookings",
+    },
+    "travel-guides": {
+      title: "Essential Travel Guides",
+      description: "Travel guides you'll definitely use - comprehensive tips and guides for smart travelers",
     },
   }
   return categoryMap[categorySlug] || { title: "Category", description: "" }
