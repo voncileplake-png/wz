@@ -57,6 +57,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
+        <meta name="verify-convergexperts" content="371fa65d8a6d" />
         <meta name='impact-site-verification' value='8592d191-0da4-4f19-b859-ac9faadb655b' />
         <meta name="partnerboostverifycode" content="32dc01246faccb7f5b3cad5016dd5033" />
         <meta name="verify-yeahpromos" content="5d511b4a2ac6" />
