@@ -15,8 +15,7 @@ const nextConfig = {
   },
   // 启用压缩
   compress: true,
-  // 优化字体加载
-  optimizeFonts: true,
+  // 注意：Next.js 15+ 字体优化已内置，请使用 next/font。optimizeFonts 已废弃并已移除。
   // 注意：ads.txt 现在由 app/ads.txt/route.ts 处理，用于合并 Google AdSense 和 Ezoic 的内容
 }
 
