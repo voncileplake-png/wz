@@ -57,8 +57,15 @@ export function Footer() {
           {/* Pages removed per request */}
         </div>
 
-        {/* Bottom Links */}
+        {/* Legal & Info Links */}
         <div className="pt-6 border-t border-border">
+          <div className="flex flex-wrap gap-x-4 gap-y-2 text-xs text-muted-foreground mb-4">
+            <a href="/privacy" className="hover:underline">Privacy Policy</a>
+            <a href="/cookies" className="hover:underline">Cookie Policy</a>
+            <a href="/terms" className="hover:underline">Terms of Use</a>
+            <a href="/about" className="hover:underline">About Us</a>
+            <a href="/contact" className="hover:underline">Contact</a>
+          </div>
           <div className="flex flex-wrap gap-x-4 gap-y-2 text-xs text-muted-foreground">
             {footerLinks.map((link, index) => (
               <a key={index} href="#" className="hover:underline">

@@ -6,6 +6,7 @@ import { Analytics } from "@vercel/analytics/next"
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import Script from "next/script"
 import { Suspense } from "react"
+import { CookieConsentBanner } from "@/components/cookie-consent-banner"
 import "./globals.css"
 
 export const metadata: Metadata = {
@@ -72,6 +73,7 @@ export default function RootLayout({
       </head>
       <body className={`font-sans ${GeistSans.variable} ${GeistMono.variable}`} suppressHydrationWarning>
         <Suspense fallback={null}>{children}</Suspense>
+        <CookieConsentBanner />
         <Suspense fallback={null}>
           <Analytics />
         </Suspense>
