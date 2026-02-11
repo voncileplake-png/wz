@@ -106,7 +106,7 @@ Marriott's corporate and promotional codes are an excellent way to save on both 
 Bookmark this guide and check for new offers before every booking. Subscribe to our Monthly Hotel Deals Newsletter for updates on the latest Marriott, Hilton, and IHG promotions!`,
     category: "Marriott Hotels",
     categorySlug: "marriott-hotels",
-    publishedAt: new Date("2025-10-12"),
+    publishedAt: new Date("2025-10-12T00:00:00"),
     author: "Travel Deals Hub",
     keywords: ["Marriott corporate codes", "Marriott discount codes", "Marriott promo code 2025", "Marriott business rate", "Marriott employee rate", "Marriott corporate discount"]
   },
@@ -188,7 +188,7 @@ Call the hotel or Best Western central reservations. Ask whether they can manual
 **Note on sources:** This summary is based on a publicly available page (Chinese) that aggregated Best Western corporate codes. The original was published in 2019 and contains user-shared codes. We translated and localised the content for English readers in 2025 — please treat codes as indicative and always verify before booking.`,
     category: "Best Western Hotels",
     categorySlug: "best-western-hotels",
-    publishedAt: new Date("2025-10-13"),
+    publishedAt: new Date("2025-10-13T00:00:00"),
     author: "Travel Deals Hub",
     keywords: ["Best Western corporate codes", "Best Western agreement rates", "Best Western discount codes", "corporate rate Best Western"]
   },
@@ -200,7 +200,7 @@ Call the hotel or Best Western central reservations. Ask whether they can manual
       "Best Western Hotels offers competitive corporate rates for business travelers. Learn about the available corporate codes and how to use them.",
     category: "Best Western Hotels",
     categorySlug: "best-western-hotels",
-    publishedAt: new Date("2024-01-12"),
+    publishedAt: new Date("2024-01-12T00:00:00"),
   },
 
   // Hyatt Gold Passport
@@ -295,7 +295,7 @@ Keep this guide handy when planning Hyatt stays — and test updated 2025 codes 
 The corporate codes listed are for reference only and may not reflect current availability. Always verify with Hyatt before confirming your reservation.`,
     category: "Hyatt Gold Passport",
     categorySlug: "hyatt-gold-passport",
-    publishedAt: new Date("2025-10-13"),
+    publishedAt: new Date("2025-10-13T00:00:00"),
     author: "Travel Deals Hub",
     keywords: [
       "Hyatt corporate code",
@@ -385,7 +385,7 @@ Bookmark this guide and check for updated 2025 corporate lists for Hilton, Marri
 **Disclaimer:** This summary is translated and adapted from a publicly available Chinese article originally published in 2019. The corporate codes listed are for educational and reference purposes only. Always confirm with Radisson or your employer before use.`,
     category: "Carlson Hotels",
     categorySlug: "carlson-hotels",
-    publishedAt: new Date("2025-10-13"),
+    publishedAt: new Date("2025-10-13T00:00:00"),
     author: "Travel Deals Hub",
     keywords: ["Radisson corporate codes", "Carlson hotel corporate rate", "Radisson discount codes", "Radisson business travel rate", "corporate hotel codes 2025"]
   },
@@ -467,7 +467,7 @@ Where possible, test multiple codes before settling on a reservation.
 The codes here are user-shared and may not reflect current availability. Use as reference and always confirm with Wyndham before booking.`,
     category: "Wyndham Hotels",
     categorySlug: "wyndham-hotels",
-    publishedAt: new Date("2025-10-13"),
+    publishedAt: new Date("2025-10-13T00:00:00"),
     author: "Travel Deals Hub",
     keywords: [
       "Wyndham corporate codes",
@@ -561,7 +561,7 @@ Expedia's regional promo codes can bring notable savings, especially on the HK /
 Keep this guide bookmarked, test codes before booking international stays, and watch for updated offers — they change frequently.`,
     category: "Third-Party Booking Platforms",
     categorySlug: "third-party-platforms",
-    publishedAt: new Date("2025-10-14"),
+    publishedAt: new Date("2025-10-14T00:00:00"),
     author: "Travel Deals Hub",
     keywords: ["Expedia promo code", "Expedia HK discount", "Expedia TW coupon", "Expedia voucher", "Expedia hotel promo", "Expedia flight + hotel deals"]
   },
@@ -603,7 +603,7 @@ Not necessarily. Loyalty status might give some goodwill, but misuse of codes is
 While some travelers believe these techniques can reduce inspection when using another company's corporate rate, the uncertainty and ethical implications remain significant. Always evaluate the risk, and never rely on these methods as your primary strategy. Legitimate discount methods and corporate agreements you're eligible for are safer and more sustainable.`,
     category: "Hotel Booking Tips & Guides",
     categorySlug: "tips",
-    publishedAt: new Date("2025-10-14"),
+    publishedAt: new Date("2025-10-14T00:00:00"),
     author: "Travel Deals Hub",
     keywords: ["hotel corporate rate tricks", "avoid inspection hotel rate code", "use corporate rate safely", "agreement code hotel tips"]
   },
@@ -653,7 +653,7 @@ Corporate agreement rates can indeed be a powerful tool for lowering hotel costs
 Always compare agreement rates with loyalty / promotional offers, and proceed with care. A balanced approach combining verified discounts and official deals is the more sustainable way to travel smart in 2025 and beyond.`,
     category: "Hotel Booking Tips & Guides",
     categorySlug: "tips",
-    publishedAt: new Date("2025-10-14"),
+    publishedAt: new Date("2025-10-14T00:00:00"),
     author: "Travel Deals Hub",
     keywords: ["hotel corporate rate", "agreement price hotel", "corporate hotel discount", "hotel rate hack", "best rate guarantee", "hotel booking tips"]
   },
@@ -786,7 +786,7 @@ Marriott corporate codes are an excellent way to reduce travel expenses—especi
 Our website will continue to publish updated guides, code usage tips, and hotel insights to help you get the best value from your travel in 2025 and beyond.`,
     category: "Hotel Booking Tips & Guides",
     categorySlug: "tips",
-    publishedAt: new Date("2025-01-15"),
+    publishedAt: new Date("2025-01-15T00:00:00"),
     author: "Travel Deals Hub",
     keywords: ["Marriott corporate codes", "Marriott discount", "Marriott corporate rate", "hotel corporate codes", "travel savings"]
   },
@@ -896,7 +896,7 @@ This guide is designed to help you navigate the process, understand the rules, a
 Stay tuned for updated guides across Marriott, Hilton, Hyatt, and IHG corporate rate structures throughout 2025.`,
     category: "Hotel Booking Tips & Guides",
     categorySlug: "tips",
-    publishedAt: new Date("2025-01-16"),
+    publishedAt: new Date("2025-01-16T00:00:00"),
     author: "Travel Deals Hub",
     keywords: ["hotel corporate codes", "corporate hotel rates", "Marriott corporate code guide", "Hilton corporate rate", "travel savings 2025"]
   },
@@ -941,7 +941,7 @@ Corporate codes typically deliver strong value in the following situations: last
 For leisure travel, public deals or credit card partner rates may sometimes be cheaper. However, corporate rates remain one of the most reliable options for consistent savings during business trips.`,
     category: "Hotel Booking Tips & Guides",
     categorySlug: "tips",
-    publishedAt: new Date("2025-01-17"),
+    publishedAt: new Date("2025-01-17T00:00:00"),
     author: "Travel Deals Hub",
     keywords: ["corporate hotel codes", "business travel discounts", "hotel corporate rate guide", "employee hotel rates", "corporate travel booking"]
   },
@@ -996,7 +996,7 @@ The "Stay 10 Nights, Get 1 Free" program is one of Hotels.com's defining loyalty
 To maximize your value: compare promo codes when they're available; if no better deal, count on the 10-night benefit as a guaranteed baseline. Bookmark this guide and always check hotel eligibility before booking.`,
     category: "Third-Party Booking Platforms",
     categorySlug: "third-party-platforms",
-    publishedAt: new Date("2025-10-14"),
+    publishedAt: new Date("2025-10-14T00:00:00"),
     author: "Travel Deals Hub",
     keywords: ["Hotels.com rewards", "stay 10 get 1 free", "Hotels.com loyalty program", "Hotels.com free night", "hotel loyalty nights", "Hotels.com discount"]
   },
@@ -1098,7 +1098,7 @@ Promo codes are a powerful tool for saving on Hotels.com bookings, but they come
 Bookmark this guide and update the list of working promo codes frequently — particularly before booking stays abroad. Remember that code availability and effectiveness can change over time, so always test codes directly on the Hotels.com booking platform before finalizing your reservation.`,
     category: "Third-Party Booking Platforms",
     categorySlug: "third-party-platforms",
-    publishedAt: new Date("2025-10-14"),
+    publishedAt: new Date("2025-10-14T00:00:00"),
     author: "Travel Deals Hub",
     keywords: ["Hotels.com promo code", "Hotels discount codes", "Hotels voucher", "Hotels coupon 2025", "Hotels.com special rates"]
   },
@@ -1189,7 +1189,7 @@ By packing lighter, smarter, and more intentionally in 2026, you'll move faster,
 <strong>Travel Tip:</strong> Before you book accommodation, check its location, luggage storage options, and proximity to public transportation — it can influence what you need to pack.`,
     category: "Essential Travel Guides",
     categorySlug: "travel-guides",
-    publishedAt: new Date("2025-10-15"),
+    publishedAt: new Date("2025-10-15T00:00:00"),
     author: "Travel Deals Hub",
     keywords: ["travel packing guide 2025", "how to pack for travel", "travel packing tips", "international travel packing list", "smart packing techniques"]
   },
@@ -1254,7 +1254,7 @@ Sometimes, just shifting your travel dates by a week or flying into a nearby air
 Budget travel isn't about being "cheap" — it's about maximizing your experience while spending wisely. With these 2026 travel tips, you're equipped to explore more for less. What's your favorite budget tip? Let us know in the comments below!`,
     category: "Essential Travel Guides",
     categorySlug: "travel-guides",
-    publishedAt: new Date("2025-10-15"),
+    publishedAt: new Date("2025-10-15T00:00:00"),
     author: "Travel Deals Hub",
     keywords: ["budget travel tips 2026", "cheap travel ideas", "saving money while traveling", "affordable travel advice"]
   },
@@ -1432,7 +1432,7 @@ By following these safety tips, you'll be better prepared to handle any situatio
 Stay safe, travel smart!`,
     category: "Essential Travel Guides",
     categorySlug: "travel-guides",
-    publishedAt: new Date("2025-10-15"),
+    publishedAt: new Date("2025-10-15T00:00:00"),
     author: "Travel Deals Hub",
     keywords: ["travel safety", "travel security", "travel safety tips", "safe travel", "traveler safety"]
   },
@@ -1561,7 +1561,7 @@ For many visitors, a first trip to China is not just another vacation, but a com
 **Travel Tip:** When booking hotels in China, always check proximity to metro lines, payment compatibility, and whether English support is important for you.`,
     category: "Essential Travel Guides",
     categorySlug: "travel-guides",
-    publishedAt: new Date("2026-01-21"),
+    publishedAt: new Date("2026-01-21T00:00:00"),
     author: "Travel Deals Hub",
     keywords: ["China travel guide", "first time traveling to China", "China travel tips", "planning a trip to China", "China VPN", "China payments", "China transportation"]
   },
