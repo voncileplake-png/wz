@@ -2397,7 +2397,7 @@ export function getArticlesByCategory(categorySlug: string): Article[] {
   return articles
     .filter((article) => article.categorySlug === categorySlug)
     .sort((a, b) => b.publishedAt.getTime() - a.publishedAt.getTime())
-}────────
+}
 
 export function getArticleById(id: string): Article | undefined {
   return articles.find((article) => article.id === id)
