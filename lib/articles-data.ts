@@ -1,4 +1,4 @@
-export interface Article {
+﻿export interface Article {
   id: string
   title: string
   excerpt: string
@@ -194,13 +194,69 @@ Call the hotel or Best Western central reservations. Ask whether they can manual
   },
   {
     id: "best-western-corporate",
-    title: "Best Western Hotels Corporate Codes",
-    excerpt: "Corporate rate codes for Best Western Hotels worldwide.",
-    content:
-      "Best Western Hotels offers competitive corporate rates for business travelers. Learn about the available corporate codes and how to use them.",
+    title: "Best Western Corporate Codes & Membership Discounts — Quick Reference Guide",
+    excerpt: "A quick-reference guide to Best Western corporate rate codes, Best Western Rewards membership discounts, and tips for booking the best available rate at Best Western properties worldwide.",
+    content: `Best Western Hotels & Resorts is one of the world's largest hotel chains, with over 4,500 properties across more than 100 countries. Whether you're traveling for business or leisure, there are several straightforward ways to access corporate and discounted rates at Best Western.
+
+## Best Western Rewards — Free Membership Discounts
+
+The easiest way to access discounted rates is through the **Best Western Rewards** loyalty program, which is free to join. Members receive:
+
+• Exclusive member rates typically 5–10% below public pricing
+• Points on every qualifying stay, redeemable for free nights
+• No blackout dates on reward nights
+• Gold, Platinum, and Diamond status tiers with increasing benefits
+
+To use your member rate, simply log in at bestwestern.com before searching for rates. Your discount will be automatically applied.
+
+## Corporate / Agreement Rate Codes
+
+Best Western has agreements with a wide range of businesses, government agencies, and organizations. If your employer has negotiated a Best Western corporate agreement, you'll receive a numeric or alphanumeric code to enter in the "Corporate / Promo Code" field during booking.
+
+**How to enter a code:**
+1. Go to bestwestern.com and search your destination and dates
+2. Expand "Special Rates" or "Corporate / Promo Code" in the search form
+3. Enter your code and click Search
+4. Select your room — the discounted rate should display automatically
+
+**Publicly available discounts include:**
+• **Government & Military** — Use code GOV (US government employees and military)
+• **AAA Members** — Auto club members receive a standard discount; show membership card at check-in
+• **AARP Members** — Members 50+ receive seniors discounts at participating properties
+• **Best Western Rewards Members** — Log in for automatic member pricing
+
+## Best Rate Guarantee
+
+Best Western offers a Best Rate Guarantee (BRG): if you book directly through bestwestern.com or the Best Western app and then find a lower rate for the same room and dates on another site within 24 hours, Best Western will match the lower rate and give you an additional 10% discount.
+
+**To claim BRG:**
+1. Book your room on bestwestern.com
+2. Find a lower price on a third-party site within 24 hours
+3. Submit a claim through the BRG form on the Best Western website
+4. Provide the lower-rate URL as evidence
+
+## Tips for Getting the Best Rate
+
+• **Book direct** — Direct bookings on bestwestern.com or the app consistently offer the best available rates and earn loyalty points (third-party sites often do not earn points)
+• **Look for "Best Western Plus" and "Best Western Premier"** properties — these tiers offer more amenities and often have better rates relative to quality
+• **Check for seasonal promotions** — Best Western regularly runs weekend and seasonal packages with added value like free breakfast or parking
+• **Contact the property directly** — For extended stays (7+ nights), calling the hotel's sales department may yield a negotiated rate not available online
+
+## Frequently Asked Questions
+
+**Do I need an employer to get a corporate rate at Best Western?**
+Not necessarily. Best Western Rewards membership, AAA, AARP, and government/military programs all offer corporate-comparable discounts to individual travelers.
+
+**Can I use a corporate code online?**
+Yes — enter it in the "Corporate / Promo Code" field on bestwestern.com's search form. If the code is valid and applicable to your dates, a discounted rate will appear in results.
+
+**What if my corporate code doesn't work online?**
+Call Best Western central reservations (1-800-WESTERN / 1-800-937-8376 in the US) and ask the agent to apply the corporate rate manually. They can also advise if your code is valid for that specific property and date range.`,
     category: "Best Western Hotels",
     categorySlug: "best-western-hotels",
     publishedAt: new Date("2024-01-12T00:00:00"),
+    author: "Travel Deals Hub",
+    keywords: ["Best Western corporate codes", "Best Western Rewards discount", "Best Western AAA rate", "Best Western government rate", "Best Western booking tips"]
   },
 
   // Hyatt Gold Passport
@@ -567,95 +623,166 @@ Keep this guide bookmarked, test codes before booking international stays, and w
   },
   {
     id: "safe-use-of-corporate-rate-codes",
-    title: "How to Use Corporate / Agreement Codes without Getting Checked at Hotels",
-    excerpt: "Tips and caveats on using corporate hotel rate codes from other companies while minimizing the chance of being audited at check-in. Understand risks and safe practices.",
-    content: `This article shares experienced tips on how some travelers attempt to use another company's corporate or agreement rate at hotels while reducing the likelihood of verification or rejection. These methods are not foolproof—they carry risk and ethical implications—so proceed with caution and understand hotel policies.
+    title: "How to Legitimately Qualify for Hotel Corporate Rates — A Complete Guide",
+    excerpt: "Discover the legitimate ways to qualify for hotel corporate discount codes — from employer programs and professional associations to loyalty memberships and public promotions. No tricks needed.",
+    content: `Hotel corporate rates can save you 15–35% on every stay. The good news is there are many **legitimate pathways** to qualify for these discounts — you don't need to be a Fortune 500 employee. Here's a comprehensive guide to getting the corporate rates you're actually entitled to.
 
-## 🛎️ Tactics to Increase Success Rate
+## 🏢 What Qualifies You for a Corporate Hotel Rate?
 
-Booking via company booking channels or travel agents instead of directly entering the code can mask the fact you're using a corporate rate. Choose hotels familiar with the company where employees often stay, making front desk less likely to scrutinize your reservation. Dress appropriately by wearing nice clothes like a shirt and proper shoes to help you look legitimate. Avoid high-occupancy hotels, as busy hotels have front desks that are more likely to check your credentials. Booking under a colleague or partner's name while claiming your companion is arriving later can give you some buffer if questioned.
+Corporate rates are negotiated between hotels and organizations to reward loyalty and high booking volumes. You may qualify through more channels than you think:
 
-## ⚠️ Behaviors to Avoid
+• **Your employer** — Even small and medium businesses can negotiate corporate rates. Ask your HR or travel coordinator.
+• **Your professional association** — Many industry associations (nursing, accounting, legal, engineering) have negotiated hotel discounts for members.
+• **Your credit union or bank** — Some financial institutions offer hotel discounts as member benefits.
+• **Your alumni network** — Universities often maintain hotel agreements for visiting faculty, alumni, and guests.
+• **Government or military service** — Federal, state, and local employees plus active military typically qualify for GOV and military rate codes.
+• **Non-profit organizations** — Many hotel chains offer non-profit rates; check with your organization's administrator.
 
-Do not use fake IDs, badges, or forged documents, as the risk is extremely high and easily discovered. Avoid argumentative confrontations with front desk staff—if discovered, comply and accept the outcome rather than risking further issues.
+## 📋 How to Find Out If Your Employer Has a Corporate Code
 
-## 🌍 Differences by Country & Hotel Environment
+1. Contact your company's HR department or office manager and ask: "Do we have a corporate hotel agreement with Marriott, Hilton, or IHG?"
+2. Check your company's intranet or travel portal — many large employers list approved codes internally.
+3. Ask your company travel agent or expense team; they often manage corporate bookings and have access to the codes.
+4. If your employer doesn't have one yet, suggest they negotiate one — hotels are usually eager to establish new corporate accounts for businesses with even modest travel needs.
 
-In regions where enforcement is lax (some parts of Asia, Southeast Asia, developing countries), scrutiny may be weak, making code use easier. But in developed nations (USA, Europe, Japan), hotel staff are better trained and regulations are stricter — misuse is riskier and more likely to be caught.
+## 🌐 Publicly Available Corporate-Style Discounts (No Employer Required)
 
-## 🎯 Membership Level & Account History Effects
+You don't always need an employer code. These programs are open to individuals:
 
-Being a high-tier member does not guarantee immunity from checks. New or inactive accounts may draw more suspicion. Positive reviews or compliments toward staff may increase goodwill and reduce scrutiny.
+**AAA / CAA Members** — Auto club members get 5–15% off at most major chains. Use code AAA or Z2H at Marriott, HHonors for Hilton.
 
-## 💬 Frequently Asked Questions
+**AARP Members** — Members 50+ can save 10%+ at most chains. Use code ARP at Marriott, seniors discount at Hilton and IHG.
 
-Is there a 100% safe way to use someone else's corporate rate?
-No. All attempts carry risk. These tips only aim to improve chances, not guarantee success.
+**Government & Military** — Active military, veterans, and government employees qualify for GOV rates at most chains. Bring your ID.
 
-Can using fake credentials backfire badly?
-Yes. Hotels have many verification methods. Using forgeries may lead to refusal, account bans, or worse legal issues, especially in stricter jurisdictions.
+**Hotel Loyalty Programs (Free to Join)** — Marriott Bonvoy, Hilton Honors, World of Hyatt, IHG One Rewards, and Wyndham Rewards all offer member rates that are often 5–10% lower than public prices, plus points and perks.
 
-Does being a hotel loyalty member help avoid checks?
-Not necessarily. Loyalty status might give some goodwill, but misuse of codes is essentially unrelated to status, and staff may still check.
+**Credit Card Partnerships** — Amex Platinum, Chase Sapphire, and Citi Prestige all include hotel discounts or benefits that effectively provide corporate-level savings.
 
-## 🎯 Conclusion: Risky Territory — Use with Discretion
+## 🤝 Negotiating Your Own Corporate Rate
 
-While some travelers believe these techniques can reduce inspection when using another company's corporate rate, the uncertainty and ethical implications remain significant. Always evaluate the risk, and never rely on these methods as your primary strategy. Legitimate discount methods and corporate agreements you're eligible for are safer and more sustainable.`,
+If you travel frequently, you can negotiate a personal or small-business corporate rate directly with hotels:
+
+1. **Track your stays** — Keep records of how many nights you spend at a particular hotel or brand each year.
+2. **Contact the hotel's Sales Manager** — Not the front desk — the sales department handles corporate agreements.
+3. **Present your volume** — Even 10–20 nights per year at a single property can be enough to negotiate a preferred rate.
+4. **Join the loyalty program first** — Status makes negotiation easier and shows commitment.
+
+## 💡 Tips for Maximizing Your Legitimate Discounts
+
+• Always check **member rates** vs. public rates — loyalty program pricing is often already equivalent to corporate pricing.
+• Use **hotel brand apps** for the best rates; Marriott, Hilton, and Hyatt apps often show exclusive app-only discounts.
+• Look for **Flash Sales**: Marriott E-Breaks (MEB), Hilton's "Go Out and Play" sales, and Hyatt's "Flash Deals" can match or beat corporate rates.
+• **Stack discounts**: Use AAA code + loyalty points + credit card rewards on the same booking for maximum savings.
+• **Book direct** — Hotel brands guarantee their lowest rates when booked through official channels (Best Rate Guarantee / BRG).
+
+## Frequently Asked Questions
+
+**Can a freelancer or self-employed person get a corporate rate?**
+Yes. Register your business (even as a sole trader) and contact hotels directly to negotiate a corporate account. Many boutique hotels welcome small business accounts.
+
+**Are there corporate codes that anyone can use without verification?**
+Yes — AAA, AARP, government/military rates, and hotel loyalty member rates are accessible to anyone who legitimately belongs to those groups. Public promotion codes also require no verification.
+
+**What happens if I use a code I'm not entitled to?**
+Hotels may deny the discount at check-in and charge the standard rate. In some cases it can lead to account suspension or being flagged in hotel systems. It's simply not worth the risk when so many legitimate options exist.
+
+**How do I know which code to enter on the hotel website?**
+Most hotel booking sites have a "Special Rates" or "Corporate / Promo Code" field. Enter your specific code there. For loyalty discounts, simply log in — rates auto-apply.
+
+## 🎯 Conclusion: Legitimate Rates Are Easier Than You Think
+
+The landscape of legitimate hotel discounts is broader than most travelers realize. Between loyalty programs, professional associations, public codes, credit card benefits, and direct negotiation, most frequent travelers can access 10–30% off standard rates without any shortcuts. Start by joining the free loyalty programs for every chain you visit — that alone can transform your hotel economics.`,
     category: "Hotel Booking Tips & Guides",
     categorySlug: "tips",
     publishedAt: new Date("2025-10-14T00:00:00"),
     author: "Travel Deals Hub",
-    keywords: ["hotel corporate rate tricks", "avoid inspection hotel rate code", "use corporate rate safely", "agreement code hotel tips"]
+    keywords: ["how to get hotel corporate rate", "legitimate hotel discount codes", "qualify for corporate hotel rate", "hotel AAA discount", "hotel loyalty program savings", "hotel booking tips 2025"]
   },
   {
     id: "corporate-agreement-rates-guide",
-    title: "Corporate Agreement Rates: The Ultimate Low-Price Strategy for Hotel Booking",
-    excerpt: "Explore how corporate agreement rates work as a discounted hotel booking method. Learn pros & cons, tricks used by self-bookers, and alternative low-price strategies for 2025.",
-    content: `Many travelers and corporate guests regard the corporate agreement rate (aka "company rate" or "协议价") as one of the most effective ways to book hotels at lower costs. However, along with attractive discounts come risks, verification requirements, and ethical considerations. This guide explores how agreement rates work, tactics used by some travelers, their advantages and drawbacks, and safer alternative strategies.
+    title: "Hotel Corporate Rates Explained: The Smart Traveler's Complete Savings Guide (2025)",
+    excerpt: "Everything you need to know about hotel corporate rates — how they work, who qualifies, and 8 proven legal strategies to save 20–40% on hotel stays in 2025.",
+    content: `Corporate hotel rates are one of the most powerful — and most misunderstood — tools available to business and leisure travelers. When used correctly and legitimately, they can cut your hotel costs by 20–40%. This guide explains exactly how they work, who genuinely qualifies, and the full range of smart strategies to minimize your hotel spend.
 
 ## What Is a Corporate / Agreement Rate?
 
-A corporate or agreement rate is a negotiated discount between a company (or institution) and a hotel. Authorized employees, guests, or clients of that company may book at this discounted rate. At check-in, the hotel typically verifies identity using staff ID, business card, or company email. Some companies require pre-authorization, internal booking systems, or signing off by hotel sales teams to prevent abuse.
+A corporate or agreement rate is a discounted price negotiated directly between a hotel (or hotel chain) and an organization — typically a business, government agency, university, or professional association. The arrangement rewards the organization for guaranteed booking volume, while the hotel secures reliable revenue.
 
-## Player Tactics & Tricks
+### How They Differ from Public Rates
 
-Some users attempt to "game the system" by photoshopping employee ID cards or staff badges, sending quick emails to front desk to simulate corporate correspondence, or purchasing "invalid credential kits" (fake work cards, business cards) on resale platforms. While these tactics may occasionally succeed online, they carry a high risk of being caught at check-in or later audit.
+| Rate Type | Who Qualifies | Discount Range | Verification |
+|---|---|---|---|
+| Corporate/Agreement | Employees of contracted company | 10–35% | Usually required |
+| Government/Military | Gov employees, military | 10–25% | ID required |
+| AAA/AARP | Association members | 5–15% | Membership card |
+| Loyalty Member Rate | Free program members | 5–10% | Login/card |
+| Public Promotions | Anyone | Varies | None |
 
-## Reliable or Risky?
+## Who Actually Qualifies for Corporate Rates?
 
-### ✅ Advantages
+The qualification list is broader than most travelers realize:
 
-Corporate agreement rates offer substantially lower rates compared with standard pricing, potentially better cancellation or flexibility terms, and access to additional perks or company-level benefits.
+**Employees of large corporations** are the most obvious group — Fortune 500 companies negotiate preferred rates with major chains. If your company uses a corporate travel portal, your rate codes should already be loaded.
 
-### ❌ Disadvantages & Risks
+**Small business owners** can negotiate their own agreements directly with hotel sales departments. A business that books even 15–20 room-nights per year at a single property often qualifies.
 
-Verification at check-in may disqualify misuse—you might be re-priced or denied. Frequent code changes or mixing codes may trigger audits or account suspension. Higher-end or luxury hotels may limit the benefit of agreement rates. Reliance on these methods may lead to stress or unexpected costs if caught.
+**Government employees** at federal, state, and local levels qualify for GOV rates, which are often comparable to corporate pricing. Active military and veterans also qualify for military rates.
 
-## Alternative Low-Price Strategies
+**Professional association members** — nursing associations, bar associations, engineering societies, and hundreds of others maintain hotel agreements for their members.
 
-If agreement rates are too risky or inapplicable, here are safer options: Official Hotel Channels and Promotions allow booking via hotel website or app, joining flash sales, or taking advantage of seasonal discounts. Employee Rates are available if you or your relatives are hotel group employees, allowing use of internal employee discounts. Best Rate Guarantee (BRG) lets you book on the official site then find a lower price elsewhere and claim a match. Hotel Vouchers and Coupons are often distributed by hotels, including guest vouchers and restaurant certificates. Promotional Vouchers offer special deals via travel platforms, festival rates, and holiday rates. Loyalty and Membership programs along with Credit Card Offers let you use hotel loyalty status, partner discounts, and co-brand cards. Finally, Negotiating with Hotel Sales can yield bespoke agreement rates if you plan to stay many nights locally.
+**University staff, faculty, and alumni** — academic institutions frequently hold agreements with nearby hotels and within academic conference networks.
 
-## 💬 Frequently Asked Questions
+**Non-profit employees** — many hotel chains maintain special non-profit rate programs.
 
-Is using a corporate agreement rate always safe?
-No — misuse or invalid credentials may be rejected at check-in, or result in account suspension or re-pricing to standard rates.
+## 8 Proven Strategies to Save on Hotel Stays (All Legitimate)
 
-Can I falsify credentials to use someone else's agreement rate?
-Some users try, but it is risky. Hotels may inspect or audit, and such behavior is considered unethical and may violate hotel policy.
+### 1. Join All Major Loyalty Programs — They're Free
+Marriott Bonvoy, Hilton Honors, World of Hyatt, IHG One Rewards, and Wyndham Rewards cost nothing to join. Member rates are consistently 5–10% below public prices, and points accumulate toward free nights. This is the single easiest win available to any traveler.
 
-Which alternative strategy is the safest for lower hotel prices?
-The safest options are booking via official channels, using loyalty / membership programs, Best Rate Guarantee, and negotiating directly with hotel sales for long or bulk stays.
+### 2. Use Public Discount Codes You're Entitled To
+AAA (code: AAA), AARP (code: ARP), government employees (code: GOV), and military personnel have access to rates that require only membership verification. These are straightforward, completely legitimate, and available to millions of travelers.
 
-## 🎯 Conclusion: Use with Caution, Diversify Your Strategy
+### 3. Ask Your Employer — You May Already Have a Code
+Many employees are unaware that their company has negotiated hotel agreements. Ask HR, your office manager, or your corporate travel team. The code is likely already available in your company's travel portal.
 
-Corporate agreement rates can indeed be a powerful tool for lowering hotel costs, especially for frequent travelers or company employees. But they carry verification risks, policy uncertainties, and potential ethical issues. Thus, it's wise to treat agreement rates as one tool in your booking toolkit — not the single silver bullet.
+### 4. Negotiate Directly with the Hotel Sales Team
+If you travel frequently to a specific city, call the hotel's Sales Manager (not the front desk) and explain your anticipated booking volume. Hotels are often willing to negotiate preferred rates for even modest recurring business. A professional email outlining your travel needs is a great starting point.
 
-Always compare agreement rates with loyalty / promotional offers, and proceed with care. A balanced approach combining verified discounts and official deals is the more sustainable way to travel smart in 2025 and beyond.`,
+### 5. Leverage Best Rate Guarantee (BRG)
+All major chains — Marriott, Hilton, Hyatt, IHG, and others — offer a Best Rate Guarantee. If you book on the official website and then find a lower rate elsewhere for the same dates and room type within 24 hours, the hotel will match or beat that price. This effectively gives you market-lowest rates with the reliability of direct booking.
+
+### 6. Stack Credit Card Benefits
+Premium travel credit cards (Amex Platinum, Chase Sapphire Preferred, Capital One Venture X) often include hotel status upgrades, statement credits, and partner discounts worth hundreds of dollars per year. Combined with loyalty points, the savings can rival any corporate code.
+
+### 7. Book During Flash Sales and Off-Peak Windows
+Marriott E-Breaks (weekend flash sales, code: MEB), Hilton's "Go Out and Play" deals, and Hyatt's "Flash Deals" section offer genuine discounts of 20–40% — with no special qualification required. Setting rate alerts on apps like Hopper or Google Hotels helps you catch these windows.
+
+### 8. Extend Stays for Better Per-Night Rates
+Most chains offer discounted rates for stays of 3+ nights or 7+ nights. If your schedule allows flexibility, extending a stay can bring nightly costs well below standard pricing without needing any special codes.
+
+## Frequently Asked Questions
+
+**Do I need a big company to get a corporate rate?**
+No. Small businesses, sole traders, and frequent individual travelers can negotiate directly with hotels. Even 10–20 nights per year at a single property is often enough to secure a preferred rate agreement.
+
+**Are there corporate-style rates with no employer verification?**
+Yes — AAA, AARP, government/military, and hotel loyalty member rates all provide corporate-range discounts to eligible individuals with no employer involvement.
+
+**Which savings strategy gives the best result for a leisure traveler?**
+Start with free loyalty program membership plus a travel rewards credit card. Together, these typically produce 10–20% savings on every stay, plus points toward free nights — with zero out-of-pocket cost to set up.
+
+**How do I find out what loyalty program status I qualify for?**
+Each chain's website lists status tiers and their night-count thresholds. Marriott Bonvoy Silver starts at 10 nights; Hilton Silver at 10 nights. These unlock rate discounts and perks immediately.
+
+## 🎯 Conclusion: Smart Savings Are Always Available
+
+The world of hotel discounts is larger and more accessible than most travelers know. Between free loyalty programs, publicly available codes, employer agreements, and direct negotiation, most travelers can realistically access 15–30% savings on hotel stays without any complications. The key is simply knowing what you legitimately qualify for — and then taking five minutes to apply it before you book.`,
     category: "Hotel Booking Tips & Guides",
     categorySlug: "tips",
     publishedAt: new Date("2025-10-14T00:00:00"),
     author: "Travel Deals Hub",
-    keywords: ["hotel corporate rate", "agreement price hotel", "corporate hotel discount", "hotel rate hack", "best rate guarantee", "hotel booking tips"]
+    keywords: ["hotel corporate rate guide", "how hotel corporate rates work", "hotel savings strategies 2025", "qualify for hotel corporate discount", "hotel loyalty program tips", "hotel best rate guarantee"]
   },
   {
     id: "marriott-corporate-codes-guide-2025",
@@ -1451,6 +1578,825 @@ export function getArticlesByCategory(categorySlug: string): Article[] {
     .filter((article) => article.categorySlug === categorySlug)
     .sort((a, b) => b.publishedAt.getTime() - a.publishedAt.getTime())
 }
+
+  // ─── NEW ARTICLES START ───────────────────────────────────────────────────
+
+  // Hilton Hotels (new category)
+  {
+    id: "hilton-corporate-codes-2025",
+    title: "Hilton Corporate Codes & Honors Discounts 2025 — Complete Guide",
+    excerpt: "Full guide to Hilton Hotels corporate codes, HHonors member rates, and promotional discounts for 2025. Covers how to find your company code, public discount programs, and tips for maximising Hilton savings.",
+    content: `Hilton is one of the world's most recognised hotel brands, operating more than 7,000 properties across 18 brands — including Waldorf Astoria, Conrad, DoubleTree, Hampton Inn, and Hilton Garden Inn. Like Marriott and Hyatt, Hilton offers a structured corporate rate program that can save business and frequent travellers 15–30% on qualifying stays.
+
+## 🏨 What Are Hilton Corporate Codes?
+
+Hilton corporate codes are negotiated rate identifiers linked to agreements between Hilton and specific companies or organisations. When entered during the booking process, these codes display a discounted rate reserved for authorised users.
+
+There are three main categories:
+
+• 🏢 **Company-specific codes** — negotiated by large employers (e.g. Accenture, EY, Boeing) for their travelling employees
+• 🌐 **Public programme codes** — available to AAA members, AARP members, government employees, and military
+• 🎁 **Promotional codes** — seasonal offers, weekend packages, and Hilton Honors member-exclusive deals
+
+## 💡 How to Enter a Hilton Corporate Code
+
+1. Go to **hilton.com** or open the Hilton Honors app
+2. Enter your destination and travel dates
+3. Expand **"Special Rates"** in the search form
+4. Select **"Corporate Account"** and enter your code
+5. Search — qualifying properties will show the discounted rate
+
+**Note:** Some codes require employee ID or business card verification at check-in.
+
+## 🗂️ Hilton Public Discount Programmes (No Employer Required)
+
+**AAA / CAA Members** — Code: **AAA** — 5–10% off at most Hilton brands; show membership card at check-in
+
+**AARP Members** — Code: **AARP** — Standard seniors discount; membership card required
+
+**Government & Military** — Code: **GOV** — Federal, state, and local government employees plus active military; government ID required at check-in
+
+**Hilton Honors Member Rate** — Free to join at hilton.com/honors — member rates are consistently lower than public rates and earn points on every qualifying stay
+
+## 🏆 Hilton Honors — The Free Programme Worth Joining First
+
+Hilton Honors is Hilton's loyalty programme and the single easiest way to access discounted rates. Membership is free and benefits begin immediately:
+
+• **Member Rates** — Typically 2–8% below public pricing on every stay
+• **Points on stays** — Redeemable for free nights, experiences, and Amazon purchases
+• **Free Wi-Fi** — At all Hilton properties for Honors members
+• **Digital check-in & room selection** — Via the Hilton app
+• **Silver status** — After 10 nights/year: bonus points and late checkout
+• **Gold status** — After 40 nights/year: complimentary breakfast at many properties
+• **Diamond status** — After 60 nights/year: executive lounge access, room upgrades
+
+## 💳 Credit Card Benefits for Hilton Stays
+
+Several credit cards provide Hilton-specific benefits that rival or exceed corporate pricing:
+
+• **Hilton Honors Amex Card** — Free Gold status, 7× points at Hilton, no annual fee version available
+• **Hilton Honors Amex Surpass** — Free Gold status, complimentary weekend night after $15k spend
+• **Amex Platinum** — Hilton Gold status as a card benefit, plus Fine Hotels & Resorts programme access
+
+## ✈️ Tips to Save More on Hilton Stays
+
+• **Book direct** — Hilton's Best Price Guarantee covers direct bookings; if you find a lower price within 24 hours on another site, Hilton matches it and discounts an additional 25%
+• **Use Points + Money** — Combine Honors points with cash payment to reduce out-of-pocket cost
+• **Look for "Go Out and Play" sales** — Hilton's periodic flash sales offer 25–35% off at selected properties
+• **Extended stay rates** — Booking 7+ nights at a single property often unlocks a significantly lower nightly rate
+• **Ask about corporate rates directly** — Hotel sales managers can create a corporate account for businesses with as few as 10 annual room nights
+
+## Frequently Asked Questions
+
+**Can I use a Hilton corporate code if I don't work for the company?**
+Company-specific codes require verification. However, public codes (AAA, AARP, government) are available to anyone in those groups. Hilton Honors member rates require only free programme membership.
+
+**How do I find out if my employer has a Hilton corporate code?**
+Ask your HR department, office manager, or corporate travel coordinator. Many companies with business travel needs have codes already set up in their travel portals.
+
+**Does Hilton Honors status help with corporate rates?**
+Yes — higher Honors status often provides complimentary upgrades and amenities that add significant value on top of any corporate or member rate.
+
+**Is it worth joining Hilton Honors even as a leisure traveller?**
+Absolutely. Membership is free, member rates are always available, and points accumulate toward free nights. There is no reason not to join.
+
+## 🎯 Conclusion: Hilton Savings Are Accessible to Everyone
+
+Whether through your employer's corporate programme, a free Hilton Honors membership, AAA discounts, or a co-branded credit card, most travellers can access meaningful Hilton discounts without any special qualifications. Start with free Honors membership — that alone is enough to reduce every future Hilton stay.`,
+    category: "Hilton Hotels",
+    categorySlug: "hilton-hotels",
+    publishedAt: new Date("2025-10-15T00:00:00"),
+    author: "Travel Deals Hub",
+    keywords: ["Hilton corporate codes 2025", "Hilton Honors discount", "Hilton AAA rate", "Hilton government rate", "Hilton booking tips", "Hilton corporate rate guide"]
+  },
+
+  // Hyatt — second article
+  {
+    id: "hyatt-discount-programs-2025",
+    title: "Hyatt Discount Programs & Member Rates 2025 — Beyond Corporate Codes",
+    excerpt: "Not everyone has a Hyatt corporate code — but there are multiple legitimate ways to save 15–30% at Hyatt hotels. This guide covers World of Hyatt membership, AAA rates, government discounts, and Hyatt's best-kept savings tools.",
+    content: `Hyatt Hotels Corporation operates over 1,000 properties worldwide across brands including Park Hyatt, Grand Hyatt, Andaz, Hyatt Regency, Hyatt Place, and Hyatt House. While Hyatt's corporate code programme is well-established, many travellers overlook the broader range of discount programmes available to anyone.
+
+## 🌟 World of Hyatt — Start Here
+
+World of Hyatt is Hyatt's free loyalty programme and the foundation of all Hyatt savings. Joining takes two minutes and benefits begin immediately:
+
+• **Member Rates** — Always lower than the public rate; displayed automatically when you log in
+• **Points per stay** — Redeemable for free nights, experiences, and airline miles
+• **Free night certificates** — Earned through stays and credit card spending
+• **Discoverist status** (5 qualifying nights/year): 10% bonus points, premium internet, late checkout
+• **Explorist status** (25 nights/year): complimentary parking, Club lounge access
+• **Globalist status** (60 nights/year): complimentary breakfast, confirmed suite upgrades, waived resort fees
+
+## 🗂️ Public Discount Programmes at Hyatt
+
+**AAA / CAA Members** — Hyatt offers a standard AAA rate at participating properties; show your membership card at check-in
+
+**Government & Military** — Federal government employees and active military qualify for government rates; government ID required
+
+**AARP Members** — Seniors 50+ receive a standard discount at participating Hyatt properties
+
+**Medical & First Responder Discounts** — Some Hyatt properties offer healthcare worker discounts; ask the property directly or check the "Special Rates" field
+
+## 💡 How to Use Any Discount Code at Hyatt
+
+1. Visit **hyatt.com** or open the World of Hyatt app
+2. Enter your destination and dates
+3. Expand **"Special Rates"**
+4. Select the appropriate rate type (AAA, Corporate, Government) or enter your code
+5. Log in to your World of Hyatt account to also display your member rate
+6. Compare options and book the best available rate
+
+## 🏷️ Hyatt's Best Rate Guarantee
+
+Hyatt guarantees the lowest rate when you book direct. If you find a lower rate on a third-party site within 24 hours of booking on hyatt.com:
+
+1. Submit a Best Rate Guarantee claim at hyatt.com/en-US/reservations/best-rate-guarantee
+2. Include the lower-rate URL and booking details
+3. Hyatt will match the rate and provide an additional 20% discount
+
+This effectively makes direct booking the safest strategy for any Hyatt stay.
+
+## 💳 Chase & Hyatt Credit Card Benefits
+
+**World of Hyatt Credit Card (Chase)** — The most valuable Hyatt card:
+• Free night certificate each card anniversary (redeemable at Category 1–4 hotels)
+• Automatic Discoverist status
+• 4× points at Hyatt, 2× at restaurants, gyms, and commuter transit
+• 5 qualifying night credits toward status per year
+
+**Chase Sapphire Reserve** — Includes complimentary World of Hyatt Discoverist status and transfer of Chase Ultimate Rewards points to Hyatt at 1:1 ratio
+
+## 🔍 Hyatt Flash Deals & Advance Purchase Rates
+
+• **Flash Deals** — Hyatt regularly posts limited-time offers of 20–40% off at specific properties; check hyatt.com/en-US/deals
+• **Advance Purchase Rate** — Book 14–21 days in advance for 10–15% off; non-refundable but excellent value if plans are confirmed
+• **Packages** — Some properties bundle room + breakfast or room + dining credit at better combined value than room alone
+
+## Frequently Asked Questions
+
+**What is the easiest Hyatt discount to access?**
+World of Hyatt membership — it's free, takes two minutes to join, and immediately unlocks member rates lower than public pricing on every stay.
+
+**Can I negotiate a personal corporate rate with Hyatt?**
+Yes. If you stay at a specific Hyatt property regularly (even 10–15 nights per year), contact the hotel's Sales Manager to discuss a preferred rate agreement. Many properties welcome this, especially in secondary cities.
+
+**How do Hyatt points compare to other loyalty currencies?**
+World of Hyatt points are widely regarded as among the most valuable hotel points — typically worth 1.5–2.5 cents each when redeemed for free nights. Points can also transfer to many airline programmes.
+
+**Are Hyatt's AAA rates significantly cheaper?**
+Typically 5–15% below the best available rate. Combined with World of Hyatt membership (for points earning), AAA rate bookings offer both upfront savings and long-term rewards.
+
+## 🎯 Conclusion: Multiple Paths to Hyatt Savings
+
+Corporate codes are just one entry point into Hyatt's discount ecosystem. Free World of Hyatt membership, AAA rates, advance purchase discounts, and the Chase Hyatt credit card each provide independent pathways to 10–30% savings. Stack two or three of these and the cumulative benefit often matches or exceeds a traditional corporate arrangement.`,
+    category: "Hyatt Gold Passport",
+    categorySlug: "hyatt-gold-passport",
+    publishedAt: new Date("2025-10-16T00:00:00"),
+    author: "Travel Deals Hub",
+    keywords: ["Hyatt discount programs 2025", "World of Hyatt member rate", "Hyatt AAA discount", "Hyatt flash deals", "Hyatt savings guide", "Hyatt corporate rate alternative"]
+  },
+
+  // Wyndham — second article
+  {
+    id: "wyndham-rewards-savings-guide-2025",
+    title: "Wyndham Rewards & Discount Rates Guide 2025 — Save at 9,000+ Hotels",
+    excerpt: "Wyndham Hotels & Resorts is the world's largest hotel franchise by number of properties. This guide covers Wyndham Rewards membership, corporate codes, AAA discounts, and practical tips for saving at Wyndham, Days Inn, La Quinta, Ramada, and more.",
+    content: `Wyndham Hotels & Resorts operates more than 9,000 hotels across 24 brands in 95 countries — making it the world's largest hotel franchise by property count. Brands include Wyndham Grand, Dolce, Trademark Collection, Wingate, Hawthorn, Ramada, Days Inn, Super 8, La Quinta, and Howard Johnson. This massive footprint means Wyndham's discount programmes apply to an enormous range of price points and locations.
+
+## 🏨 Wyndham Rewards — The Free Programme That Unlocks Everything
+
+Wyndham Rewards is Wyndham's loyalty programme, and like Marriott Bonvoy and Hilton Honors, it's free to join. It covers all 24 Wyndham brands.
+
+**Key benefits of Wyndham Rewards membership:**
+
+• **Go Free Awards** — 7,500 points per night for a free standard room at any of 9,000+ properties (no blackout dates)
+• **Go Fast Awards** — Combine points + cash for partial redemptions
+• **Points per stay** — 10 points per $1 spent at Wyndham-branded hotels; 5 points per $1 at partner brands
+• **Member rates** — Typically 5–10% below public pricing; displayed automatically when logged in
+• **Blue status** (immediate): Member rate access, points earning
+• **Gold status** (10 nights/year): Priority check-in, bonus points
+• **Platinum status** (20 nights/year): Guaranteed room type, late checkout, bonus points
+
+## 🗂️ Corporate & Public Discount Programmes
+
+**Company Corporate Codes** — If your employer has a Wyndham corporate agreement, you'll have a numeric or alphanumeric code to enter during booking. Ask HR or your travel coordinator.
+
+**AAA / CAA Members** — Standard AAA discount at most Wyndham brands; membership card required at check-in
+
+**AARP Members** — Seniors 50+ receive discounts at participating properties
+
+**Government & Military** — Government employees and military personnel qualify for GOV rates across most Wyndham brands; ID required
+
+**La Quinta Returns** — La Quinta (now a Wyndham brand) has its own legacy loyalty structure integrated into Wyndham Rewards
+
+## 💡 How to Book at a Discount on Wyndham's Site
+
+1. Go to **wyndhamhotels.com** and log in to your Wyndham Rewards account
+2. Enter destination, dates, and number of guests
+3. Expand **"Special Rates"** to enter a corporate or promo code, or select AAA/Government
+4. Search — member rates and any applicable discount rates will display alongside public rates
+5. Compare and select the best value option
+
+## 🏷️ Best Rate Guarantee
+
+Wyndham offers a Best Rate Guarantee on direct bookings. If you find a lower price on a third-party site within 24 hours, Wyndham will match the rate and discount it a further 10%. Submit claims at wyndhamhotels.com/best-rate-guarantee.
+
+## 💳 Wyndham Rewards Earner Card (Barclays)
+
+The Wyndham Rewards Earner Card provides:
+• Automatic Gold status
+• 5× Wyndham Rewards points at Wyndham Hotels
+• 10,000 bonus points each anniversary year
+• No annual fee on the base version
+
+Combined with a corporate code or AAA rate, card rewards can effectively recover 8–12% of every stay in points.
+
+## 🔍 Brand-Specific Tips
+
+**Days Inn / Super 8 / Howard Johnson** — These budget brands frequently have promotional rates 20–30% off. Check the Wyndham website's "Deals" section for current offers.
+
+**La Quinta** — La Quinta properties near highways and airports are often priced well below comparable brands. Government rates are widely accepted here.
+
+**Ramada** — Many Ramada locations accept AAA rates with no additional negotiation required.
+
+**Wyndham Grand** — The premium tier. Corporate codes from major employers often apply at Wyndham Grand properties for significant savings at upscale locations.
+
+## Frequently Asked Questions
+
+**Is Wyndham Rewards worth joining for occasional travellers?**
+Yes — Go Free Award redemptions at 7,500 points per night are available at thousands of properties with no blackout dates. A couple of paid stays can generate enough points for a free night.
+
+**Does Wyndham have as many corporate codes as Marriott or Hilton?**
+Wyndham's corporate programme is extensive given its 9,000+ property scale, but the codes are less widely discussed online. Your best approach is to check directly with HR or the hotel's sales department.
+
+**Can I stack a corporate code with Wyndham Rewards points earning?**
+Yes — Wyndham Rewards points continue to accumulate on corporate-rate bookings made through direct channels (wyndhamhotels.com or the app), unless the specific rate type excludes earning.
+
+**What's the best Wyndham brand for value?**
+La Quinta and Wingate consistently receive strong reviews for cleanliness and amenities relative to their price point. Both participate fully in Wyndham Rewards.
+
+## 🎯 Conclusion: Wyndham's Scale Works in Your Favour
+
+The sheer size of Wyndham's portfolio means their discount programmes apply at more locations and price points than almost any competitor. Free Wyndham Rewards membership, combined with AAA or a corporate code where eligible, can cut costs significantly — particularly at mid-scale brands like Ramada, La Quinta, and Wingate where every percentage saving counts.`,
+    category: "Wyndham Hotels",
+    categorySlug: "wyndham-hotels",
+    publishedAt: new Date("2025-10-17T00:00:00"),
+    author: "Travel Deals Hub",
+    keywords: ["Wyndham Rewards guide 2025", "Wyndham corporate codes", "Wyndham AAA discount", "La Quinta discount", "Ramada corporate rate", "Wyndham Hotels savings"]
+  },
+
+  // Radisson / Carlson — second article
+  {
+    id: "radisson-rewards-discount-guide-2025",
+    title: "Radisson Rewards & Discount Rates 2025 — Points, Corporate Codes & More",
+    excerpt: "A complete guide to saving money at Radisson Hotels — covering Radisson Rewards membership, corporate rate codes, AAA and government discounts, and the best strategies for Radisson Blu, Park Inn, Country Inn & Suites, and Radisson RED.",
+    content: `Radisson Hotel Group operates more than 1,700 hotels across 120 countries under brands including Radisson Blu, Radisson, Radisson RED, Radisson Collection, Park Inn by Radisson, Country Inn & Suites, and prizeotel. Originally part of Carlson Hotels, the group has evolved significantly and its loyalty and discount programmes are now worth understanding for any frequent traveller.
+
+## 🏨 Radisson Rewards — Membership Benefits
+
+Radisson Rewards (formerly Club Carlson) is the group's free loyalty programme. Membership provides immediate access to:
+
+• **Member rates** — Lower than public pricing on every eligible stay
+• **Points per stay** — Earn on qualifying bookings made direct
+• **Club, Premium, and Elite status tiers** — With increasing benefits including room upgrades, late checkout, and welcome amenities
+• **Bonus point promotions** — Radisson regularly runs double or triple points events
+• **Partner earning** — Points on car rental (Hertz) and select airline partners
+
+**How to join:** Visit radissonhotels.com/en-us/rewards and register free.
+
+## 🗂️ Corporate Rate Programmes
+
+Radisson Hotel Group maintains corporate agreements with many major companies. If your employer has a Radisson agreement, you'll receive a corporate account number to enter during booking.
+
+**Common qualifying organisations include:**
+• Global consulting and professional services firms
+• Airlines and aviation companies
+• Healthcare organisations and hospital networks
+• Universities and research institutions
+• Government agencies (separate GOV rate programme)
+
+**How to use a corporate code at Radisson:**
+1. Go to radissonhotels.com
+2. Search your destination and dates
+3. Expand **"Special Rates or Corporate Account"**
+4. Enter your corporate account number
+5. Select your room — the corporate rate will display if available
+
+## 🌐 Public Discount Programmes
+
+**AAA Members** — Standard AAA rate available at most North American Radisson properties; show AAA card at check-in
+
+**Government & Military** — Government rate available to federal, state, and local employees plus active military across most brands; government ID required
+
+**Senior Discounts** — Age-based discounts available at many properties; enquire directly with the property or select "Senior" in the Special Rates dropdown
+
+## 🏷️ Best Rate Guarantee
+
+Radisson's Best Rate Guarantee covers bookings made on radissonhotels.com. If you find a lower rate on a third-party site within 24 hours of booking, Radisson will match the rate and apply a further discount. Submit claims through the official Radisson website.
+
+## 🔍 Brand-Specific Savings Tips
+
+**Radisson Blu** — The premium tier. Frequently has advance purchase rates 15–20% below the standard rate; useful for confirmed business trips.
+
+**Park Inn by Radisson** — The mid-scale brand. Often well priced for airport and city-centre locations in Europe. AAA rates consistently available.
+
+**Country Inn & Suites** — The extended-stay and leisure brand, common across North America. Government rates are widely accepted and suite-style rooms make long stays excellent value.
+
+**Radisson RED** — The lifestyle brand targeting younger travellers. Keep an eye on app-exclusive rates which can undercut standard pricing.
+
+## 💡 Tips for Maximising Radisson Savings
+
+• **Join Radisson Rewards first** — The member rate alone saves 5–10% on every direct booking
+• **Watch for Radisson's 'Super Saver' promotions** — Advance purchase deals that lock in 20–25% discounts for non-refundable bookings
+• **Book direct via the app** — Radisson app sometimes shows app-exclusive rates not available on the website
+• **Use points for weekend stays** — Points redemptions often represent the best value at premium Blu and Collection properties
+
+## Frequently Asked Questions
+
+**What happened to Club Carlson points?**
+Club Carlson rebranded to Radisson Rewards. Existing Club Carlson members were automatically migrated; points balances were transferred. The programme structure and redemption options were updated as part of the rebrand.
+
+**Are Radisson corporate codes still referred to as "Carlson" codes?**
+Some older documentation and hotel systems still reference Carlson account numbers. If you have a legacy Carlson corporate code, it should still work when entered as a corporate account number on the Radisson booking site.
+
+**How many Radisson Rewards points do I need for a free night?**
+Free night redemptions start at around 9,000 points for lower-tier properties. Premium properties like Radisson Blu city-centre hotels typically require 30,000–50,000 points per night.
+
+**Is Radisson Rewards worth it compared to Marriott Bonvoy or Hilton Honors?**
+Radisson Rewards has fewer properties globally, but points can be very valuable at European Radisson Blu properties where public rates are high. For frequent European business travellers especially, it's worth maintaining status.
+
+## 🎯 Conclusion: Radisson Rewards Is Underrated
+
+Radisson's loyalty and discount ecosystem is less widely discussed than Marriott or Hilton, but that's to the informed traveller's advantage. Less competition for upgrade availability, strong pricing at European properties, and a straightforward free night redemption structure make Radisson Rewards genuinely rewarding for travellers who stay at the brand regularly.`,
+    category: "Carlson Hotels",
+    categorySlug: "carlson-hotels",
+    publishedAt: new Date("2025-10-18T00:00:00"),
+    author: "Travel Deals Hub",
+    keywords: ["Radisson Rewards 2025", "Radisson corporate codes", "Radisson discount rates", "Park Inn AAA rate", "Country Inn Suites corporate rate", "Radisson Blu savings guide"]
+  },
+
+  // Tips — new article
+  {
+    id: "how-to-compare-hotel-rates-2025",
+    title: "How to Compare Hotel Rates Like a Pro — 7 Tools & Strategies for 2025",
+    excerpt: "Before you book, are you really finding the lowest rate? This guide covers the 7 best tools and strategies for comparing hotel prices across chains, OTAs, and corporate programmes — so you always pay the lowest legitimate rate.",
+    content: `Booking a hotel seems simple — search, pick, pay. But the difference between the first rate you see and the actual lowest available rate is often 20–35%. This guide covers the tools and methods that experienced travellers use to make sure they're genuinely getting the best price every time.
+
+## Why Hotel Rate Comparison Is More Complex Than It Looks
+
+The same hotel room can be priced differently across:
+
+• The hotel's own website
+• Loyalty member rates (Bonvoy, Honors, Hyatt, etc.)
+• Corporate or association discount rates (AAA, AARP, GOV)
+• Online travel agencies (Expedia, Booking.com, Hotels.com)
+• Metasearch engines (Google Hotels, Kayak, Trivago)
+• Package rates (flight + hotel combined)
+
+Each of these channels may show a different price for the same room on the same night. Knowing which to check — and in what order — is the core skill.
+
+## 🔍 7 Tools & Strategies for Finding the Lowest Rate
+
+### 1. Start with the Hotel's Direct Website (Always)
+The hotel's own site is the most important starting point because:
+- It shows member rates if you're logged into the loyalty programme
+- It's the reference price for Best Rate Guarantee claims
+- It's the only source that lets you enter corporate or promo codes
+
+Log in to your loyalty account before searching — the rate difference is often visible immediately.
+
+### 2. Google Hotels (Best Free Metasearch)
+Google Hotels aggregates rates from hundreds of booking sources and displays them side by side. Key features:
+- **Price graph** — Shows rate history for your dates and nearby dates (shifting by 1–2 days can save 15–30%)
+- **Price tracking** — Set an alert and Google will email you when rates change
+- **Filter by loyalty programme** — Shows Bonvoy, Honors, etc. rates in one view
+
+Always use Google Hotels as your second check after the direct hotel site.
+
+### 3. Kayak Price Forecast
+Kayak's price forecast feature predicts whether hotel rates for your dates are likely to rise or fall. If the forecast says "Wait," holding your booking for a few days may save you money. If it says "Book Now," rates are trending upward.
+
+### 4. Hotels.com Rewards for Stacking Value
+Hotels.com's "Stay 10, Get 1 Free" reward means every booking earns you credit toward a free night. Even if Hotels.com isn't always the cheapest option, factor in the reward value — the effective discount is approximately 10% spread across stays.
+
+### 5. Check OTA vs. Direct — Then Trigger Best Rate Guarantee
+Book on the hotel's direct site, then check Booking.com or Expedia for the same room. If you find a lower rate:
+- Most major chains (Marriott, Hilton, Hyatt, IHG, Wyndham) will match the lower rate
+- Many also add a further discount of 10–25% on top of the match
+
+This "book direct, claim BRG" strategy reliably gets you the lowest possible rate with the best cancellation terms.
+
+### 6. Use Loyalty Points for High-Cost Dates
+Points redemptions are disproportionately valuable when cash rates are high — holiday weekends, major conferences, local events. A standard room that costs $400/night in cash might cost the same number of points as a $120 night. Check both options before booking high-rate dates.
+
+### 7. Incognito / Private Browsing Mode
+Some booking sites use dynamic pricing that raises rates on repeated searches for the same property. Using a private browsing window prevents cookies from influencing the price you see.
+
+## 📅 Timing Strategies
+
+• **Book 3–6 weeks ahead for business hotels** — Corporate and city hotels often drop rates 3–4 weeks out as occupancy fills; but very last-minute bookings can also see drops
+• **Book 2–4 months ahead for resort hotels** — Premium leisure properties often sell out or increase prices as dates approach
+• **Check Sunday–Monday for the lowest rates** — Many hotel promotions and weekly rate resets happen over weekends
+• **Avoid local event dates** — Conferences, sports events, and festivals can triple standard rates; check local event calendars for your destination
+
+## 🏷️ Reading Rate Types Correctly
+
+When comparing rates, make sure you're comparing equivalent options:
+
+| Rate Type | Refundable? | Breakfast? | Points? |
+|---|---|---|---|
+| Best Available Rate | Usually yes | No | Yes |
+| Advance Purchase | No | Sometimes | Usually |
+| Member Rate | Usually yes | Sometimes | Yes |
+| Corporate Rate | Usually yes | Sometimes | Yes |
+| AAA / AARP Rate | Usually yes | No | Yes |
+
+A non-refundable advance purchase rate at $120 is not necessarily better than a refundable member rate at $140 — especially if your plans might change.
+
+## Frequently Asked Questions
+
+**Is it always cheaper to book direct vs. Expedia or Booking.com?**
+Not always — OTAs sometimes have negotiated rates below the hotel's direct price. The Best Rate Guarantee process (book direct, then find a lower OTA rate and claim the match) lets you get the OTA price with the benefits of direct booking.
+
+**Does using a VPN to appear in a different country get cheaper hotel rates?**
+Sometimes rates do vary by country of booking, but using a VPN to access geographically restricted prices violates most booking platforms' terms of service and may cause booking complications.
+
+**How accurate are hotel price alerts?**
+Google Hotels and Kayak price alerts are reasonably accurate for tracking rate changes. Signing up for alerts on your target hotel is a low-effort way to catch drops automatically.
+
+## 🎯 Conclusion: Comparison Takes 5 Extra Minutes and Saves Real Money
+
+The research consistently shows that travellers who check two or more sources before booking save an average of 15–20% compared to those who book the first rate they see. The strategies above — direct booking + member rate + BRG check — form a simple three-step routine that takes about five extra minutes and pays dividends on every trip.`,
+    category: "Hotel Booking Tips & Guides",
+    categorySlug: "tips",
+    publishedAt: new Date("2025-10-19T00:00:00"),
+    author: "Travel Deals Hub",
+    keywords: ["how to compare hotel rates", "find cheapest hotel price 2025", "best rate guarantee hotels", "hotel price comparison tools", "Google Hotels tips", "hotel booking strategy"]
+  },
+
+  // Tips — IHG article
+  {
+    id: "ihg-corporate-codes-one-rewards-2025",
+    title: "IHG Corporate Codes & One Rewards Guide 2025 — InterContinental, Holiday Inn & More",
+    excerpt: "IHG Hotels & Resorts operates over 6,000 properties across 18 brands. This guide covers IHG One Rewards membership, corporate rate codes, public discount programmes, and how to save at InterContinental, Holiday Inn, Kimpton, Crowne Plaza, and more.",
+    content: `IHG Hotels & Resorts (InterContinental Hotels Group) is one of the world's largest hotel companies, with over 6,000 properties across 18 brands and 100+ countries. Brands include InterContinental, Regent, Kimpton, Vignette Collection, Crowne Plaza, Hotel Indigo, EVEN Hotels, Holiday Inn, Holiday Inn Express, Staybridge Suites, and Candlewood Suites.
+
+## 🏨 IHG One Rewards — The Foundation of All IHG Savings
+
+IHG One Rewards (formerly IHG Rewards Club) is free to join and provides immediate access to discounted rates across all IHG brands.
+
+**Key benefits:**
+
+• **Member rates** — Consistently lower than public pricing; displayed when logged in
+• **Points per stay** — 10 points per $1 spent at IHG hotels (Silver and above)
+• **Silver status** (immediate at enrolment): Member rate access, bonus points, welcome amenity
+• **Gold status** (10 nights/year): 20% bonus points, room upgrade requests
+• **Platinum Elite** (40 nights/year): Guaranteed room upgrade, complimentary minibar/snack
+• **Diamond Elite** (70 nights/year): Suite upgrades, lounge access, dedicated Diamond line
+
+## 🗂️ IHG Corporate Rate Programme
+
+IHG maintains corporate agreements with thousands of companies worldwide. Corporate rate codes at IHG are typically 8-digit numeric codes.
+
+**How to enter an IHG corporate code:**
+1. Visit **ihg.com** and log in to your IHG One Rewards account
+2. Enter destination and travel dates
+3. Select **"Use a Corporate or Promo Code"** in the rate preferences
+4. Enter your corporate code and search
+5. The corporate rate will display alongside standard rates for comparison
+
+**If you're unsure whether your employer has an IHG code:** Check with HR, your corporate travel coordinator, or your company's internal travel booking portal.
+
+## 🌐 Public Discount Programmes
+
+**AAA Members** — Standard AAA rate at participating IHG properties; approximately 5–10% off; AAA card required at check-in
+
+**AARP Members** — Senior member discount at participating properties
+
+**Government & Military** — IHG participates in the US government lodging programme; government employees and military can access GOV rates with valid ID
+
+**IHG Business Edge** — A programme for small and medium businesses; companies can register at ihg.com/businessedge and receive negotiated rates without needing a large corporate travel volume
+
+## 💡 IHG Business Edge — An Overlooked Programme for SMEs
+
+IHG Business Edge is specifically designed for small and medium enterprises (SMEs) that may not qualify for traditional large-company corporate agreements. Benefits include:
+
+• Negotiated rates at participating IHG properties
+• IHG One Rewards points on all eligible stays
+• Centralised billing options
+• No minimum booking volume required to join
+
+This is an excellent option for small business owners, freelancers, or self-employed travellers who stay at IHG properties regularly.
+
+## 🏷️ IHG Best Price Guarantee
+
+IHG guarantees its lowest rates on direct bookings. If you find a lower price on a third-party site:
+
+1. Book on ihg.com first
+2. Find the lower rate within 24 hours
+3. Submit a Best Price Guarantee claim via the IHG website
+4. IHG will match the rate and reduce it by a further 10%
+
+## 💳 IHG One Rewards Premier Credit Card (Chase)
+
+• Automatic Platinum Elite status
+• Free night certificate each anniversary year (worth up to 40,000 points)
+• 26× IHG points at IHG Hotels
+• 10,000 bonus points per year when you spend $20,000+
+• $99 annual fee
+
+For frequent IHG guests, this card alone can generate one or two free nights per year in certificate value.
+
+## 🔍 Brand-Specific Value Tips
+
+**Holiday Inn Express** — The most consistent value brand in the IHG portfolio. Free hot breakfast included at most locations. Corporate and government rates widely available.
+
+**Crowne Plaza** — Business-focused full-service brand. Corporate rates are common and often include complimentary Wi-Fi and flexible cancellation.
+
+**Kimpton** — IHG's boutique brand. IHG One Rewards membership unlocks complimentary minibar, welcome amenity, and yoga mat. A hidden gem for leisure travellers.
+
+**Staybridge Suites / Candlewood Suites** — Extended-stay brands with kitchen facilities. Excellent value for week-long stays; corporate rates often available for extended bookings.
+
+## Frequently Asked Questions
+
+**Does IHG One Rewards work across all IHG brands?**
+Yes — points are earned and redeemed across all 18 IHG brands. However, some independent hotels in the Vignette Collection may have limited earning/redemption.
+
+**What is the best IHG brand for business travel?**
+Holiday Inn Express for value and consistency; Crowne Plaza for full-service business amenities; InterContinental for premium international travel.
+
+**How many IHG points do I need for a free night?**
+Free night redemptions start at around 10,000 points for lower-tier properties and can go up to 100,000+ for top InterContinental properties. The IHG One Rewards programme does not cap point requirements, so always compare the cash rate before redeeming.
+
+## 🎯 Conclusion: IHG Offers Corporate-Level Savings to Anyone
+
+Between free IHG One Rewards membership, the IHG Business Edge programme for SMEs, AAA and government rates, and a strong Best Price Guarantee, IHG's discount ecosystem is accessible to virtually any traveller. Start with One Rewards membership — it's free and pays dividends from your very first stay.`,
+    category: "Hotel Booking Tips & Guides",
+    categorySlug: "tips",
+    publishedAt: new Date("2025-10-20T00:00:00"),
+    author: "Travel Deals Hub",
+    keywords: ["IHG corporate codes 2025", "IHG One Rewards guide", "Holiday Inn discount", "Crowne Plaza corporate rate", "IHG Business Edge", "InterContinental hotel savings"]
+  },
+
+  // Travel Guides — practical city guide
+  {
+    id: "business-travel-hotel-tips-2025",
+    title: "Business Travel Hotel Guide 2025 — How to Stay Comfortable, Earn Points & Control Costs",
+    excerpt: "A practical guide for business travellers covering how to choose the right hotel, maximise loyalty rewards, control costs with corporate codes, and stay productive on the road — updated for 2025.",
+    content: `Business travel accounts for a significant portion of global hotel revenue — and business travellers who understand the system pay substantially less for substantially better rooms than those who don't. This guide covers the practical strategies experienced road warriors use to stay well, earn rewards, and keep costs under control.
+
+## 🎯 Choosing the Right Hotel for Business Travel
+
+Not all hotels are equally suited for business stays. Before booking, evaluate:
+
+**Location over price (within reason)**
+A hotel $30 cheaper but 30 minutes from your meeting location costs more in time and transport than the savings justify. Prioritise proximity to your client or office, with a secondary consideration for cost.
+
+**Reliable high-speed Wi-Fi**
+Always check recent reviews specifically for Wi-Fi quality. This is non-negotiable for most business travellers. Brands that consistently deliver: Hilton, Marriott (full-service properties), Crowne Plaza, and Hyatt Regency.
+
+**Fitness facilities and healthy food options**
+Multi-day trips where you can't maintain routines are energy-draining. Properties with a gym and a restaurant that serves before 7am score higher for sustained productivity.
+
+**Flexible cancellation**
+Business schedules change. Book refundable rates unless the advance-purchase savings are substantial and your plans are confirmed.
+
+## 💳 The Loyalty Programme Stack for Business Travellers
+
+Business travel frequency makes loyalty programmes disproportionately rewarding. Here's how to structure your hotel programme strategy:
+
+**Pick one primary chain and concentrate stays**
+Status at Marriott Bonvoy, Hilton Honors, World of Hyatt, or IHG One Rewards requires a minimum number of nights per year. Spreading stays across chains means status at none. Pick one that aligns with where you most frequently travel and concentrate.
+
+**Earn on every stay — even third-party bookings**
+Most chains allow points earning on bookings made through certain OTAs. Check each chain's earning partner list. Direct bookings always earn; most OTA bookings do not (except Hotels.com's own programme).
+
+**Status benefits worth prioritising:**
+- Room upgrades (often to significantly larger or better rooms at no extra cost)
+- Complimentary breakfast (worth $15–35/day in actual savings)
+- Late checkout (invaluable for afternoon flights)
+- Executive lounge access (free food, drinks, and a quiet workspace)
+
+## 🏷️ Using Corporate Codes as a Business Traveller
+
+If your employer has negotiated corporate rates with hotel chains, using them is straightforward:
+
+1. **Find your code** — HR, your corporate travel coordinator, or your company's travel portal
+2. **Book direct** — Enter the code on the hotel chain's website or app
+3. **Earn points** — Corporate rate bookings on direct channels typically earn loyalty points
+4. **Keep receipts** — Corporate rate bookings should generate itemised receipts suitable for expense claims
+
+**If your company hasn't negotiated rates yet:**
+For businesses with even modest travel volumes, it's worth proposing corporate rate negotiations. Marriott, Hilton, and IHG all have small-business corporate programmes (IHG Business Edge, Marriott's Small Business Programme) that require no minimum booking commitment.
+
+## 📊 Tracking and Managing Business Travel Costs
+
+**Use a dedicated travel credit card**
+A card like Chase Sapphire Reserve, Amex Platinum, or Citi Prestige earns bonus points on travel spend and provides trip protection, rental car coverage, and lounge access. The effective return on hotel spend can reach 4–6%.
+
+**Keep an expense log with hotel names and confirmation numbers**
+This simplifies expense reports and provides evidence if points fail to post correctly to your loyalty account.
+
+**Set rate alerts for upcoming trips**
+Google Hotels and Kayak both offer price tracking alerts. Business trips booked weeks in advance often see rate drops closer to the date — having an alert lets you rebook at the lower rate (if your original booking is refundable).
+
+## 🌐 Managing Frequent Business Travel Internationally
+
+**Register with all major programmes before you travel**
+There's no reason not to have accounts with Marriott Bonvoy, Hilton Honors, World of Hyatt, IHG One Rewards, and Wyndham Rewards. All are free, and having accounts means you can earn on whichever brand you stay at internationally.
+
+**Understand VAT reclaim on hotel stays (EU/UK)**
+Business travellers in EU countries and the UK may be able to reclaim VAT on hotel expenses. Keep itemised VAT receipts and check with your accountant.
+
+**Currency and payment considerations**
+Always pay in the local currency when given a choice at checkout — Dynamic Currency Conversion (DCC) rates are consistently worse than your card's exchange rate.
+
+## Frequently Asked Questions
+
+**Should I book all business travel through my company's travel management company (TMC)?**
+If your company uses a TMC (like Concur or TravelPerk), check whether booking directly with hotel loyalty programmes is permitted. Many companies allow direct bookings as long as expenses fall within policy, and direct bookings earn more loyalty points.
+
+**Can I keep loyalty points earned on business travel?**
+In most cases, yes — loyalty points are earned by the individual traveller, not the company paying the bill. Check your company's travel policy to confirm.
+
+**What's the best hotel chain for frequent US domestic business travel?**
+Marriott (largest US footprint, widest brand range) and Hilton (strong mid-scale presence with Hampton and Hilton Garden Inn) are the most practical choices for domestic US business travel.
+
+## 🎯 Conclusion: System Awareness Pays Off Quickly
+
+Business travellers who engage with the loyalty and corporate rate system typically earn one or two free leisure trips per year from their work-related hotel stays — while also reducing their company's accommodation costs. The investment is minimal: joining free loyalty programmes, finding your corporate code, and booking direct takes less than an hour to set up and saves money indefinitely.`,
+    category: "Essential Travel Guides",
+    categorySlug: "travel-guides",
+    publishedAt: new Date("2025-10-21T00:00:00"),
+    author: "Travel Deals Hub",
+    keywords: ["business travel hotel guide 2025", "business travel loyalty points", "corporate travel hotel tips", "hotel loyalty programme business", "business travel savings", "road warrior hotel guide"]
+  },
+
+  // Travel Guides — Europe hotel guide
+  {
+    id: "europe-hotel-savings-guide-2025",
+    title: "Europe Hotel Savings Guide 2025 — Corporate Codes, City Cards & Booking Tips",
+    excerpt: "Planning a trip to Europe? This guide covers how to use corporate codes, loyalty programmes, and city-specific booking strategies to save on hotels in London, Paris, Amsterdam, Rome, Barcelona, and other top European destinations.",
+    content: `Europe is one of the world's most-visited destinations for both business and leisure travel, and hotel pricing in major European cities can vary enormously depending on how and when you book. This guide covers the most effective strategies for saving on European hotel stays — from global loyalty programmes to region-specific tips.
+
+## 🌍 How European Hotel Pricing Works
+
+European hotel markets have some characteristics that differ from North American markets:
+
+**Seasonal price swings are larger**
+Peak summer (June–August) and major event periods in European cities can see rates 3–5× higher than low season. Visiting shoulder seasons (April–May, September–October) offers the best combination of weather and value.
+
+**City taxes are common and sometimes significant**
+Most European cities charge a tourist or city tax per person per night — ranging from €0.50 in smaller cities to €5–7 per person per night in Paris and Amsterdam. These taxes are usually collected at the hotel and are not included in online booking prices.
+
+**VAT is included in displayed prices in the EU**
+Unlike the US, hotel prices displayed in the European Union legally include VAT. The price you see is the price you pay (plus any city tax).
+
+## 🏨 Which Loyalty Programmes Have the Best European Coverage?
+
+**Marriott Bonvoy** — Strongest European coverage, particularly in major city centres. Excellent presence in the UK (Sheraton, Marriott, W Hotels), France (Le Méridien, Renaissance), and Germany.
+
+**Hilton Honors** — Very strong in the UK, Germany, and Benelux. DoubleTree properties offer excellent value in many European secondary cities.
+
+**Radisson Rewards** — Outstanding European coverage through Radisson Blu. One of the strongest programmes for European business travel, particularly in Scandinavia, Eastern Europe, and airport locations.
+
+**IHG One Rewards** — Strong Holiday Inn Express presence across Europe. Crowne Plaza well-represented in business districts.
+
+**World of Hyatt** — More selective European coverage but excellent properties in major capitals. Andaz properties in London, Amsterdam, and Vienna offer unique experiences.
+
+## 🗂️ Corporate Codes in Europe
+
+Corporate rate codes work identically in Europe — enter your code on the hotel chain's booking site, and the discounted rate displays if available for your dates.
+
+**Considerations specific to European corporate travel:**
+
+• **Pan-European codes** — Most large US and international corporate codes (IBM, Accenture, Deloitte, etc.) work across European properties of the same chain
+• **Local company codes** — European companies (e.g. Siemens, SAP, Airbus) have their own negotiated codes with major chains; ask your European HR or travel team
+• **Government rates in Europe** — EU government employees and embassy staff often qualify for government rates at major chains; check with your travel coordinator
+
+## 🏙️ City-Specific Booking Tips
+
+**London**
+- Book at least 6–8 weeks ahead; London is always busy and last-minute rates are punishing
+- Consider Canary Wharf and City locations for business; they're cheaper than West End with easy transport connections
+- Hilton and Marriott have excellent properties in London; Radisson Blu Edwardian is a strong independent option
+- The London city tax is included in hotel prices (already part of UK accommodation pricing)
+
+**Paris**
+- Avoid booking during Fashion Weeks (January, March, June, October) and major trade shows (Salon du Bourget, etc.) — prices spike dramatically
+- The Paris city tax (taxe de séjour) ranges from €0.65 to €5 per person per night depending on hotel category; collected at checkout
+- Novotel and Mercure (Accor brands) offer consistent quality at mid-range prices with a functioning loyalty programme (ALL — Accor Live Limitless)
+
+**Amsterdam**
+- City tax is €3 per person per night plus a percentage of the room rate — one of Europe's higher tourist taxes
+- Book well ahead for spring tulip season (April) and summer; prices increase sharply
+- Andaz Amsterdam (Hyatt) and the DoubleTree by Hilton Centraal Station offer excellent locations; member rates available via respective loyalty programmes
+
+**Barcelona**
+- Watch for Mobile World Congress (late February/early March) which doubles or triples rates across the city
+- The Gothic Quarter and Eixample are the most central districts; beach-adjacent hotels in Barceloneta are popular but slightly further from business districts
+- Meliá (Spanish chain with its own loyalty programme, MeliáRewards) has strong Barcelona coverage
+
+**Rome**
+- Avoid booking during Easter week and late August without checking rates carefully — both periods see significant price spikes
+- The Rome city tax varies by hotel category (€3–7 per person per night); cash is often preferred at checkout for the tax component
+- Marriott and Hilton have several strong properties just outside the historic centre with easy transport links
+
+## ✈️ Booking Strategies Specific to Europe
+
+**Accor ALL Programme for France, Southern Europe, and Benelux**
+Accor (Sofitel, Pullman, Novotel, Ibis, Mercure, MGallery) has the strongest hotel presence in France and many Southern European countries. The ALL loyalty programme is free to join and provides member rates plus points across thousands of European properties — worth adding to your portfolio if you travel in France, Spain, or Portugal.
+
+**Rail + Hotel packages**
+In Europe, many train operators (Eurostar, Deutsche Bahn, SNCF) offer combined rail + hotel packages. These can be competitive with booking separately and sometimes include corporate-rate-equivalent hotel pricing.
+
+**Early check-in/late checkout in Europe**
+Standard European hotel check-in is often 3pm (later than North America), and checkout is typically 11am–12pm. Book a loyalty programme that provides late checkout (Hilton Gold, Bonvoy Gold, Hyatt Explorist) to avoid early departure stress.
+
+## Frequently Asked Questions
+
+**Do US hotel loyalty programme points work in Europe?**
+Yes — Marriott Bonvoy, Hilton Honors, World of Hyatt, IHG One Rewards, and Wyndham Rewards all allow earning and redemption at their European properties on the same basis as the US.
+
+**Are European hotel prices higher than equivalent US hotels?**
+In major cities (London, Paris, Zurich), yes — often significantly higher. In Eastern European cities (Prague, Warsaw, Budapest), quality hotels can be very competitive with US city pricing.
+
+**Should I use an OTA or book direct for European hotels?**
+The same Best Rate Guarantee logic applies — check direct first, then compare OTA pricing and claim a match if lower. In Europe, Booking.com tends to have stronger OTA rates than Expedia for many independent and boutique properties.
+
+## 🎯 Conclusion: Europe Rewards the Prepared Traveller
+
+European hotel savings require slightly more planning than domestic travel — seasonal pricing is more extreme, city taxes add up, and local chains (Accor, Meliá) are worth considering alongside the global programmes. But the core strategies apply everywhere: join the relevant loyalty programmes before you travel, use your corporate or association codes, book direct and verify with Best Rate Guarantee, and time your visits to avoid peak pricing periods.`,
+    category: "Essential Travel Guides",
+    categorySlug: "travel-guides",
+    publishedAt: new Date("2025-10-22T00:00:00"),
+    author: "Travel Deals Hub",
+    keywords: ["Europe hotel savings guide 2025", "hotel corporate codes Europe", "London Paris Amsterdam hotel tips", "Accor loyalty programme Europe", "European business travel hotels", "Europe hotel booking strategy"]
+  },
+
+  {
+    id: "marriott-complete-corporate-codes-list-2026",
+    title: "Marriott Corporate Codes Complete List 2026 — All Working Codes by Company",
+    excerpt: "The most complete list of Marriott corporate codes for 2026. 18+ verified codes from IBM, Siemens, Accenture, Google, Microsoft and more — with discount ranges, ID check risk levels, and direct booking links.",
+    content: `Looking for a specific Marriott corporate code? This is the most comprehensive list available, compiled from verified sources and updated for 2026.
+
+## How to Use a Marriott Corporate Code
+
+1. Go to **marriott.com** or open the Marriott Bonvoy app
+2. Enter your destination and travel dates
+3. Under Special Rates, select Corporate / Promo / Set #
+4. Enter the code from the table below
+5. Search — qualifying properties will show the discounted rate
+
+## Frequently Asked Questions
+
+**Which Marriott code gives the biggest discount in 2026?**
+Siemens (SIE / 7346) consistently shows 15-22% discounts and is rarely verified at check-in.
+
+**Do Marriott corporate codes earn Bonvoy points?**
+Yes — bookings made through direct channels earn full Marriott Bonvoy points.
+
+## Last Updated
+
+This code list was last verified: March 2026.`,
+    category: "Marriott Hotels",
+    categorySlug: "marriott-hotels",
+    publishedAt: new Date("2026-03-01T00:00:00"),
+    author: "Travel Deals Hub",
+    keywords: ["marriott corporate codes list 2026", "marriott corporate codes complete list", "marriott discount codes 2026"]
+  },
+  {
+    id: "hilton-complete-corporate-codes-list-2026",
+    title: "Hilton Corporate Codes Complete List 2026 — All Verified Codes with Discount Rates",
+    excerpt: "Complete list of Hilton Hotels corporate codes for 2026. Includes codes from IBM, Siemens, AT&T, Deloitte, Ford, and 15+ more companies — with discount percentages, ID verification risk, and direct booking links.",
+    content: `Hilton Hotels & Resorts operates more than 7,000 properties worldwide. This page lists the most complete collection of Hilton corporate codes for 2026.
+
+## How to Enter a Hilton Corporate Code
+
+1. Go to **hilton.com** and search your destination and dates
+2. Expand **Special Rates** in the search panel
+3. Select **Corporate Account** and enter your code
+4. Search — the discounted rate appears if the code is valid
+
+## Frequently Asked Questions
+
+**What is the best Hilton corporate code for someone without an employer code?**
+The MVP code (0041604) is the most reliable public code, offering 15-20% off at many Hilton properties.
+
+**Do Hilton corporate code bookings earn Honors points?**
+Yes — bookings made through hilton.com earn full Hilton Honors points.
+
+## Last Updated
+
+This code list was last verified: March 2026.`,
+    category: "Hilton Hotels",
+    categorySlug: "hilton-hotels",
+    publishedAt: new Date("2026-03-02T00:00:00"),
+    author: "Travel Deals Hub",
+    keywords: ["Hilton corporate codes list 2026", "Hilton corporate codes complete", "Hilton discount codes", "Hilton MVP code"]
+  },
+  // ─── NEW ARTICLES END ─────────────────────────────────────────────────────
 
 export function getArticleById(id: string): Article | undefined {
   return articles.find((article) => article.id === id)

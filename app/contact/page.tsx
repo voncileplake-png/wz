@@ -1,45 +1,69 @@
 import type { Metadata } from "next"
 import Link from "next/link"
 import { Footer } from "@/components/footer"
+import { SiteHeader } from "@/components/site-header"
+import { ContactForm } from "@/components/contact-form"
 
 export const metadata: Metadata = {
-  title: "Contact Us",
-  description: "Contact Hotel Corporate Codes. Get in touch for questions or feedback.",
+  title: "Contact Us | Hotel Corporate Codes",
+  description:
+    "Get in touch with Hotel Corporate Codes. Have a question about corporate codes, found an outdated rate, or want to suggest a topic? We'd love to hear from you.",
+  alternates: {
+    canonical: `${process.env.NEXT_PUBLIC_SITE_URL || "https://hotelcorporatecodes.com"}/contact`,
+  },
 }
 
 export default function ContactPage() {
   return (
     <div className="min-h-screen flex flex-col">
-      <header className="bg-white border-b border-border">
-        <div className="container mx-auto px-4 py-4">
-          <Link href="/" className="text-primary hover:underline font-semibold">
-            ← Hotel Corporate Codes
-          </Link>
-        </div>
-      </header>
+      <SiteHeader />
       <main className="flex-1 container mx-auto px-4 py-8 max-w-3xl">
-        <h1 className="text-3xl font-bold mb-6">Contact Us</h1>
+        <h1 className="text-3xl font-bold mb-2">Contact Us</h1>
+        <p className="text-muted-foreground mb-8">
+          We welcome questions, feedback, and suggestions. Use the form below or email us directly.
+        </p>
 
         <div className="prose prose-gray max-w-none space-y-6 text-gray-700">
-          <p>
-            We welcome questions, feedback, and suggestions about Hotel Corporate Codes. Whether you have found an outdated code, want to suggest a new topic, or need help with our <Link href="/privacy" className="text-primary hover:underline">Privacy</Link> or <Link href="/cookies" className="text-primary hover:underline">Cookie</Link> policies, we would like to hear from you.
-          </p>
+          {/* Direct email */}
+          <div className="bg-blue-50 border border-blue-200 rounded-lg p-5 flex items-start gap-4">
+            <div className="text-2xl">✉️</div>
+            <div>
+              <p className="font-semibold text-gray-800 mb-1">Email Us Directly</p>
+              <a
+                href="mailto:contact@hotelcorporatecodes.com"
+                className="text-blue-600 hover:underline font-medium"
+              >
+                contact@hotelcorporatecodes.com
+              </a>
+              <p className="text-sm text-gray-500 mt-1">
+                We typically respond within 1–2 business days.
+              </p>
+            </div>
+          </div>
+
+          {/* Contact form */}
           <section>
-            <h2 className="text-xl font-semibold mt-8 mb-3">How to Reach Us</h2>
-            <p>
-              At this time we do not list a direct email address on the site to reduce spam. You can reach us through the following options:
-            </p>
-            <ul className="list-disc ml-6 mt-2 space-y-1">
-              <li>Use the contact or feedback form if we add one to this page in the future.</li>
-              <li>Comment on relevant articles where commenting is enabled (please do not share personal data in comments).</li>
-              <li>If you are a business or partner, look for a dedicated contact or partnership link in the site footer or on the About page when available.</li>
-            </ul>
-            <p className="mt-3">
-              We aim to respond to legitimate inquiries as soon as we can. For urgent matters related to your personal data or privacy rights, please mention &quot;Privacy&quot; or &quot;Data Request&quot; in your message so we can prioritize it.
-            </p>
+            <h2 className="text-xl font-semibold mt-8 mb-4">Send Us a Message</h2>
+            <ContactForm />
           </section>
-          <p>
-            Thank you for using Hotel Corporate Codes. For our terms and policies, see <Link href="/terms" className="text-primary hover:underline">Terms of Use</Link>, <Link href="/privacy" className="text-primary hover:underline">Privacy Policy</Link>, and <Link href="/cookies" className="text-primary hover:underline">Cookie Policy</Link>.
+
+          {/* What to contact about */}
+          <section>
+            <h2 className="text-xl font-semibold mt-8 mb-3">What We Can Help With</h2>
+            <ul className="list-disc ml-6 space-y-2">
+              <li>Reporting outdated or incorrect corporate codes</li>
+              <li>Suggesting new hotel chains or topics to cover</li>
+              <li>Questions about how to use corporate rates legally</li>
+              <li>Privacy or data-related requests (include "Privacy Request" in your subject)</li>
+              <li>Press, partnerships, or advertising enquiries</li>
+            </ul>
+          </section>
+
+          <p className="mt-4 text-sm text-muted-foreground">
+            For our policies, see{" "}
+            <Link href="/terms" className="text-primary hover:underline">Terms of Use</Link>,{" "}
+            <Link href="/privacy" className="text-primary hover:underline">Privacy Policy</Link>, and{" "}
+            <Link href="/cookies" className="text-primary hover:underline">Cookie Policy</Link>.
           </p>
         </div>
       </main>

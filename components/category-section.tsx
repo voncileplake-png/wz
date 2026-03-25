@@ -7,8 +7,9 @@ import { getArticlesByCategory } from "@/lib/articles-data"
 
 const categorySlugs = [
   "marriott-hotels",
-  "best-western-hotels", 
+  "hilton-hotels",
   "hyatt-gold-passport",
+  "best-western-hotels",
   "carlson-hotels",
   "wyndham-hotels",
   "third-party-platforms",
