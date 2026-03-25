@@ -1571,13 +1571,6 @@ For many visitors, a first trip to China is not just another vacation, but a com
     author: "Travel Deals Hub",
     keywords: ["China travel guide", "first time traveling to China", "China travel tips", "planning a trip to China", "China VPN", "China payments", "China transportation"]
   },
-]
-
-export function getArticlesByCategory(categorySlug: string): Article[] {
-  return articles
-    .filter((article) => article.categorySlug === categorySlug)
-    .sort((a, b) => b.publishedAt.getTime() - a.publishedAt.getTime())
-}
 
   // ─── NEW ARTICLES START ───────────────────────────────────────────────────
 
@@ -2397,7 +2390,14 @@ This code list was last verified: March 2026.` ,
     keywords: ["Hilton corporate codes list 2026", "Hilton corporate codes complete", "Hilton discount codes", "Hilton MVP code"]
   },
 
-  // ─── NEW ARTICLES END ─────────────────────────────────────────────────────
+  // ─── NEW ARTICLES END ─────────────────────────────────────────────
+]
+
+export function getArticlesByCategory(categorySlug: string): Article[] {
+  return articles
+    .filter((article) => article.categorySlug === categorySlug)
+    .sort((a, b) => b.publishedAt.getTime() - a.publishedAt.getTime())
+}────────
 
 export function getArticleById(id: string): Article | undefined {
   return articles.find((article) => article.id === id)
