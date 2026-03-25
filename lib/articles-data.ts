@@ -2390,6 +2390,88 @@ This code list was last verified: March 2026.` ,
     keywords: ["Hilton corporate codes list 2026", "Hilton corporate codes complete", "Hilton discount codes", "Hilton MVP code"]
   },
 
+  {
+    id: "ihg-complete-corporate-codes-list-2026",
+    title: "IHG Corporate Codes Complete List 2026 — Holiday Inn, Crowne Plaza & InterContinental",
+    excerpt: "The complete list of IHG Hotels corporate codes for 2026, covering Holiday Inn, Crowne Plaza, InterContinental, and more. Includes IBM, Siemens, AT&T, Cisco, Ford codes plus public GOV and AAA rates.",
+    content: `IHG Hotels & Resorts (InterContinental Hotels Group) operates over 6,000 properties across 18 brands including InterContinental, Crowne Plaza, Holiday Inn, Holiday Inn Express, Kimpton, and Staybridge Suites. IHG corporate codes are typically 6–9 digit numeric codes entered during booking.
+
+## How to Enter an IHG Corporate Code
+
+1. Visit **ihg.com** and log in to your IHG One Rewards account
+2. Search your destination and dates
+3. Expand **"Use a Corporate or Promo Code"** under rate preferences
+4. Enter your code and search
+5. The corporate rate displays alongside standard rates if available
+
+## Complete IHG Corporate Code List 2026
+
+<div class="overflow-x-auto my-6">
+<table class="w-full text-sm border-collapse">
+<thead>
+<tr class="bg-teal-600 text-white">
+<th class="px-4 py-3 text-left">Company</th>
+<th class="px-4 py-3 text-left">Code</th>
+<th class="px-4 py-3 text-left">Est. Discount</th>
+<th class="px-4 py-3 text-left">ID Check</th>
+</tr>
+</thead>
+<tbody>
+<tr class="border-b hover:bg-gray-50"><td class="px-4 py-3 font-medium">Siemens</td><td class="px-4 py-3 font-mono text-teal-700 font-bold">104256</td><td class="px-4 py-3">10–15%</td><td class="px-4 py-3 text-green-600">✅ Rarely</td></tr>
+<tr class="border-b hover:bg-gray-50"><td class="px-4 py-3 font-medium">IBM</td><td class="px-4 py-3 font-mono text-teal-700 font-bold">243132</td><td class="px-4 py-3">10–18%</td><td class="px-4 py-3 text-yellow-600">⚠️ Sometimes</td></tr>
+<tr class="border-b hover:bg-gray-50"><td class="px-4 py-3 font-medium">AT&amp;T</td><td class="px-4 py-3 font-mono text-teal-700 font-bold">150711</td><td class="px-4 py-3">10–15%</td><td class="px-4 py-3 text-yellow-600">⚠️ Sometimes</td></tr>
+<tr class="border-b hover:bg-gray-50"><td class="px-4 py-3 font-medium">Cisco</td><td class="px-4 py-3 font-mono text-teal-700 font-bold">954410926</td><td class="px-4 py-3">10–15%</td><td class="px-4 py-3 text-yellow-600">⚠️ Sometimes</td></tr>
+<tr class="border-b hover:bg-gray-50"><td class="px-4 py-3 font-medium">Microsoft</td><td class="px-4 py-3 font-mono text-teal-700 font-bold">100857558</td><td class="px-4 py-3">10–15%</td><td class="px-4 py-3 text-yellow-600">⚠️ Sometimes</td></tr>
+<tr class="border-b hover:bg-gray-50"><td class="px-4 py-3 font-medium">Ford Motor</td><td class="px-4 py-3 font-mono text-teal-700 font-bold">103772</td><td class="px-4 py-3">10–15%</td><td class="px-4 py-3 text-yellow-600">⚠️ Sometimes</td></tr>
+<tr class="border-b hover:bg-gray-50"><td class="px-4 py-3 font-medium">General Electric</td><td class="px-4 py-3 font-mono text-teal-700 font-bold">102806</td><td class="px-4 py-3">10–15%</td><td class="px-4 py-3 text-yellow-600">⚠️ Sometimes</td></tr>
+<tr class="border-b hover:bg-gray-50"><td class="px-4 py-3 font-medium">Coca-Cola</td><td class="px-4 py-3 font-mono text-teal-700 font-bold">128813</td><td class="px-4 py-3">10–15%</td><td class="px-4 py-3 text-yellow-600">⚠️ Sometimes</td></tr>
+<tr class="border-b hover:bg-gray-50"><td class="px-4 py-3 font-medium">Dell</td><td class="px-4 py-3 font-mono text-teal-700 font-bold">954284898</td><td class="px-4 py-3">10–15%</td><td class="px-4 py-3 text-yellow-600">⚠️ Sometimes</td></tr>
+<tr class="border-b hover:bg-gray-50"><td class="px-4 py-3 font-medium">Oracle</td><td class="px-4 py-3 font-mono text-teal-700 font-bold">100183394</td><td class="px-4 py-3">10–15%</td><td class="px-4 py-3 text-yellow-600">⚠️ Sometimes</td></tr>
+<tr class="border-b hover:bg-gray-50"><td class="px-4 py-3 font-medium">Toyota</td><td class="px-4 py-3 font-mono text-teal-700 font-bold">954409548</td><td class="px-4 py-3">10–15%</td><td class="px-4 py-3 text-yellow-600">⚠️ Sometimes</td></tr>
+<tr class="border-b hover:bg-gray-50"><td class="px-4 py-3 font-medium">Honda</td><td class="px-4 py-3 font-mono text-teal-700 font-bold">100371240</td><td class="px-4 py-3">10–15%</td><td class="px-4 py-3 text-yellow-600">⚠️ Sometimes</td></tr>
+<tr class="border-b hover:bg-gray-50"><td class="px-4 py-3 font-medium">Motorola</td><td class="px-4 py-3 font-mono text-teal-700 font-bold">128554</td><td class="px-4 py-3">10–15%</td><td class="px-4 py-3 text-yellow-600">⚠️ Sometimes</td></tr>
+<tr class="border-b hover:bg-gray-50"><td class="px-4 py-3 font-medium">University of Texas</td><td class="px-4 py-3 font-mono text-teal-700 font-bold">99502056</td><td class="px-4 py-3">8–12%</td><td class="px-4 py-3 text-yellow-600">⚠️ Sometimes</td></tr>
+<tr class="border-b hover:bg-gray-50"><td class="px-4 py-3 font-medium">AAA Members</td><td class="px-4 py-3 font-mono text-teal-700 font-bold">AAA</td><td class="px-4 py-3">5–10%</td><td class="px-4 py-3 text-green-600">✅ Show AAA card</td></tr>
+<tr class="border-b hover:bg-gray-50"><td class="px-4 py-3 font-medium">Government / Military</td><td class="px-4 py-3 font-mono text-teal-700 font-bold">GOV</td><td class="px-4 py-3">10–20%</td><td class="px-4 py-3 text-green-600">✅ Show Gov ID</td></tr>
+<tr class="hover:bg-gray-50"><td class="px-4 py-3 font-medium">IHG Business Edge (SME)</td><td class="px-4 py-3 font-mono text-teal-700 font-bold">Register at ihg.com/businessedge</td><td class="px-4 py-3">10–15%</td><td class="px-4 py-3 text-green-600">✅ Business registration</td></tr>
+</tbody>
+</table>
+</div>
+
+> **Note:** Company codes require employee affiliation. Public codes (AAA, GOV) are open to all qualifying individuals. IHG Business Edge is open to any registered small business.
+
+## IHG Brand Quick Reference
+
+Different corporate codes may work better at specific IHG brands:
+
+- **Holiday Inn Express** — GOV and AAA codes widely accepted; free hot breakfast included for all guests
+- **Crowne Plaza** — Full corporate code support; common for business district properties
+- **InterContinental** — Company-specific codes more strictly verified; Siemens (104256) most reliable
+- **Kimpton** — IHG One Rewards membership often provides better value than corporate codes at boutique properties
+- **Staybridge Suites / Candlewood** — Extended stay brands; corporate codes frequently available for weekly bookings
+
+## Frequently Asked Questions
+
+**What is the best IHG code without employer verification?**
+GOV (government/military), AAA, and IHG Business Edge (for registered small businesses) all offer legitimate corporate-equivalent discounts without company employee verification.
+
+**Do IHG corporate codes work across all 18 brands?**
+Most codes work across the main IHG brands. Some independent hotels in the Vignette Collection may have limited code applicability. Always verify on ihg.com before booking.
+
+**How many IHG One Rewards points do I earn on corporate rate bookings?**
+Full points earning applies to corporate rate bookings made through ihg.com or the IHG app. Third-party bookings do not earn points.
+
+## Last Updated
+
+This code list was last verified: March 2026.`,
+    category: "Hotel Booking Tips & Guides",
+    categorySlug: "tips",
+    publishedAt: new Date("2026-03-03T00:00:00"),
+    author: "Travel Deals Hub",
+    keywords: ["IHG corporate codes list 2026", "IHG corporate codes complete", "Holiday Inn corporate code", "Crowne Plaza corporate code", "IHG Siemens code", "IHG IBM code 2026"]
+  },
+
+
   // ─── NEW ARTICLES END ─────────────────────────────────────────────
 ]
 
