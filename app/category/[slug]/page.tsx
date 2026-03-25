@@ -1,4 +1,4 @@
-import React from "react"
+﻿import React from "react"
 import { Folder } from "lucide-react"
 import { getArticlesByCategory, getCategoryInfo } from "@/lib/articles-data"
 import { Sidebar } from "@/components/sidebar"
@@ -6,14 +6,15 @@ import Link from "next/link"
 import type { Metadata } from "next"
 
 interface CategoryPageProps {
-  params: { slug: string }
+  params: Promise<{ slug: string }>
 }
 
 // Generate metadata for SEO
 export async function generateMetadata({ params }: CategoryPageProps): Promise<Metadata> {
-  const categoryInfo = getCategoryInfo(params.slug)
+  const { slug } = await params
+  const categoryInfo = getCategoryInfo(slug)
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://hotelcorporatecodes.com"
-  const categoryUrl = `${siteUrl}/category/${params.slug}`
+  const categoryUrl = `${siteUrl}/category/${slug}`
   
   return {
     title: `${categoryInfo.title} | Hotel Corporate Codes`,
@@ -40,9 +41,10 @@ export async function generateMetadata({ params }: CategoryPageProps): Promise<M
 // 启用静态生成和缓存，每1小时重新验证一次
 export const revalidate = 3600 // 1 hour
 
-export default function CategoryPage({ params }: CategoryPageProps) {
-  const articles = getArticlesByCategory(params.slug)
-  const categoryInfo = getCategoryInfo(params.slug)
+export default async function CategoryPage({ params }: CategoryPageProps) {
+  const { slug } = await params
+  const articles = getArticlesByCategory(slug)
+  const categoryInfo = getCategoryInfo(slug)
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://hotelcorporatecodes.com"
   
   // Generate structured data for category page
@@ -60,7 +62,7 @@ export default function CategoryPage({ params }: CategoryPageProps) {
         "@type": "ListItem",
         "position": 2,
         "name": categoryInfo.title,
-        "item": `${siteUrl}/category/${params.slug}`
+        "item": `${siteUrl}/category/${slug}`
       }
     ]
   }
@@ -70,7 +72,7 @@ export default function CategoryPage({ params }: CategoryPageProps) {
     "@type": "CollectionPage",
     "name": categoryInfo.title,
     "description": categoryInfo.description,
-    "url": `${siteUrl}/category/${params.slug}`,
+    "url": `${siteUrl}/category/${slug}`,
     "mainEntity": {
       "@type": "ItemList",
       "numberOfItems": articles.length,

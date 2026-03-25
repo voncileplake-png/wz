@@ -1,4 +1,4 @@
-import React from "react"
+﻿import React from "react"
 import { notFound } from "next/navigation"
 import { getArticleById, getCategoryInfo } from "@/lib/articles-data"
 import { Sidebar } from "@/components/sidebar"

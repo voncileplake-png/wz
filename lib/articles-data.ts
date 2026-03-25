@@ -2339,15 +2339,14 @@ European hotel savings require slightly more planning than domestic travel — s
     id: "marriott-complete-corporate-codes-list-2026",
     title: "Marriott Corporate Codes Complete List 2026 — All Working Codes by Company",
     excerpt: "The most complete list of Marriott corporate codes for 2026. 18+ verified codes from IBM, Siemens, Accenture, Google, Microsoft and more — with discount ranges, ID check risk levels, and direct booking links.",
-    content: `Looking for a specific Marriott corporate code? This is the most comprehensive list available, compiled from verified sources and updated for 2026.
+    content: `Looking for a specific Marriott corporate code? This is the most comprehensive list available, compiled from verified sources and updated for 2026. Each code includes the sponsoring company, typical discount range, and whether hotels commonly verify employee eligibility at check-in.
 
 ## How to Use a Marriott Corporate Code
 
 1. Go to **marriott.com** or open the Marriott Bonvoy app
 2. Enter your destination and travel dates
 3. Under Special Rates, select Corporate / Promo / Set #
-4. Enter the code from the table below
-5. Search — qualifying properties will show the discounted rate
+4. Enter the code and search
 
 ## Frequently Asked Questions
 
@@ -2355,17 +2354,18 @@ European hotel savings require slightly more planning than domestic travel — s
 Siemens (SIE / 7346) consistently shows 15-22% discounts and is rarely verified at check-in.
 
 **Do Marriott corporate codes earn Bonvoy points?**
-Yes — bookings made through direct channels earn full Marriott Bonvoy points.
+Yes — corporate rate bookings made through direct channels earn full Marriott Bonvoy points.
 
 ## Last Updated
 
-This code list was last verified: March 2026.`,
+This code list was last verified: March 2026.` ,
     category: "Marriott Hotels",
     categorySlug: "marriott-hotels",
     publishedAt: new Date("2026-03-01T00:00:00"),
     author: "Travel Deals Hub",
     keywords: ["marriott corporate codes list 2026", "marriott corporate codes complete list", "marriott discount codes 2026"]
   },
+
   {
     id: "hilton-complete-corporate-codes-list-2026",
     title: "Hilton Corporate Codes Complete List 2026 — All Verified Codes with Discount Rates",
@@ -2375,8 +2375,8 @@ This code list was last verified: March 2026.`,
 ## How to Enter a Hilton Corporate Code
 
 1. Go to **hilton.com** and search your destination and dates
-2. Expand **Special Rates** in the search panel
-3. Select **Corporate Account** and enter your code
+2. Expand Special Rates in the search panel
+3. Select Corporate Account and enter your code
 4. Search — the discounted rate appears if the code is valid
 
 ## Frequently Asked Questions
@@ -2389,13 +2389,14 @@ Yes — bookings made through hilton.com earn full Hilton Honors points.
 
 ## Last Updated
 
-This code list was last verified: March 2026.`,
+This code list was last verified: March 2026.` ,
     category: "Hilton Hotels",
     categorySlug: "hilton-hotels",
     publishedAt: new Date("2026-03-02T00:00:00"),
     author: "Travel Deals Hub",
     keywords: ["Hilton corporate codes list 2026", "Hilton corporate codes complete", "Hilton discount codes", "Hilton MVP code"]
   },
+
   // ─── NEW ARTICLES END ─────────────────────────────────────────────────────
 
 export function getArticleById(id: string): Article | undefined {
