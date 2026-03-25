@@ -1,4 +1,4 @@
-import React from "react"
+﻿import React from "react"
 import { notFound } from "next/navigation"
 import { getArticleById, getCategoryInfo } from "@/lib/articles-data"
 import { Sidebar } from "@/components/sidebar"
@@ -8,12 +8,13 @@ import { Calendar, User, Tag } from "lucide-react"
 import type { Metadata } from "next"
 
 interface ArticlePageProps {
-  params: { id: string }
+  params: Promise<{ id: string }>
 }
 
 // Generate metadata for SEO
 export async function generateMetadata({ params }: ArticlePageProps): Promise<Metadata> {
-  const article = getArticleById(params.id)
+  const { id } = await params
+  const article = getArticleById(id)
   
   if (!article) {
     return {
@@ -63,8 +64,9 @@ export async function generateMetadata({ params }: ArticlePageProps): Promise<Me
 // 启用静态生成和缓存，每1小时重新验证一次
 export const revalidate = 3600 // 1 hour
 
-export default function ArticlePage({ params }: ArticlePageProps) {
-  const article = getArticleById(params.id)
+export default async function ArticlePage({ params }: ArticlePageProps) {
+  const { id } = await params
+  const article = getArticleById(id)
   
   if (!article) {
     notFound()
@@ -201,7 +203,7 @@ export default function ArticlePage({ params }: ArticlePageProps) {
   // Convert markdown-like content to JSX
   const renderContent = (content: string) => {
     const lines = content.split('\n')
-    const elements: JSX.Element[] = []
+    const elements: React.ReactElement[] = []
     let key = 0
     let inBlockquote = false
     let blockquoteLines: string[] = []
@@ -319,7 +321,7 @@ export default function ArticlePage({ params }: ArticlePageProps) {
                   className="w-full rounded-lg shadow-lg max-w-full h-auto"
                   loading="lazy"
                   decoding="async"
-                  style={{ imageRendering: 'high-quality' }}
+                  style={{ imageRendering: 'auto' }}
                 />
               </div>
             )
