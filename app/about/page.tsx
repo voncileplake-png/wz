@@ -16,65 +16,79 @@ export default function AboutPage() {
   return (
     <div className="min-h-screen flex flex-col">
       <SiteHeader />
-      <main className="flex-1 container mx-auto px-4 py-8 max-w-3xl">
-        <h1 className="text-3xl font-bold mb-6">About Us</h1>
+<main className="flex-1 container mx-auto px-4 py-8 max-w-3xl">
+  <h1 className="text-3xl font-bold mb-6">About Hotel Codes Hub</h1>
 
-        <div className="prose prose-gray max-w-none space-y-6 text-gray-700">
-          <p>
-            <strong>Hotel Corporate Codes</strong> is an independent guide site for travelers who
-            want to save on hotel stays. We research, compile, and explain corporate codes,
-            agreement rates, and promotional offers for major hotel chains such as Marriott, Hilton,
-            Hyatt, Best Western, Radisson, and Wyndham — as well as tips for third-party booking
-            platforms like Expedia and Hotels.com.
-          </p>
-          <p>
-            Our mission is to make legitimate hotel discounts accessible to everyone — whether
-            you're a business traveler with access to employer rates, a professional association
-            member, a government employee, or a leisure traveler looking for public promo codes and
-            loyalty program deals.
-          </p>
-          <p>
-            We are committed to providing accurate, up-to-date, and ethical guidance. All the
-            strategies and codes we cover are legal and legitimate. We do not endorse or encourage
-            misuse of corporate codes or any activity that violates hotel policies.
-          </p>
-          <p>
-            We do not book hotels ourselves — we only provide information. All reservations are
-            made on the official hotel or booking partner websites. Code availability and terms can
-            change, so we always recommend verifying rates and eligibility before you book.
-          </p>
+  <div className="prose prose-gray max-w-none space-y-6 text-gray-700">
+    <p>
+      <strong>Hotel Codes Hub</strong> (hotelcodeshub.com) is an independent travel research site
+      dedicated to helping travelers find and use legitimate hotel corporate codes, discount rates,
+      and promotional offers. We cover major hotel chains including Marriott, Hilton, Hyatt,
+      IHG, Best Western, Radisson, and Wyndham.
+    </p>
 
-          <section>
-            <h2 className="text-xl font-semibold mt-8 mb-3">What We Cover</h2>
-            <ul className="list-disc ml-6 space-y-1">
-              <li>Corporate and agreement rate codes for major hotel chains</li>
-              <li>Publicly available discount codes (AAA, AARP, government, military)</li>
-              <li>Hotel loyalty program guides and tips</li>
-              <li>Booking platform promo codes (Expedia, Hotels.com, and more)</li>
-              <li>Practical travel tips and budget travel strategies</li>
-            </ul>
-          </section>
+    <section>
+      <h2 className="text-xl font-semibold mt-8 mb-3">Who We Are</h2>
+      <p>
+        Hotel Codes Hub was founded by a team of frequent business travelers frustrated by how
+        hard it was to find accurate, consolidated information about hotel corporate codes in
+        one place. We spent years traveling for work — staying at Marriott, Hilton, and IHG
+        properties across North America, Europe, and Asia — and built this site to share what
+        we learned about accessing legitimate discounts.
+      </p>
+      <p className="mt-3">
+        Our editorial team researches and verifies codes regularly. Every guide on this site
+        is written to help you save money through legitimate, authorized discount programmes —
+        not workarounds or shortcuts.
+      </p>
+    </section>
 
-          <section>
-            <h2 className="text-xl font-semibold mt-8 mb-3">Contact &amp; Policies</h2>
-            <p>
-              For questions or feedback, visit our{" "}
-              <Link href="/contact" className="text-teal-600 hover:underline">
-                Contact
-              </Link>{" "}
-              page. For privacy and cookie practices, see our{" "}
-              <Link href="/privacy" className="text-teal-600 hover:underline">
-                Privacy Policy
-              </Link>{" "}
-              and{" "}
-              <Link href="/cookies" className="text-teal-600 hover:underline">
-                Cookie Policy
-              </Link>
-              .
-            </p>
-          </section>
-        </div>
-      </main>
+    <section>
+      <h2 className="text-xl font-semibold mt-8 mb-3">Our Editorial Standards</h2>
+      <ul className="list-disc ml-6 space-y-2">
+        <li>We only publish codes and discounts that are publicly documented or widely reported</li>
+        <li>We clearly distinguish between employer-specific codes (require affiliation) and public codes (AAA, AARP, GOV) that anyone can use</li>
+        <li>We update our code lists regularly and date-stamp each article with its last verification date</li>
+        <li>We do not accept payment to feature specific codes or hotel brands</li>
+        <li>We do not encourage or endorse misuse of codes that require employer verification</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2 className="text-xl font-semibold mt-8 mb-3">What We Cover</h2>
+      <ul className="list-disc ml-6 space-y-2">
+        <li>Complete corporate code lists for Marriott, Hilton, IHG, Hyatt, Best Western, Wyndham, and Radisson</li>
+        <li>Publicly available discount codes — AAA, AARP, government, and military rates</li>
+        <li>Hotel loyalty programme guides (Marriott Bonvoy, Hilton Honors, World of Hyatt, IHG One Rewards)</li>
+        <li>Booking platform promo codes for Expedia and Hotels.com</li>
+        <li>Practical travel guides for business and leisure travellers</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2 className="text-xl font-semibold mt-8 mb-3">Disclaimer</h2>
+      <p>
+        Hotel Codes Hub provides informational content only. We are not affiliated with any hotel
+        chain or booking platform. Code availability, discount amounts, and verification requirements
+        can change at any time — always confirm rates on the official hotel website before booking.
+        Corporate codes intended for specific employer groups should only be used by authorized
+        individuals.
+      </p>
+    </section>
+
+    <section>
+      <h2 className="text-xl font-semibold mt-8 mb-3">Contact</h2>
+      <p>
+        For questions, feedback, or to report an outdated code, please visit our{" "}
+        <Link href="/contact" className="text-teal-600 hover:underline">Contact page</Link> or
+        email us at{" "}
+        <a href="mailto:contact@hotelcodeshub.com" className="text-teal-600 hover:underline">
+          contact@hotelcodeshub.com
+        </a>.
+      </p>
+    </section>
+  </div>
+</main>
       <Footer />
     </div>
   )
