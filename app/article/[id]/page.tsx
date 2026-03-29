@@ -1,4 +1,4 @@
-﻿import React from "react"
+import React from "react"
 import { notFound } from "next/navigation"
 import { getArticleById, getCategoryInfo } from "@/lib/articles-data"
 import { Sidebar } from "@/components/sidebar"
@@ -264,7 +264,7 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
         continue
       }
 
-      if (openDivs > closeDivs && line.startsWith('<div')) {
+      if (openDivs > closeDivs && (line.startsWith('<div') || line.startsWith('<table'))) {
         inHtmlBlock = true
         htmlBlockLines = [originalLine]
         divDepth = openDivs - closeDivs
@@ -350,7 +350,19 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
                                  line.includes('<ul') ||
                                  line.includes('</ul>') ||
                                  line.includes('<ol') ||
-                                 line.includes('</ol>')
+                                 line.includes('</ol>') ||
+                                 line.includes('<table') ||
+                                 line.includes('</table>') ||
+                                 line.includes('<thead') ||
+                                 line.includes('</thead>') ||
+                                 line.includes('<tbody') ||
+                                 line.includes('</tbody>') ||
+                                 line.includes('<tr') ||
+                                 line.includes('</tr>') ||
+                                 line.includes('<th') ||
+                                 line.includes('</th>') ||
+                                 line.includes('<td') ||
+                                 line.includes('</td>')
         
         if (isBlockLevelHTML) {
           // Render block-level HTML directly without wrapping in <p>
