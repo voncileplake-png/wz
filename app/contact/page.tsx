@@ -30,10 +30,10 @@ export default function ContactPage() {
             <div>
               <p className="font-semibold text-gray-800 mb-1">Email Us Directly</p>
               <a
-                href="mailto:contact@hotelcorporatecodes.com"
+                href="mailto:contact@hotelcodeshub.com"
                 className="text-blue-600 hover:underline font-medium"
               >
-                contact@hotelcorporatecodes.com
+                contact@hotelcodeshub.com
               </a>
               <p className="text-sm text-gray-500 mt-1">
                 We typically respond within 1–2 business days.

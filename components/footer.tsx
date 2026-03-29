@@ -76,10 +76,10 @@ export function Footer() {
             <Link href="/contact" className="hover:text-gray-300 transition-colors">Contact</Link>
             <li key="email" className="mt-3">
               <a
-                href="mailto:contact@hotelcorporatecodes.com"
+                href="mailto:contact@hotelcodeshub.com"
                 className="text-xs text-teal-400 hover:text-teal-300 transition-colors"
               >
-                contact@hotelcorporatecodes.com
+                contact@hotelcodeshub.com
               </a>
             </li>
           </div>

@@ -130,8 +130,8 @@ export function ContactForm() {
       {status === "error" && (
         <p className="text-red-600 text-sm bg-red-50 border border-red-200 rounded-lg p-3">
           Something went wrong. Please try again, or email us directly at{" "}
-          <a href="mailto:contact@hotelcorporatecodes.com" className="underline">
-            contact@hotelcorporatecodes.com
+          <a href="mailto:contact@hotelcodeshub.com" className="underline">
+            contact@hotelcodeshub.com
           </a>
           .
         </p>
