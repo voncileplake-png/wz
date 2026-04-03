@@ -202,6 +202,18 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
 
   // Convert markdown-like content to JSX
   const renderContent = (content: string) => {
+    const parseInline = (text: string): string => {
+      return text
+        // **bold** → <strong>
+        .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+        // *italic* → <em>
+        .replace(/\*(?!\*)(.+?)\*(?!\*)/g, '<em>$1</em>')
+        // `code` → <code>
+        .replace(/`([^`]+)`/g, '<code class="bg-gray-100 px-1 rounded text-sm font-mono">$1</code>')
+        // [text](url) → <a href>
+        .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" class="text-teal-600 hover:underline" target="_blank" rel="noopener noreferrer">$1</a>')
+    }
+
     const lines = content.split('\n')
     const elements: React.ReactElement[] = []
     let key = 0
@@ -283,24 +295,31 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
       if (line.startsWith('## ')) {
         elements.push(
           <h2 key={key++} className="text-2xl font-bold mt-8 mb-4 text-gray-900">
-            {line.replace('## ', '')}
+            <span dangerouslySetInnerHTML={{ __html: parseInline(line.replace('## ', '')) }} />
           </h2>
         )
       } else if (line.startsWith('### ')) {
         elements.push(
           <h3 key={key++} className="text-xl font-semibold mt-6 mb-3 text-gray-800">
-            {line.replace('### ', '')}
+            <span dangerouslySetInnerHTML={{ __html: parseInline(line.replace('### ', '')) }} />
           </h3>
         )
+      } else if (line.startsWith('- ')) {
+        const content = parseInline(line.replace('- ', ''))
+        elements.push(
+          <li key={key++} className="ml-4 mb-2 text-gray-700 list-disc">
+            <span dangerouslySetInnerHTML={{ __html: content }} />
+          </li>
+        )
       } else if (line.startsWith('• ')) {
-        const content = line.replace('• ', '')
+        const content = parseInline(line.replace('• ', ''))
         elements.push(
           <li key={key++} className="ml-4 mb-1 text-gray-700">
             <span dangerouslySetInnerHTML={{ __html: content }} />
           </li>
         )
       } else if (line.match(/^\d+\. /)) {
-        const content = line.replace(/^\d+\. /, '')
+        const content = parseInline(line.replace(/^\d+\. /, ''))
         elements.push(
           <li key={key++} className="ml-4 mb-1 text-gray-700 list-decimal">
             <span dangerouslySetInnerHTML={{ __html: content }} />
@@ -373,7 +392,7 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
           // Regular paragraph content
           elements.push(
             <p key={key++} className="mb-4 text-gray-700 leading-relaxed">
-              <span dangerouslySetInnerHTML={{ __html: line }} />
+              <span dangerouslySetInnerHTML={{ __html: parseInline(line) }} />
             </p>
           )
         }
