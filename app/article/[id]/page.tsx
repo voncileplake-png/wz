@@ -203,11 +203,14 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
   // Convert markdown-like content to JSX
   const renderContent = (content: string) => {
     const parseInline = (text: string): string => {
-      return text
-        // **bold** → <strong>
-        .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
-        // *italic* → <em>
-        .replace(/\*(?!\*)(.+?)\*(?!\*)/g, '<em>$1</em>')
+      const normalized = text
+        .replace(/＊/g, '*')
+
+      return normalized
+        // **bold** / \*\*bold\*\* → <strong>
+        .replace(/(?:\\\*\\\*|\*\*)(.+?)(?:\\\*\\\*|\*\*)/g, '<strong>$1</strong>')
+        // *italic* / \*italic\* → <em>
+        .replace(/(?:\\\*|\*)(?!\*)(.+?)(?:\\\*|\*)(?!\*)/g, '<em>$1</em>')
         // `code` → <code>
         .replace(/`([^`]+)`/g, '<code class="bg-gray-100 px-1 rounded text-sm font-mono">$1</code>')
         // [text](url) → <a href>
