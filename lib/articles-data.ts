@@ -2865,7 +2865,132 @@ The government rate (00002695) is widely available at Best Western properties ne
     publishedAt: new Date("2026-04-06T00:00:00"),
     author: "Travel Deals Hub",
     keywords: ["Best Western corporate codes 2026", "Best Western discount codes complete list", "Best Western Ford code", "Best Western AAA discount", "Best Western government rate", "Best Western Rewards savings", "Best Western corporate rate 2026"]
-  },]
+  },
+  {
+    id: "wyndham-complete-corporate-codes-2026",
+    title: "Wyndham Corporate Codes Complete List 2026 — La Quinta, Ramada, Days Inn & More",
+    excerpt: "The most complete Wyndham Hotels corporate codes guide for 2026. Covers 25+ codes across La Quinta, Ramada, Days Inn, Super 8, Howard Johnson, Wingate, and more — plus Wyndham Rewards tips and the Best Rate Guarantee explained.",
+    content: `Wyndham Hotels & Resorts is the world's largest hotel franchise by number of properties, with more than 9,000 hotels across 24 brands in 95 countries. Its portfolio spans every price point — from ultra-budget (Super 8, Travelodge) to upper-midscale (Wingate, Hawthorn) to upscale (Wyndham Grand, Dolce) — making Wyndham corporate codes relevant to an exceptionally wide range of travellers.
+
+Wyndham corporate codes are typically long numeric strings (8–10 digits), entered in the "Corporate / Promo Code" field during booking. Unlike Marriott's short alphabetic codes or Hilton's N-prefixed numbers, Wyndham codes follow a consistent numeric format starting with 1000 or 8000.
+
+## How to Use a Wyndham Corporate Code
+
+**On wyndhamhotels.com:**
+1. Log in to your Wyndham Rewards account
+2. Enter your destination and travel dates
+3. Expand **"Special Rates"** in the search panel
+4. Select **"Corporate / Promo Code"** and enter your numeric code
+5. Click **Search** — properties with that rate display the discounted price alongside standard rates
+
+**On the Wyndham Hotels & Resorts App:**
+1. Search your destination
+2. Tap **"Special Rates"**
+3. Enter your code and tap **Apply**
+
+> **Important:** Company-specific corporate codes are intended for authorized employees and affiliated individuals only. Public codes (AAA, AARP, GOV) are open to all qualifying individuals. Always verify eligibility before booking.
+
+## Complete Wyndham Corporate Code List 2026
+
+<div class="overflow-x-auto my-6"><table class="w-full text-sm border-collapse"><thead><tr class="bg-teal-600 text-white"><th class="px-4 py-3 text-left font-semibold">Company / Programme</th><th class="px-4 py-3 text-left font-semibold">Code</th><th class="px-4 py-3 text-left font-semibold">Est. Discount</th><th class="px-4 py-3 text-left font-semibold">Type</th></tr></thead><tbody><tr class="border-b bg-white hover:bg-teal-50"><td class="px-4 py-3 font-medium">Siemens</td><td class="px-4 py-3 font-mono text-teal-700 font-bold">8000003449</td><td class="px-4 py-3">10–15%</td><td class="px-4 py-3 text-gray-500">Corporate</td></tr><tr class="border-b bg-gray-50 hover:bg-teal-50"><td class="px-4 py-3 font-medium">ABN AMRO</td><td class="px-4 py-3 font-mono text-teal-700 font-bold">8000000066</td><td class="px-4 py-3">10–15%</td><td class="px-4 py-3 text-gray-500">Corporate</td></tr><tr class="border-b bg-white hover:bg-teal-50"><td class="px-4 py-3 font-medium">AIChE (Engineering Association)</td><td class="px-4 py-3 font-mono text-teal-700 font-bold">1000007598</td><td class="px-4 py-3">10–15%</td><td class="px-4 py-3 text-gray-500">Association</td></tr><tr class="border-b bg-gray-50 hover:bg-teal-50"><td class="px-4 py-3 font-medium">ASCP (Pathologists)</td><td class="px-4 py-3 font-mono text-teal-700 font-bold">1000010014</td><td class="px-4 py-3">10–15%</td><td class="px-4 py-3 text-gray-500">Association</td></tr><tr class="border-b bg-white hover:bg-teal-50"><td class="px-4 py-3 font-medium">Business Advantage Plus</td><td class="px-4 py-3 font-mono text-teal-700 font-bold">1000008537</td><td class="px-4 py-3">10–15%</td><td class="px-4 py-3 text-gray-500">Corporate</td></tr><tr class="border-b bg-gray-50 hover:bg-teal-50"><td class="px-4 py-3 font-medium">Century 21 Real Estate</td><td class="px-4 py-3 font-mono text-teal-700 font-bold">803277</td><td class="px-4 py-3">10–15%</td><td class="px-4 py-3 text-gray-500">Corporate</td></tr><tr class="border-b bg-white hover:bg-teal-50"><td class="px-4 py-3 font-medium">Civil Air Patrol</td><td class="px-4 py-3 font-mono text-teal-700 font-bold">1000008946</td><td class="px-4 py-3">10–15%</td><td class="px-4 py-3 text-gray-500">Association</td></tr><tr class="border-b bg-gray-50 hover:bg-teal-50"><td class="px-4 py-3 font-medium">EC Purchasing Cooperative</td><td class="px-4 py-3 font-mono text-teal-700 font-bold">1000000265</td><td class="px-4 py-3">10–15%</td><td class="px-4 py-3 text-gray-500">Corporate</td></tr><tr class="border-b bg-white hover:bg-teal-50"><td class="px-4 py-3 font-medium">Employee Network</td><td class="px-4 py-3 font-mono text-teal-700 font-bold">1000009871</td><td class="px-4 py-3">10–15%</td><td class="px-4 py-3 text-gray-500">Corporate</td></tr><tr class="border-b bg-gray-50 hover:bg-teal-50"><td class="px-4 py-3 font-medium">MTA (Transit Authority)</td><td class="px-4 py-3 font-mono text-teal-700 font-bold">1000007604</td><td class="px-4 py-3">10–15%</td><td class="px-4 py-3 text-gray-500">Corporate</td></tr><tr class="border-b bg-white hover:bg-teal-50"><td class="px-4 py-3 font-medium">NYSUT (Teachers Union)</td><td class="px-4 py-3 font-mono text-teal-700 font-bold">1000007844</td><td class="px-4 py-3">10–15%</td><td class="px-4 py-3 text-gray-500">Association</td></tr><tr class="border-b bg-gray-50 hover:bg-teal-50"><td class="px-4 py-3 font-medium">SmithBucklin Association</td><td class="px-4 py-3 font-mono text-teal-700 font-bold">55067752</td><td class="px-4 py-3">10–15%</td><td class="px-4 py-3 text-gray-500">Association</td></tr><tr class="border-b bg-white hover:bg-teal-50"><td class="px-4 py-3 font-medium">University of Buffalo</td><td class="px-4 py-3 font-mono text-teal-700 font-bold">100232108</td><td class="px-4 py-3">8–12%</td><td class="px-4 py-3 text-gray-500">Academic</td></tr><tr class="border-b bg-gray-50 hover:bg-teal-50"><td class="px-4 py-3 font-medium">AAA / CAA Members</td><td class="px-4 py-3 font-mono text-teal-700 font-bold">1000004630</td><td class="px-4 py-3">10–15%</td><td class="px-4 py-3 text-green-600 font-medium">✅ Public</td></tr><tr class="border-b bg-white hover:bg-teal-50"><td class="px-4 py-3 font-medium">AARP Members (50+)</td><td class="px-4 py-3 font-mono text-teal-700 font-bold">1000004615</td><td class="px-4 py-3">10%</td><td class="px-4 py-3 text-green-600 font-medium">✅ Public</td></tr><tr class="border-b bg-gray-50 hover:bg-teal-50"><td class="px-4 py-3 font-medium">Government & Military</td><td class="px-4 py-3 font-mono text-teal-700 font-bold">1000002695</td><td class="px-4 py-3">10–20%</td><td class="px-4 py-3 text-green-600 font-medium">✅ Public</td></tr><tr class="bg-white hover:bg-teal-50"><td class="px-4 py-3 font-medium">Wyndham Rewards Members</td><td class="px-4 py-3 font-mono text-teal-700 font-bold">(Log in to apply)</td><td class="px-4 py-3">5–10%</td><td class="px-4 py-3 text-green-600 font-medium">✅ Free membership</td></tr></tbody></table></div>
+
+## Wyndham Rewards — The Free Programme That Covers 9,000+ Hotels
+
+Wyndham Rewards is free to join and covers every Wyndham brand — from Super 8 to Wyndham Grand. It is one of the most accessible hotel loyalty programmes because of the sheer number of properties, including many in secondary cities and highway locations where competing chains have limited presence.
+
+**Key benefits by status tier:**
+
+- **Blue** (immediate on joining): Member rate access, 10 points per $1 spent
+- **Gold** (10 nights/year): Priority check-in, 25% bonus points
+- **Platinum** (20 nights/year): Guaranteed room type, late checkout, 50% bonus points
+- **Diamond** (40 nights/year): Best available room, welcome amenity, dedicated Diamond line
+
+**Go Free Awards** — Wyndham Rewards points are redeemable for free nights starting at 7,500 points per night at any of 9,000+ properties with **no blackout dates**. This is one of the most flexible redemption structures in the hotel loyalty industry.
+
+## Wyndham Brand Guide — 24 Brands, One Programme
+
+Understanding which brand fits your trip helps you target the right corporate code:
+
+**Wyndham Grand** — The upscale flagship. Found in major cities, resort destinations, and conference centres. Corporate codes from large employers (Siemens, ABN AMRO) most likely to be loaded here.
+
+**Dolce Hotels & Resorts** — Wyndham's meetings and events brand. Strong in European conference markets. Corporate codes available for large organisations with event booking volume.
+
+**Trademark Collection** — Independent upscale hotels affiliated with Wyndham. Corporate code availability varies by individual property.
+
+**Wingate by Wyndham** — Upper-midscale business travel brand. Free hot breakfast, business centre, and meeting rooms at most properties. Government and AAA rates widely accepted.
+
+**Hawthorn Suites** — Extended-stay brand with kitchen facilities. Excellent for week-long business assignments. Corporate codes available for organisations booking extended stays.
+
+**Ramada by Wyndham** — Full-service midscale brand with strong global presence. Corporate codes from mid-sized companies often loaded here. AAA and AARP reliably available.
+
+**La Quinta by Wyndham** — One of the best-value brands in the portfolio. Free breakfast, pet-friendly, strong presence near airports and highways. Government and AAA rates consistently available and represent excellent value.
+
+**Days Inn by Wyndham** — Economy brand with broad North American coverage. AAA and AARP codes reliable. Best for budget-conscious travellers who prioritise location over amenities.
+
+**Super 8 by Wyndham** — Budget brand, most properties along major highways. AARP and AAA codes work at most locations. Government rate available where properties are near federal facilities.
+
+**Howard Johnson** — Legacy economy brand. Corporate codes less commonly loaded. Member rates through Wyndham Rewards provide the most consistent access to lower pricing.
+
+**Travelodge** — Budget brand primarily in North America and Europe. Direct negotiation with property management recommended for corporate accounts.
+
+## La Quinta — The Hidden Gem for Value Travellers
+
+La Quinta by Wyndham deserves special mention. Since its acquisition by Wyndham, La Quinta has integrated fully into Wyndham Rewards while maintaining its distinctive free breakfast offering. For business travellers who prioritise value and consistency, La Quinta represents one of the best combinations in the Wyndham portfolio:
+
+- Free full hot breakfast at virtually all properties
+- Strong presence near airports and business parks
+- Government and AAA rates widely accepted
+- Pet-friendly at most locations at no extra charge
+- Full Wyndham Rewards points earning on all direct bookings
+
+## Association Codes — An Underused Opportunity
+
+One distinctive feature of Wyndham's corporate programme is the number of professional association codes available. Unlike Marriott and Hilton, which focus primarily on Fortune 500 employer codes, Wyndham has negotiated agreements with a wide range of professional associations including engineering societies (AIChE), healthcare organisations (ASCP), teachers unions (NYSUT), and civic organisations (Civil Air Patrol).
+
+If you belong to any professional association, trade organisation, or civic group, it is worth contacting Wyndham's corporate sales team or checking with your association to see if a hotel discount agreement exists.
+
+## Best Rate Guarantee
+
+Wyndham offers a Best Rate Guarantee on direct bookings. If you find a lower rate on a third-party site within 24 hours of booking on wyndhamhotels.com, Wyndham will match the lower rate and discount it a further 10%.
+
+**To claim:**
+1. Book your stay on wyndhamhotels.com
+2. Find a verifiably lower rate on a third-party site for identical room type, dates, and conditions
+3. Submit your claim at wyndhamhotels.com/best-rate-guarantee within 24 hours
+4. Provide the lower-rate URL and booking details as evidence
+
+## Tips for Maximising Wyndham Savings
+
+- **Compare across brands in the same city** — Wyndham often has multiple brands in a single market at different price points. A Wingate and a Super 8 may both be near your destination; compare the total cost after loyalty points earning
+- **Book extended stays directly** — For stays of 7+ nights, call the property's sales department directly. Extended-stay Wyndham brands (Hawthorn, Travelodge) are often open to negotiated weekly or monthly rates
+- **Use the Wyndham app** — Occasional app-exclusive promotions appear that are not visible on the website
+- **Stack points with promotions** — Wyndham periodically runs bonus points promotions (double or triple points stays) that significantly accelerate your path to a free night
+
+## Frequently Asked Questions
+
+**Do Wyndham corporate codes work across all 24 brands?**
+Most codes are loaded at the property level. A code working at a Wyndham Grand in New York may not be available at a Days Inn in a smaller city. Always test your specific code at the property you plan to book.
+
+**Do Wyndham corporate bookings earn Rewards points?**
+Yes — bookings made through wyndhamhotels.com or the Wyndham Hotels app earn full Wyndham Rewards points. Third-party bookings do not earn points regardless of rate type.
+
+**Is La Quinta part of Wyndham Rewards?**
+Yes — La Quinta integrated fully into Wyndham Rewards following the 2018 acquisition. Points earn and redeem across all Wyndham brands including La Quinta.
+
+**Can I use a Wyndham corporate code for personal travel?**
+This depends on your employer's corporate agreement terms. Many agreements permit personal travel; some restrict to business trips only. Check your company's travel policy or contact HR for confirmation.
+
+**What is the best Wyndham discount for travellers without an employer code?**
+The AAA code (1000004630) provides reliable 10–15% discounts at most North American properties. Combined with free Wyndham Rewards membership, AAA members get both immediate savings and long-term points accumulation toward free nights.
+
+*Last verified: April 2026. Corporate codes are property-specific — always confirm availability at wyndhamhotels.com before booking.*`,
+    category: "Wyndham Hotels",
+    categorySlug: "wyndham-hotels",
+    publishedAt: new Date("2026-04-07T00:00:00"),
+    author: "Travel Deals Hub",
+    keywords: ["Wyndham corporate codes 2026", "La Quinta corporate code", "Ramada corporate codes", "Days Inn corporate code", "Wyndham Hotels discount codes", "Wyndham Rewards savings guide", "Super 8 corporate rate 2026"]
+  },
+]
 
 export function getArticlesByCategory(categorySlug: string): Article[] {
   return articles
