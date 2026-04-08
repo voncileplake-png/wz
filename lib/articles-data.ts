@@ -1,4 +1,4 @@
-﻿export interface Article {
+export interface Article {
   id: string
   title: string
   excerpt: string
@@ -2989,6 +2989,318 @@ The AAA code (1000004630) provides reliable 10–15% discounts at most North Ame
     publishedAt: new Date("2026-04-07T00:00:00"),
     author: "Travel Deals Hub",
     keywords: ["Wyndham corporate codes 2026", "La Quinta corporate code", "Ramada corporate codes", "Days Inn corporate code", "Wyndham Hotels discount codes", "Wyndham Rewards savings guide", "Super 8 corporate rate 2026"]
+  },
+  {
+    id: "how-to-negotiate-hotel-corporate-rate-small-business-2026",
+    title: "How to Negotiate a Hotel Corporate Rate for Your Small Business — Complete 2026 Guide",
+    excerpt: "You don't need to be a Fortune 500 company to get hotel corporate rates. This step-by-step guide shows small business owners, freelancers, and startup teams exactly how to negotiate direct corporate agreements with Marriott, Hilton, IHG, and independent hotels — even with modest travel volumes.",
+    content: `One of the biggest misconceptions about hotel corporate rates is that they are only for large corporations. In reality, most major hotel chains — and virtually all independent hotels — will negotiate corporate agreements with businesses of any size, including sole traders, small businesses, and startups.
+
+The threshold is lower than most people think. Many hotels will establish a corporate account for businesses committing to as few as **10–15 room nights per year** at a single property. In secondary cities and at lower-occupancy hotels, even fewer nights can be enough.
+
+This guide walks you through the exact process, from gathering your data to signing an agreement and using your new code.
+
+## Why Hotels Want Your Corporate Business
+
+Understanding the hotel's perspective makes negotiation much easier. Hotels value corporate accounts because:
+
+- **Predictable revenue** — Corporate bookings tend to be weekday stays that fill rooms during periods when leisure demand is lower
+- **Direct booking relationship** — Corporate clients book directly, avoiding OTA commission fees (typically 15–25% of the room rate)
+- **Repeat business** — A corporate account representing 20 room nights per year is more valuable than 20 random leisure bookings because of the consistency
+- **Low acquisition cost** — Once an agreement is in place, the hotel does not need to market to you
+
+This means you have more negotiating leverage than you might expect, especially at properties in business districts and secondary markets where corporate demand drives the calendar.
+
+## Step 1 — Gather Your Travel Data Before You Approach
+
+Before contacting any hotel, prepare a simple summary of your company's hotel usage. This does not need to be a formal document — a one-page summary is sufficient.
+
+**What to include:**
+- Company name, address, and number of employees who travel
+- Total estimated room nights per year (be realistic — overestimating and then underdelivering damages the relationship)
+- Primary destinations (cities where you travel most frequently)
+- Typical length of stay (1 night, 2–3 nights, weekly)
+- Whether travel is concentrated at specific properties or spread across a region
+- Any additional spending (F&B, meeting rooms, event space) that you might bring to the property
+
+**Even modest numbers work.** A small consulting firm with 5 employees who each travel 4 nights per month generates 240 room nights per year — a very attractive corporate account at most hotels.
+
+## Step 2 — Identify the Right Contact at Each Hotel
+
+The critical mistake most small businesses make is contacting the front desk or calling the reservations line. These teams cannot negotiate corporate rates. You need to speak directly with the hotel's sales team.
+
+**Who to contact:**
+- **Director of Sales** — The decision-maker for corporate agreements at most properties
+- **Corporate Sales Manager** — Handles individual corporate accounts at larger hotels
+- **General Manager** — At smaller or independent hotels, the GM often handles corporate agreements directly
+
+**How to find them:**
+- Call the hotel's main number and ask to speak with "the Director of Sales" or "someone who handles corporate accounts"
+- Look for the hotel's sales contact on their website (often under "Groups & Events" or "Business Travel")
+- Email the hotel's general inbox with "Corporate Rate Inquiry" in the subject line and ask to be connected with the sales team
+
+## Step 3 — The Initial Outreach Email
+
+A concise, professional email gets better results than a phone call for the first contact. Here is a template you can adapt:
+
+---
+
+**Subject: Corporate Rate Inquiry — [Your Company Name]**
+
+Dear Sales Team,
+
+My name is [Name] and I am [title] at [Company Name], a [brief description — e.g. "management consulting firm based in Chicago"].
+
+We are looking to establish a corporate rate agreement with [Hotel Name] for our team's business travel. We anticipate approximately [X] room nights per year at your property, with stays typically falling on weekdays.
+
+Could you please connect me with your Director of Sales or Corporate Sales Manager to discuss available corporate rate options?
+
+Thank you for your time. I look forward to hearing from you.
+
+[Your name, title, company, phone number]
+
+---
+
+Keep it brief. The goal of this email is simply to get a conversation with the sales team, not to negotiate via email.
+
+## Step 4 — The Negotiation Conversation
+
+When you speak with the sales manager, be prepared to discuss the following:
+
+**What the hotel will ask:**
+- How many room nights per year do you anticipate?
+- Which room types do you typically need?
+- What is your typical booking lead time?
+- Do you need meeting space or F&B as part of the agreement?
+- How do your employees currently book (direct, OTA, travel agent)?
+
+**What you should ask for:**
+- A percentage discount off the Best Available Rate (BAR) — typically 10–20% for small accounts
+- Free Wi-Fi (now standard at most hotels, but worth confirming)
+- Flexible cancellation (corporate accounts typically get cancel-by-day-of-arrival or cancel-24-hours-before)
+- Complimentary breakfast if your volume justifies it (harder to get for small accounts, but worth asking)
+- A direct billing or central billing option if multiple employees will be booking
+
+**What to be realistic about:**
+- Small accounts (under 50 nights/year) typically receive 10–15% off BAR, not the 25–35% that Fortune 500 companies negotiate
+- Breakfast inclusion is more common at upper-midscale and full-service properties than at select-service brands
+- Some hotels will offer a fixed rate rather than a percentage discount — compare both options against typical BAR pricing for your target dates
+
+## Step 5 — The Agreement and Your Corporate Code
+
+Once terms are agreed, the hotel will set up a corporate account in their reservations system. You will receive:
+
+- A **corporate account number** (your code) — this is what you enter during online booking
+- A **letter of agreement** or rate sheet confirming the discount percentage, validity period, and any included amenities
+- Instructions for how your employees should book to access the rate
+
+**Key things to confirm in the agreement:**
+- The validity period (usually 1 year, renewable annually)
+- Whether the rate applies to all room types or just standard rooms
+- Whether the rate is available on all dates or subject to blackout periods
+- How many rooms can be booked per night at the corporate rate
+- Whether the rate extends to personal travel for employees (worth asking for)
+
+## Step 6 — Booking With Your New Corporate Code
+
+Once your account is active, your employees book directly on the hotel's website or app:
+
+- Enter the corporate code in the "Special Rates" or "Corporate Code" field
+- The negotiated rate appears alongside standard rates for easy comparison
+- Employees should carry a company business card or email confirmation for ID verification at check-in
+
+## Negotiating With Multiple Hotel Chains
+
+For businesses that travel to multiple cities, it is worth approaching:
+
+- **The specific hotels your team uses most** — Direct property-level agreements give the best rates
+- **Hotel chain corporate programmes** — Marriott, Hilton, IHG, and Hyatt all have small business corporate programmes that provide chain-wide codes without requiring property-by-property negotiation
+
+**Chain small business programmes worth knowing:**
+- **IHG Business Edge** — Open to any registered business, no minimum volume, provides a chain-wide IHG code
+- **Marriott Small Business Programme** — Contact Marriott's corporate sales team; accessible for businesses with modest travel volumes
+- **Hilton for Business** — Hilton's SME programme providing negotiated rates across the Hilton portfolio
+- **World of Hyatt for Business** — Hyatt's corporate programme for smaller organisations
+
+These chain-wide programmes are less customised than property-level negotiations but provide the convenience of a single code that works across thousands of properties.
+
+## How to Maintain and Renew Your Corporate Agreement
+
+Most hotel corporate agreements run for one year. To maintain a productive relationship:
+
+- **Meet your committed room night volume** — If you negotiated based on 30 nights/year and only deliver 10, the hotel may not renew on the same terms
+- **Book direct** — Always ensure your team books through the direct channel, not OTAs, to ensure the hotel attributes the revenue to your corporate account
+- **Give feedback** — If a property does not meet expectations, contact the sales manager directly rather than leaving negative reviews; this maintains the relationship
+- **Renew proactively** — Contact the sales manager 1–2 months before agreement expiry to renegotiate, rather than waiting for the hotel to reach out
+
+## Frequently Asked Questions
+
+**How many room nights do I need to qualify for a corporate rate?**
+There is no universal minimum. Many independent hotels will establish a corporate account for as few as 10 nights per year. Chain hotels typically look for 20–30+ nights at a specific property, though chain-wide SME programmes (IHG Business Edge, Hilton for Business) have no minimum.
+
+**Can a sole trader or freelancer get a hotel corporate rate?**
+Yes — if you travel regularly for client work and can demonstrate consistent hotel usage, many hotels will establish a corporate account. Register your business formally (even as a sole trader) before approaching the hotel's sales team.
+
+**How long does it take to get a corporate account set up?**
+At most hotels, the process takes 1–2 weeks from initial contact to having an active code in the reservation system. Larger chain corporate programmes may take 2–4 weeks.
+
+**Is a written agreement necessary?**
+Yes — always get the agreed rate confirmed in writing, even if just an email from the sales manager. This protects you if the front desk tries to charge the standard rate at check-in.
+
+**Can I negotiate corporate rates at international hotels?**
+Yes — the negotiation process is the same globally. For international travel, chain-wide programmes (IHG Business Edge, Hilton for Business) are often more practical than property-level negotiations in unfamiliar markets.
+
+*This guide reflects general industry practice as of 2026. Specific terms, minimum night requirements, and available amenities vary by hotel, chain, and market.*`,
+    category: "Hotel Booking Tips & Guides",
+    categorySlug: "tips",
+    publishedAt: new Date("2026-04-08T00:00:00"),
+    author: "Travel Deals Hub",
+    keywords: ["negotiate hotel corporate rate small business", "how to get hotel corporate rate", "hotel corporate agreement small company", "IHG Business Edge", "Hilton for Business", "Marriott small business corporate rate", "hotel corporate code small business 2026"]
+  },
+  {
+    id: "accor-hotels-corporate-codes-2026",
+    title: "Accor Hotels Corporate Codes 2026 — Sofitel, Novotel, Ibis, Mercure & ALL Programme Guide",
+    excerpt: "Complete guide to Accor Hotels corporate codes for 2026. Covers the ALL — Accor Live Limitless loyalty programme, corporate rate codes for Sofitel, Pullman, Novotel, Mercure, and Ibis, plus tips for European and Asia-Pacific business travellers.",
+    content: `__ACCOR_CONTENT__`,
+    category: "Hotel Booking Tips & Guides",
+    categorySlug: "tips",
+    publishedAt: new Date("2026-04-09T00:00:00"),
+    author: "Travel Deals Hub",
+    keywords: ["Accor Hotels corporate codes 2026", "ALL Accor Live Limitless guide", "Novotel corporate code", "Sofitel corporate rate", "Ibis corporate discount", "Accor loyalty programme", "Mercure corporate code Europe"]
+  },
+  {
+    id: "omni-hotels-corporate-codes-2026",
+    title: "Omni Hotels Corporate Codes & Select Guest Rewards Guide 2026",
+    excerpt: "Complete guide to Omni Hotels corporate codes for 2026. Covers company-specific codes, the Select Guest rewards programme, AAA and government rates, and tips for getting the best rate at Omni's 50+ luxury and upscale properties across North America.",
+    content: `Omni Hotels & Resorts is a privately owned luxury and upper-upscale hotel company operating more than 50 properties across the United States, Canada, and Mexico. Unlike Marriott or Hilton, Omni does not franchise — every Omni property is owned and managed by the company, which means consistent quality standards across the portfolio.
+
+Omni properties are concentrated in major US cities (New York, Atlanta, Dallas, Nashville, San Diego, Los Angeles), resort destinations (Amelia Island, Bretton Woods, Mount Washington), and premium leisure markets. For business travellers whose companies have corporate agreements with Omni, the rates can be significantly below the standard rack rate at what are often the finest hotels in their respective markets.
+
+## How to Use an Omni Corporate Code
+
+**On omnihotels.com:**
+1. Go to omnihotels.com and search your destination and dates
+2. Look for the **"Corporate / Promo Code"** field in the search panel
+3. Enter your code and click **Search**
+4. Properties with that corporate rate display the discounted price alongside standard rates
+
+**By phone:**
+Omni central reservations (1-888-444-OMNI / 1-888-444-6664) can apply corporate codes manually. This is particularly useful for complex bookings or when a code does not display online.
+
+> **Important:** Company-specific corporate codes are intended for authorized employees and affiliated individuals only. Public codes (AAA, AARP, government) are open to all qualifying individuals. Always verify eligibility before booking.
+
+## Complete Omni Hotels Corporate Code List 2026
+
+<div class="overflow-x-auto my-6"><table class="w-full text-sm border-collapse"><thead><tr class="bg-teal-600 text-white"><th class="px-4 py-3 text-left font-semibold">Company / Programme</th><th class="px-4 py-3 text-left font-semibold">Code</th><th class="px-4 py-3 text-left font-semibold">Est. Discount</th><th class="px-4 py-3 text-left font-semibold">Type</th></tr></thead><tbody><tr class="border-b bg-white hover:bg-teal-50"><td class="px-4 py-3 font-medium">AT&T</td><td class="px-4 py-3 font-mono text-teal-700 font-bold">N0099999</td><td class="px-4 py-3">10–20%</td><td class="px-4 py-3 text-gray-500">Corporate</td></tr><tr class="border-b bg-gray-50 hover:bg-teal-50"><td class="px-4 py-3 font-medium">American Express Corporate</td><td class="px-4 py-3 font-mono text-teal-700 font-bold">AX</td><td class="px-4 py-3">10–15%</td><td class="px-4 py-3 text-gray-500">Partner</td></tr><tr class="border-b bg-white hover:bg-teal-50"><td class="px-4 py-3 font-medium">Government & Military</td><td class="px-4 py-3 font-mono text-teal-700 font-bold">GOV</td><td class="px-4 py-3">10–20%</td><td class="px-4 py-3 text-green-600 font-medium">✅ Public</td></tr><tr class="border-b bg-gray-50 hover:bg-teal-50"><td class="px-4 py-3 font-medium">AAA / CAA Members</td><td class="px-4 py-3 font-mono text-teal-700 font-bold">AAA</td><td class="px-4 py-3">10–15%</td><td class="px-4 py-3 text-green-600 font-medium">✅ Public</td></tr><tr class="border-b bg-white hover:bg-teal-50"><td class="px-4 py-3 font-medium">AARP Members (50+)</td><td class="px-4 py-3 font-mono text-teal-700 font-bold">AARP</td><td class="px-4 py-3">10%</td><td class="px-4 py-3 text-green-600 font-medium">✅ Public</td></tr><tr class="border-b bg-gray-50 hover:bg-teal-50"><td class="px-4 py-3 font-medium">Select Guest Members</td><td class="px-4 py-3 font-mono text-teal-700 font-bold">(Log in to apply)</td><td class="px-4 py-3">5–10%</td><td class="px-4 py-3 text-green-600 font-medium">✅ Free membership</td></tr><tr class="border-b bg-white hover:bg-teal-50"><td class="px-4 py-3 font-medium">Advance Purchase Rate</td><td class="px-4 py-3 font-mono text-teal-700 font-bold">ADVANCE</td><td class="px-4 py-3">10–20%</td><td class="px-4 py-3 text-green-600 font-medium">✅ Public</td></tr><tr class="bg-gray-50 hover:bg-teal-50"><td class="px-4 py-3 font-medium">Omni Employee & Friends</td><td class="px-4 py-3 font-mono text-teal-700 font-bold">EMPLOYEE</td><td class="px-4 py-3">Up to 50%</td><td class="px-4 py-3 text-gray-500">Employee only</td></tr></tbody></table></div>
+
+## Why Omni Has Fewer Published Corporate Codes
+
+Unlike Marriott or Hilton, which have hundreds of publicly documented corporate codes, Omni's corporate programme is more tightly controlled. This is for two reasons:
+
+**First, Omni is smaller.** With just 50+ properties compared to Marriott's 8,500+, Omni negotiates corporate agreements more selectively. Only companies with significant anticipated volume at specific Omni properties are likely to have dedicated codes.
+
+**Second, Omni properties command premium rates.** The average daily rate at an Omni property is higher than at a typical Marriott Courtyard or Hilton Garden Inn. This means the discount gap on a corporate code is larger in dollar terms, giving Omni more financial incentive to verify eligibility carefully.
+
+**The practical implication:** If your company travels frequently to cities with Omni properties, it is genuinely worth contacting Omni's corporate sales team directly to enquire about a corporate agreement. The discount on a $350/night hotel room is significantly more valuable than the same percentage off a $150 room.
+
+## Select Guest — Omni's Free Loyalty Programme
+
+Select Guest is Omni's loyalty programme, and like all major hotel loyalty programmes, it is free to join. Membership provides:
+
+- **Member rates** — Below public pricing on direct bookings
+- **Points earning** — 5 points per $1 spent on room rate
+- **Silver status** (5 stays or 15 nights/year): 25% bonus points, room upgrade on arrival when available
+- **Gold status** (10 stays or 30 nights/year): 50% bonus points, guaranteed room upgrade, complimentary minibar refresh
+- **Black status** (20 stays or 60 nights/year): 75% bonus points, suite upgrade priority, welcome amenity, dedicated Black member line
+
+**Points redemption:** Select Guest points are redeemable for free nights, dining, spa treatments, and activities at Omni properties. Free night redemptions typically require 4,000–12,000 points depending on property and dates.
+
+Join Select Guest free at omnihotels.com/select-guest.
+
+## The Omni Portfolio — Properties Worth Knowing
+
+Understanding which Omni properties are most relevant to business travellers helps you decide whether a corporate agreement is worth pursuing:
+
+**Major urban business hotels:**
+- **Omni Atlanta Hotel at CNN Center** — Connected to State Farm Arena, central business district location
+- **Omni Dallas Hotel** — Connected to the Kay Bailey Hutchison Convention Center, 1,000+ rooms
+- **Omni Nashville Hotel** — Connected to the Music City Center convention complex
+- **Omni Houston Hotel** — Upscale Galleria area location
+- **Omni San Diego Hotel** — Connected to the San Diego Convention Center
+- **Omni Chicago Hotel** — Magnificent Mile location, strong corporate demand
+- **Omni William Penn, Pittsburgh** — Historic landmark, primary corporate hotel in Pittsburgh
+- **Omni Parker House, Boston** — Historic landmark, strong corporate and government demand
+- **Omni Berkshire Place, New York** — Midtown Manhattan, upper-upscale business hotel
+- **Omni Los Angeles Hotel** — California Plaza, downtown LA business district
+
+**Resort properties:**
+- **Omni Amelia Island Resort** (Florida) — Beach resort, strong meeting and incentive market
+- **Omni Homestead Resort** (Virginia) — Historic mountain resort, 250+ years of operation
+- **Omni Mount Washington Resort** (New Hampshire) — Ski and summer resort, landmark property
+- **Omni Barton Creek Resort** (Austin) — Golf resort, strong corporate retreat market
+- **Omni La Costa Resort** (California) — Spa and golf resort near San Diego
+
+## How to Negotiate an Omni Corporate Rate
+
+Given Omni's smaller portfolio and higher price point, the negotiation process is worth understanding in detail:
+
+**Step 1 — Identify your Omni usage.** Which Omni properties does your team use most? Focus your negotiation on those specific hotels rather than trying to get a chain-wide rate.
+
+**Step 2 — Contact the Director of Sales directly.** Call the specific hotel's main number and ask for the Director of Sales or Corporate Sales Manager. Omni's centralised corporate sales team can also be reached through omnihotels.com/corporate.
+
+**Step 3 — Present your volume data.** Even 15–20 room nights per year at a specific Omni property is enough to open a conversation. For conference centre hotels like Omni Dallas or Omni Nashville, combining room night volume with potential meeting room business strengthens your position significantly.
+
+**Step 4 — Ask specifically for:**
+- A percentage discount off the Best Available Rate (typically 10–20% for smaller accounts)
+- Flexible cancellation terms (usually cancel by 6pm on arrival day for corporate accounts)
+- Complimentary Wi-Fi (standard at most Omni properties)
+- Breakfast inclusion if your volume justifies it
+
+**Step 5 — Get the agreement in writing.** Even an email confirmation from the Sales Manager constitutes a valid record of your agreed corporate rate.
+
+## AT&T Code — The Best-Known Omni Corporate Code
+
+The AT&T code (N0099999) is one of the few publicly documented Omni corporate codes and is specifically mentioned on travel forums as working at multiple Omni properties. It is intended for AT&T employees and affiliated personnel.
+
+For travellers without an employer code, the AAA rate and government rate provide the most consistent accessible discounts at Omni properties.
+
+## AAA Rate at Omni — Particularly Strong Value
+
+The AAA rate at Omni properties is worth highlighting because of the price point involved. At a property where the standard rate is $350/night, a 10–15% AAA discount saves $35–52 per night — the same percentage savings deliver more absolute dollars than at a budget hotel. Combined with Select Guest membership, AAA members benefit from both the rate discount and points earning on the same booking.
+
+## Best Rate Guarantee at Omni
+
+Omni offers a Best Rate Guarantee on direct bookings. If you find a lower rate on any third-party site within 24 hours of booking on omnihotels.com, Omni will match the rate and discount it a further 25% — one of the most generous Best Rate Guarantee policies in the industry.
+
+**To claim:**
+1. Book on omnihotels.com
+2. Find a verifiably lower rate on a third-party site for the same room, dates, and conditions within 24 hours
+3. Contact Omni customer service with the lower-rate URL and your booking confirmation
+4. Omni will match and apply the additional 25% discount
+
+## Frequently Asked Questions
+
+**How many Omni properties are there and where are they concentrated?**
+Omni operates 50+ properties in the United States, Canada, and Mexico. The concentration is heaviest in the US South and Southwest — Texas, Georgia, Tennessee, Florida, Virginia — with additional properties in major Northeast and West Coast cities.
+
+**Does Select Guest work with other loyalty programmes?**
+Omni has partnerships with some airline frequent flyer programmes. You can earn airline miles instead of Select Guest points on qualifying stays. Check the current airline partners at omnihotels.com/select-guest before booking.
+
+**Are Omni properties good for meetings and events?**
+Yes — many Omni properties are convention-adjacent or have significant on-site meeting space. The Omni Dallas, Omni Nashville, and Omni San Diego are directly connected to convention centres, making them the default choice for large conference accommodation.
+
+**Can I negotiate an Omni corporate rate for a small business?**
+Yes — particularly at specific properties where you anticipate regular stays. Omni's direct ownership model means property sales managers have genuine authority to establish corporate accounts without requiring chain-level approval. A targeted approach to one or two specific Omni properties is more productive than trying to negotiate a chain-wide agreement.
+
+**What is the best way to save at Omni without a corporate code?**
+The combination of free Select Guest membership plus the AAA rate provides the most accessible legitimate discount. The advance purchase rate (where plans are confirmed) adds further savings. For flexible bookings, Select Guest membership alone typically beats public pricing by 5–10%.
+
+*Last verified: April 2026. Corporate codes and programme terms are subject to change — always confirm current availability at omnihotels.com before booking.*`,
+    category: "Hotel Booking Tips & Guides",
+    categorySlug: "tips",
+    publishedAt: new Date("2026-04-11T00:00:00"),
+    author: "Travel Deals Hub",
+    keywords: ["Omni Hotels corporate codes 2026", "Omni Hotels Select Guest rewards", "Omni Hotels AAA discount", "Omni Hotels government rate", "Omni Hotels corporate rate", "Select Guest programme guide", "Omni Hotels discount 2026"]
   },
 ]
 
